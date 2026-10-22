@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+	<title>Formulación</title>
+ <link rel="stylesheet" type="text/css" href="../../CSS/5.css">
+ <script src="../../js/frase.js" language="Javascript"></script>
+</head>
+<body>
+<h1>Sales ácidas de oxoácidos (Stock)</h1>
+<div id="acifallos">
+	<h3 id="naciertos">ACIERTOS: 0</h3>
+	<h3 id="nfallos">FALLOS: 0</h3>
+</div>
+<p id="formulanomenclatura">FORMULACIÓN</p>
+<p id="npregunta">Pregunta 1 de 15</p>
+<div id="todo">
+	<p id="formulacompuesto"> ¿Qué fórmula tiene este compuesto? </p>
+	<h2 id="a"></h2>
+
+	
+<input value="" id="respuesta"><br>  
+<br>
+<button id="comprobar" type="button" onclick=comprobar()>Comprobar</button>
+<button id="next" type="button" onclick=next()>Siguiente</button>
+</div>
+<br>
+<div id="div1">
+<p id="VoF"></p>
+<p id="solucion"></p>
+</div>
+<div id="final">
+<p id="fin">
+<p id="porcentaje"></p>
+<p id="porcentajes"></p>
+</div>
+<script>
+  var nomenclatura= ["Hidrogenocarbonito de sodio", "Hidrogenocarbonato de sodio", "Hidrogenocarbonato de potasio", "Hidrogenocarbonato de magnesio", "Hidrogenocarbonato de calcio", "Hidrogenocarbonato de hierro(II)", "Hidrogenocarbonato de hierro(III)", "Hidrogenocarbonato de oro(I)", "Hidrogenocarbonato de oro(III)", "Hidrogenocarbonato de estaño(II)", "Hidrogenocarbonito de estaño(IV)", "Hidrogenofosfito de litio", "Dihidrogenofosfito de litio","Hidrogenofosfito de sodio","Dihidrogenofosfito de sodio" ,"Hidrogenofosfito de potasio", "Dihidrogenofosfito de potasio", "Hidrogenofosfito de cobre(I)", "Dihidrogenofosfito de cobre(I)","Hidrogenofosfito de magnesio", "Dihidrogenofosfito de calcio", "Hidrogenofosfito de hierro(II)", "Dihidrogenofosfito de hierro(II)","Hidrogenofosfito de hierro(III)", "Dihidrogenofosfito de hierro(III)", "Hidrogenofosfito de cobre(II)", "Hidrogenofosfito de aluminio", "Dihidrogenofosfito de aluminio", "Hidrogenofosfato de sodio", "Dihidrogenofosfato de litio","Dihidrogenofosfato de sodio","Dihidrogenofosfato de litio", "Hidrogenofosfato de potasio", "Dihidrogenofosfato de potasio", "Hidrogenofosfato de cobre(I)", "Dihidrogenofosfato de cobre(I)", "Hidrogenofosfato de calcio", "Dihidrogenofosfato de calcio", "Hidrogenofosfato de hierro(II)", "Dihidrogenofosfato de hierro(II)","Hidrogenofosfato de hierro(III)", "Dihidrogenofosfato de hierro(III)", "Hidrogenofosfato de cobre(II)","Dihidrogenofosfato de cobre(II)", "Hidrogenofosfato de aluminio", "Dihidrogenofosfato de aluminio", "Hidrogenosulfito de potasio","Hidrogenosulfito de litio","Hidrogenosulfito de sodio","Hidrogenosulfito de cobre(I)", "Hidrogenosulfito de magnesio", "Hidrogenosulfito de calcio", "Hidrogenosulfito de hierro(II)", "Hidrogenosulfito de níquel(II)", "Hidrogenosulfito de cobre(II)", "Hidrogenosulfito de zinc", "Hidrogenosulfito de estaño(II)", "Hidrogenosulfito de aluminio", "Hidrogenosulfito de hierro(III)", "Hidrogenosulfito de plomo(IV)", "Hidrogenosulfato de litio", "Hidrogenosulfato de sodio", "Hidrogenosulfato de potasio", "Hidrogenosulfato de cobre(I)", "Hidrogenosulfato de plata", "Hidrogenosulfato de magnesio", "Hidrogenosulfato de calcio", "Hidrogenosulfato de hierro(II)", "Hidrogenosulfato de cobalto(II)", "Hidrogenosulfato de cobre(II)", "Hidrogenosulfato de zinc", "Hidrogenosulfato de aluminio", "Hidrogenosulfato de hierro(III)", "Hidrogenosulfato de níquel(III)", "Hidrogenosulfato de estaño(II)", "Hidrogenosulfato de estaño(IV)"]; //71 compuestos
+  
+  var formula= ["NAHCO2","NAHCO3","KHCO3","MG(HCO3)2","CA(HCO3)2","FE(HCO3)2","FE(HCO3)3","AUHCO3","AU(HCO3)3","SN(HCO3)2","SN(HCO3)4","LI2HPO3","LIH2PO3","NA2HPO3","NAH2PO3","K2HPO3","KH2PO3","CU2HPO3","CUH2PO3","MGHPO3","CA(H2PO3)2","FEHPO3","FE(H2PO3)2","FE2(HPO3)3","FE(H2PO3)3","CUHPO3","AL2(HPO3)3","AL(H2PO3)3","NA2HPO3","LIH2PO4","NAH2PO4","LI2HPO4","K2HPO4","KH2PO4","CU2HPO4","CUH2PO4","CAHPO4","CA(H2PO4)2","FEHPO4","FE(H2PO4)2","FE2(HPO4)3","FE(H2PO4)3","CUHPO4","CU(H2PO4)2","AL2(HPO4)3","AL(H2PO4)3","KHSO3","LIHSO3","NAHSO3","CUHSO3","MG(HSO3)2","CA(HSO3)2","FE(HSO3)2","NI(HSO3)2","CU(HSO3)2","ZN(HSO3)2","SN(HSO3)2","AL(HSO3)3","FE(HSO3)3","PB(HSO3)4","LIHSO4","NAHSO4","KHSO4","CUHSO4","AGHSO4","MG(HSO4)2","CA(HSO4)2","FE(HSO4)2","CO(HSO4)2","CU(HSO4)2","ZN(HSO4)2","AL2(HSO4)3","FE2(HSO4)3","NI2(HSO4)3","SN(HSO4)2","SN(HSO4)4"];
+  
+  var formulaminuscula= ["NaHCO2","NaHCO3","KHCO3","Mg(HCO3)2","Ca(HCO3)2","Fe(HCO3)2","Fe(HCO3)3","AuHCO3","Au(HCO3)3","Sn(HCO3)2","Sn(HCO3)4","Li2HPO3","LiH2PO3","Na2HPO3","NaH2PO3","K2HPO3","KH2PO3","Cu2HPO3","CuH2PO3","MgHPO3","Ca(H2PO3)2","FeHPO3","Fe(H2PO3)2","Fe2(HPO3)3","Fe(H2PO3)3","CuHPO3","Al2(HPO3)3","Al(H2PO3)3","Na2HPO3","LiH2PO4","NaH2PO4","Li2HPO4","K2HPO4","KH2PO4","Cu2HPO4","CuH2PO4","CaHPO4","Ca(H2PO4)2","FeHPO4","Fe(H2PO4)2","Fe2(HPO4)3","Fe(H2PO4)3","CuHPO4","Cu(H2PO4)2","Al2(HPO4)3","Al(H2PO4)3","KHSO3","LiHSO3","NaHSO3","CuHSO3","Mg(HSO3)2","Ca(HSO3)2","Fe(HSO3)2","Ni(HSO3)2","Cu(HSO3)2","Zn(HSO3)2","Sn(HSO3)2","Al(HSO3)3","Fe(HSO3)3","Pb(HSO3)4","LiHSO4","NaHSO4","KHSO4","CuHSO4","AgHSO4","Mg(HSO4)2","Ca(HSO4)2","Fe(HSO4)2","Co(HSO4)2","Cu(HSO4)2","Zn(HSO4)2","Al2(HSO4)3","Fe2(HSO4)3","Ni2(HSO4)3","Sn(HSO4)2","Sn(HSO4)4"];
+	var porcien;
+	var numeropregunta=1;
+	var aciertos;
+	aciertos=0;
+	var fallos;
+	fallos=0;
+	var res,sol, input; 
+	//variables respuesta, solución correcta/falsa y la variable para tomar el valor del input
+	var i=0;	//i recorre el array
+	var corregir; //Esta variable controla para que no puedas corregir varias veces seguidas.
+	corregir=0;
+	var random;
+	random=Math.round(Math.random()*70); //64= a os compuestos que nos de Bea
+	document.getElementById('a').innerHTML=nomenclatura[random];
+	function comprobar() 
+	{
+		input=document.getElementById('respuesta').value;
+		res=input.toUpperCase();
+  
+		//tomamos el valor escrito en el input
+		if (corregir===0 || corregir===1) 
+		{
+			 //Sirve para que solo puedas darle una vez a corregir
+			if(res===formula[random])
+			{
+			aciertos++;
+			frases();
+			//Incrementamos aciertos y los mostramos
+			document.getElementById('naciertos').innerHTML= "ACIERTOS: " + aciertos;
+			document.getElementById('VoF').style.color="green";
+
+			corregir=2;
+			}
+			else
+			{
+			  if(corregir===0){
+			    //fallos++
+			corregir++;
+			document.getElementById('VoF').innerHTML= "Es incorrecto. Inténtalo de nuevo.";
+			document.getElementById('VoF').style.color="red";
+
+			}
+			  else{
+			    if(corregir===1){
+			fallos++;
+			corregir++;
+			document.getElementById('VoF').innerHTML= "Es incorrecto. Estudia más.";
+			document.getElementById('nfallos').innerHTML= "FALLOS: " + fallos;
+			document.getElementById('solucion').innerHTML= "La respuesta correcta es: " + formulaminuscula[random];
+			document.getElementById('VoF').style.color="red";
+			    }
+		}
+		}
+		}
+	}
+	function next()
+	{
+	 if(corregir===2){
+		if (numeropregunta<15) 
+		{
+			i++;
+			numeropregunta++;
+	  document.getElementById('npregunta').innerHTML= "Pregunta " + numeropregunta + " de 15"
+		document.getElementById('respuesta').value="";
+		random= Math.round(Math.random()*70);
+		document.getElementById('a').innerHTML= nomenclatura[random];
+		document.getElementById('VoF').innerHTML="";
+		document.getElementById('solucion').innerHTML= "";
+		corregir=0;
+		}
+		else
+		{
+		  document.getElementById('VoF').innerHTML="";
+		  document.getElementById('solucion').innerHTML= "";
+		  document.getElementById('fin').innerHTML= "RESULTADO DEL TEST";
+		  porcien= aciertos * 100 / 15;
+		  porcien= porcien.toFixed(0);
+		  document.getElementById('porcentaje').innerHTML= "Porcentaje de aciertos= " + porcien + "%";
+		   
+		   if (0<=porcien){	document.getElementById('porcentajes').innerHTML= "Ufff! Aún te falta mucho,vuelve a intentarlo... ";}
+		   if (25<=porcien){	document.getElementById('porcentajes').innerHTML= "Bueno, tendrás que mejorar para aprobar.";}
+		   if (50<=porcien){	document.getElementById('porcentajes').innerHTML= "Bien hecho campeón ;)";}
+	     if (75<=porcien){	document.getElementById('porcentajes').innerHTML= "Madre mía, no hace falta que hagas el examen, que te pongan el 10 en este momento.";} 
+	        document.getElementById("div1").style.display="none";
+  		document.getElementById("final").style.display="block";
+
+	  }
+  }
+	}
+</script>
+</body>
+</html>

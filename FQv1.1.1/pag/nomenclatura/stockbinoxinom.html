@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+	<title>Nomenclatura</title>
+ <link rel="stylesheet" type="text/css" href="../../CSS/5.css">
+  <script src="../../js/frase.js" language="Javascript"></script>
+</head>
+<body>
+<h1>Oxidos (Stock)</h1>
+<div id="acifallos">
+	<h3 id="naciertos">ACIERTOS: 0</h3>
+	<h3 id="nfallos">FALLOS: 0</h3>
+</div>
+<p id="formulanomenclatura">NOMENCLATURA</p>
+<p id="npregunta">Pregunta 1 de 15</p>
+<div id="todo">
+	<p id="formulacompuesto"> ¿Qué compuesto es este? </p>
+	<h2 id="a"></h2>
+
+	
+<input value="" id="respuesta"><br>  
+<br>
+<button id="comprobar" type="button" onclick="comprobar()">Comprobar</button>
+<button id="next" type="button" onclick="next()">Siguiente</button>
+</div>
+<br>
+<div id="div1">
+<p id="VoF"></p>
+<p id="solucion"></p>
+</div>
+<div id="final">
+<p id="fin">
+<p id="porcentaje"></p>
+<p id="porcentajes"></p>
+</div>
+
+<script>
+  var nomenclaturaminuscula=["Óxido de litio","Óxido de sodio","Óxido de potasio","Óxido de rubidio","Óxido de cesio","Óxido de berilio","Óxido de magnesio","Óxido de calcio","Óxido de estroncio","Óxido de bario","Óxido de cromo(II)","Óxido de cromo(III)","Óxido de cromo(VI)","Óxido de manganeso(II)","Óxido de manganeso(III)","Óxido de manganeso(IV)","Óxido de manganeso(VI)","Óxido de manganeso(VII)","Óxido de hierro(II)","Óxido de hierro(III)","Óxido de cobalto(II)","Óxido de cobalto(III)","Óxido de níquel(II)","Óxido de níquel(III)","Óxido de cobre(I)","Óxido de cobre(II)","Óxido de zinc","Óxido de paladio(II)","Óxido de paladio(IV)","Óxido de platino(II)","Óxido de platino(IV)","Óxido de plata","Óxido de cadmio","Óxido de mercurio(I)","Óxido de mercurio(II)","Óxido de oro(I)","Óxido de oro(III)","Óxido de boro","Óxido de aluminio","Óxido de galio(III)","Óxido de indio(I)","Óxido de indio(III)","Óxido de talio(I)","Óxido de talio(III)","Óxido de carbono(II)","Óxido de carbono(IV)","Óxido de silicio(IV)","Óxido de germanio(II)","Óxido de germanio(IV)","Óxido de estaño(II)","Óxido de estaño(IV)","Óxido de plomo(II)","Óxido de plomo(IV)","Óxido de nitrógeno(I)","Óxido de nitrógeno(II)","Óxido de nitrógeno(III)","Óxido de nitrógeno(IV)","Óxido de nitrógeno(V)","Óxido de fósforo(III)","Óxido de fósforo(V)","Óxido de arsénico(III)","Óxido de arsénico(V)","Óxido de antimonio(III)","Óxido de antimonio(V)","Óxido de bismuto(III)","Óxido de bismuto(V)","Óxido de azufre(II)","Óxido de azufre(IV)","Óxido de azufre(VI)","Óxido de selenio(II)","Óxido de selenio(IV)","Óxido de selenio(VI)","Óxido de teluro(II)","Óxido de teluro(IV)","Óxido de teluro(VI)"]; //75 compuestos
+  
+  var nomenclatura=["ÓXIDO DE LITIO","ÓXIDO DE SODIO","ÓXIDO DE POTASIO","ÓXIDO DE RUBIDIO","ÓXIDO DE CESIO","ÓXIDO DE BERILIO","ÓXIDO DE MAGNESIO","ÓXIDO DE CALCIO","ÓXIDO DE ESTRONCIO","ÓXIDO DE BARIO","ÓXIDO DE CROMO(II)","ÓXIDO DE CROMO(III)","ÓXIDO DE CROMO(VI)","ÓXIDO DE MANGANESO(II)","ÓXIDO DE MANGANESO(III)","ÓXIDO DE MANGANESO(IV)","ÓXIDO DE MANGANESO(VI)","ÓXIDO DE MANGANESO(VII)","ÓXIDO DE HIERRO(II)","ÓXIDO DE HIERRO(III)","ÓXIDO DE COBALTO(II)","ÓXIDO DE COBALTO(III)","ÓXIDO DE NÍQUEL(II)","ÓXIDO DE NÍQUEL(III)","ÓXIDO DE COBRE(I)","ÓXIDO DE COBRE(II)","ÓXIDO DE ZINC","ÓXIDO DE PALADIO(II)","ÓXIDO DE PALADIO(IV)","ÓXIDO DE PLATINO(II)","ÓXIDO DE PLATINO(IV)","ÓXIDO DE PLATA","ÓXIDO DE CADMIO","ÓXIDO DE MERCURIO(I)","ÓXIDO DE MERCURIO(II)","ÓXIDO DE ORO(I)","ÓXIDO DE ORO(III)","ÓXIDO DE BORO","ÓXIDO DE ALUMINIO","ÓXIDO DE GALIO(III)","ÓXIDO DE INDIO(I)","ÓXIDO DE INDIO(III)","ÓXIDO DE TALIO(I)","ÓXIDO DE TALIO(III)","ÓXIDO DE CARBONO(II)","ÓXIDO DE CARBONO(IV)","ÓXIDO DE SILICIO(IV)","ÓXIDO DE GERMANIO(II)","ÓXIDO DE GERMANIO(IV)","ÓXIDO DE ESTAÑO(II)","ÓXIDO DE ESTAÑO(IV)","ÓXIDO DE PLOMO(II)","ÓXIDO DE PLOMO(IV)","ÓXIDO DE NITRÓGENO(I)","ÓXIDO DE NITRÓGENO(II)","ÓXIDO DE NITRÓGENO(III)","ÓXIDO DE NITRÓGENO(IV)","ÓXIDO DE NITRÓGENO(V)","ÓXIDO DE FÓSFORO(III)","ÓXIDO DE FÓSFORO(V)","ÓXIDO DE ARSÉNICO(III)","ÓXIDO DE ARSÉNICO(V)","ÓXIDO DE ANTIMONIO(III)","ÓXIDO DE ANTIMONIO(V)","ÓXIDO DE BISMUTO(III)","ÓXIDO DE BISMUTO(V)","ÓXIDO DE AZUFRE(II)","ÓXIDO DE AZUFRE(IV)","ÓXIDO DE AZUFRE(VI)","ÓXIDO DE SELENIO(II)","ÓXIDO DE SELENIO(IV)","ÓXIDO DE SELENIO(VI)","ÓXIDO DE TELURO(II)","ÓXIDO DE TELURO(IV)","ÓXIDO DE TELURO(VI)"];
+  
+  var formula= ["Li2O","Na2O","K2O","Rb2O","Cs2O","BeO","MgO","CaO","SrO","BaO","CrO ","Cr2O3","CrO3","MnO","Mn2O3","MnO2","MnO3","Mn2O7","FeO","Fe2O3","CoO","Co2O3","NiO","Ni2O3","Cu2O","CuO","ZnO","PdO","PdO2","PtO","PtO2","Ag2O","CdO","Hg2O","HgO","Au2O","Au2O3","B2O3","Al2O3","Ga2O3","In2O","In2O3","Tl2O","Tl2O3","CO","CO2","SiO2","GeO","GeO2","SnO","SnO2","PbO","PbO2","N2O","NO","N2O3","NO2","N2O5","P2O3","P2O5","As2O3","As2O5","Sb2O3","Sb2O5","Bi2O3","Bi2O5","SO","SO2","SO3","SeO","SeO2","SeO3","TeO","TeO2","TeO3"];//75
+	var numeropregunta=1;
+	var aciertos;
+	aciertos=0;
+	var fallos;
+	fallos=0;
+	var res,sol, input; 
+	//variables respuesta, solución correcta/falsa y la variable para tomar el valor del input
+	var i=0;	//i recorre el array
+	var corregir; //Esta variable controla para que no puedas corregir varias veces seguidas.
+	corregir=0;
+	var random;
+	random=Math.round(Math.random()*74); //64= a os compuestos que nos de Bea
+	document.getElementById('a').innerHTML=formula[random];
+	function comprobar() 
+	{
+		input=document.getElementById('respuesta').value;
+		res=input.toUpperCase();
+  
+		//tomamos el valor escrito en el input
+		if (corregir===0 || corregir===1) 
+		{
+			 //Sirve para que solo puedas darle una vez a corregir
+			if(res===nomenclatura[random])
+			{
+			aciertos++;
+			frases();
+			//Incrementamos aciertos y los mostramos
+			document.getElementById('naciertos').innerHTML= "ACIERTOS: " + aciertos;
+			document.getElementById('VoF').style.color="green";
+
+			corregir=2;
+			}
+			else
+			{
+			  if(corregir===0){
+			    //fallos++
+			corregir++;
+			document.getElementById('VoF').innerHTML= "Es incorrecto. Inténtalo de nuevo.";
+			document.getElementById('VoF').style.color="red";
+
+			}
+			  else{
+			    if(corregir===1){
+			fallos++;
+			corregir++;
+			document.getElementById('VoF').innerHTML= "Es incorrecto. Estudia más.";
+			document.getElementById('nfallos').innerHTML= "FALLOS: " + fallos;
+			document.getElementById('solucion').innerHTML= "La respuesta correcta es: " + nomenclaturaminuscula[random];
+			document.getElementById('VoF').style.color="red";
+			    }
+		}
+		}
+		}
+	}
+	function next()
+	{
+	 if(corregir===2){
+		if (numeropregunta<15) 
+		{
+			i++;
+			numeropregunta++;
+	  document.getElementById('npregunta').innerHTML= "Pregunta " + numeropregunta + " de 15"
+		document.getElementById('respuesta').value="";
+		random= Math.round(Math.random()*74);
+		document.getElementById('a').innerHTML= formula[random];
+		document.getElementById('VoF').innerHTML="";
+		document.getElementById('solucion').innerHTML= "";
+		corregir=0;
+		}
+		else
+		{
+		  document.getElementById('VoF').innerHTML="";
+		  document.getElementById('solucion').innerHTML= "";
+		  document.getElementById('fin').innerHTML= "RESULTADO DEL TEST";
+		  porcien= aciertos * 100 / 15;
+		  document.getElementById('porcentaje').innerHTML= "Porcentaje de aciertos= " + porcien.toFixed(0) + "%";
+		  
+       if (0<=porcien){	document.getElementById('porcentajes').innerHTML= "Ufff! Aún te falta mucho,vuelve a intentarlo... ";}
+		   if (25<=porcien){	document.getElementById('porcentajes').innerHTML= "Bueno, tendrás que mejorar para aprobar.";}
+		   if (50<=porcien){	document.getElementById('porcentajes').innerHTML= "Bien hecho campeón ;)";}
+	     if (75<=porcien){	document.getElementById('porcentajes').innerHTML= "Madre mía, no hace falta que hagas el examen, que te pongan el 10 en este momento.";}
+	     document.getElementById("div1").style.display="none";
+  		document.getElementById("final").style.display="block";
+  }
+	}
+	}
+</script>
+</body>
+</html>

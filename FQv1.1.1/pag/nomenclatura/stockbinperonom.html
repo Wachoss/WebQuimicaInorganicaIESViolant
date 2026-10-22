@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+	<title>Nomenclatura</title>
+ <link rel="stylesheet" type="text/css" href="../../CSS/5.css">
+  <script src="../../js/frase.js" language="Javascript"></script>
+</head>
+<body>
+<h1>Peróxidos (Stock)</h1>
+<div id="acifallos">
+	<h3 id="naciertos">ACIERTOS: 0</h3>
+	<h3 id="nfallos">FALLOS: 0</h3>
+</div>
+<p id="formulanomenclatura">NOMENCLATURA</p>
+<p id="npregunta">Pregunta 1 de 15</p>
+<div id="todo">
+	<p id="formulacompuesto"> ¿Qué compuesto es este? </p>
+	<h2 id="a"></h2>
+
+	
+<input value="" id="respuesta"><br>  
+<br>
+<button id="comprobar" type="button" onclick="comprobar()">Comprobar</button>
+<button id="next" type="button" onclick="next()">Siguiente</button>
+</div>
+<br>
+<div id="div1">
+<p id="VoF"></p>
+<p id="solucion"></p>
+</div>
+<div id="final">
+<p id="fin">
+<p id="porcentaje"></p>
+<p id="porcentajes"></p>
+</div>
+
+<script>
+  var nomenclaturaminuscula=["Peróxido de litio","Peróxido de sodio","Peróxido de potasio","Peróxido de rubidio","Peróxido de cesio","Peróxido de berilio","Peróxido de magnesio","Peróxido de calcio","Peróxido de estroncio","Peróxido de bario","Peróxido de cobre(I)","Peróxido de cobre(II)","Peróxido de plata","Peróxido de zinc","Peróxido de cadmio","Peróxido de mercurio(I)","Peróxido de mercurio(II)","Peróxido de hidrógeno"]
+  
+  var nomenclatura=["PERÓXIDO DE LITIO","PERÓXIDO DE SODIO","PERÓXIDO DE POTASIO","PERÓXIDO DE RUBIDIO","PERÓXIDO DE CESIO","PERÓXIDO DE BERILIO","PERÓXIDO DE MAGNESIO","PERÓXIDO DE CALCIO","PERÓXIDO DE ESTRONCIO","PERÓXIDO DE BARIO","PERÓXIDO DE COBRE(I)","PERÓXIDO DE COBRE(II)","PERÓXIDO DE PLATA","PERÓXIDO DE ZINC","PERÓXIDO DE CADMIO","PERÓXIDO DE MERCURIO(I)","PERÓXIDO DE MERCURIO(II)","PERÓXIDO DE HIDRÓGENO"]
+ 
+  var formula= ["Li2O2","Na2O2","K2O2","Rb2O2","Cs2O2","BeO2","MgO2","CaO2","SrO2","BaO2","Cu2O2","CuO2","Ag2O2","ZnO2","CdO2","Hg2O2","HgO2","H2O2"];//18
+	var porcien;
+	var numeropregunta=1;
+	var aciertos;
+	aciertos=0;
+	var fallos;
+	fallos=0;
+	var res,sol, input; 
+	//variables respuesta, solución correcta/falsa y la variable para tomar el valor del input
+	var i=0;	//i recorre el array
+	var corregir; //Esta variable controla para que no puedas corregir varias veces seguidas.
+	corregir=0;
+	var random;
+	random=Math.round(Math.random()*17); //64= a os compuestos que nos de Bea
+	document.getElementById('a').innerHTML=formula[random];
+	function comprobar() 
+	{
+		input=document.getElementById('respuesta').value;
+		res=input.toUpperCase();
+  
+		//tomamos el valor escrito en el input
+		if (corregir===0 || corregir===1) 
+		{
+			 //Sirve para que solo puedas darle una vez a corregir
+			if(res===nomenclatura[random])
+			{
+			aciertos++;
+			frases();
+			//Incrementamos aciertos y los mostramos
+			document.getElementById('naciertos').innerHTML= "ACIERTOS: " + aciertos;
+			document.getElementById('VoF').style.color="green";
+
+			corregir=2;
+			}
+			else
+			{
+			  if(corregir===0){
+			    //fallos++
+			corregir++;
+			document.getElementById('VoF').innerHTML= "Es incorrecto. Inténtalo de nuevo.";
+			document.getElementById('VoF').style.color="red";
+
+			}
+			  else{
+			    if(corregir===1){
+			fallos++;
+			corregir++;
+			document.getElementById('VoF').innerHTML= "Es incorrecto. Estudia más.";
+			document.getElementById('nfallos').innerHTML= "FALLOS: " + fallos;
+			document.getElementById('solucion').innerHTML= "La respuesta correcta es: " + nomenclaturaminuscula[random];
+			document.getElementById('VoF').style.color="red";
+			    }
+		}
+		}
+		}
+	}
+	function next()
+	{
+	 if(corregir===2){
+		if (numeropregunta<15) 
+		{
+			i++;
+			numeropregunta++;
+	  document.getElementById('npregunta').innerHTML= "Pregunta " + numeropregunta + " de 15"
+		document.getElementById('respuesta').value="";
+		random= Math.round(Math.random()*17);
+		document.getElementById('a').innerHTML= formula[random];
+		document.getElementById('VoF').innerHTML="";
+		document.getElementById('solucion').innerHTML= "";
+		corregir=0;
+		}
+		else
+		{
+		  document.getElementById('VoF').innerHTML="";
+		  document.getElementById('solucion').innerHTML= "";
+		  document.getElementById('fin').innerHTML= "RESULTADO DEL TEST";
+		  porcien= aciertos * 100 / 15;
+		  document.getElementById('porcentaje').innerHTML= "Porcentaje de aciertos= " + porcien.toFixed(0) + "%";
+		  
+       if (0<=porcien){	document.getElementById('porcentajes').innerHTML= "Ufff! Aún te falta mucho,vuelve a intentarlo... ";}
+		   if (25<=porcien){	document.getElementById('porcentajes').innerHTML= "Bueno, tendrás que mejorar para aprobar.";}
+		   if (50<=porcien){	document.getElementById('porcentajes').innerHTML= "Bien hecho campeón ;)";}
+	     if (75<=porcien){	document.getElementById('porcentajes').innerHTML= "Madre mía, no hace falta que hagas el examen, que te pongan el 10 en este momento.";}
+	       document.getElementById("div1").style.display="none";
+  		document.getElementById("final").style.display="block";
+  }
+	}
+	}
+</script>
+</body>
+</html>

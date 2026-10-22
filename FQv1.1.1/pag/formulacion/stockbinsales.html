@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+	<title>Formulación</title>
+ <link rel="stylesheet" type="text/css" href="../../CSS/5.css">
+ <script src="../../js/frase.js" language="Javascript"></script>
+</head>
+<body>
+<h1>Sales Binarias (Stock)</h1>
+<div id="acifallos">
+	<h3 id="naciertos">ACIERTOS: 0</h3>
+	<h3 id="nfallos">FALLOS: 0</h3>
+</div>
+<p id="formulanomenclatura">FORMULACIÓN</p>
+<p id="npregunta">Pregunta 1 de 15</p>
+<div id="todo">
+	<p id="formulacompuesto"> ¿Qué fórmula tiene este compuesto? </p>
+	<h2 id="a"></h2>
+
+	
+<input value="" id="respuesta"><br>  
+<br>
+<button id="comprobar" type="button" onclick="comprobar()">Comprobar</button>
+<button id="next" type="button" onclick="next()">Siguiente</button>
+</div>
+<br>
+<div id="div1">
+<p id="VoF"></p>
+<p id="solucion"></p>
+</div>
+<div id="final">
+<p id="fin">
+<p id="porcentaje"></p>
+<p id="porcentajes"></p>
+</div>
+</div><script>
+  var nomenclatura= ["Sulfuro de litio", "Sulfuro de sodio", "Sulfuro de potasio", "Sulfuro de rubidio", "Sulfuro de cesio", "Sulfuro de berilio", "Sulfuro de magnesio", "Sulfuro de calcio", "Sulfuro de estroncio", "Sulfuro de bario", "Sulfuro de cromo(II)", "Sulfuro de cromo(III)", "Sulfuro de cromo(VI)", "Sulfuro de manganeso(II)", "Sulfuro de manganeso(III)", "Sulfuro de hierro(II)", "Sulfuro de hierro(III)", "Sulfuro de cobalto(II)", "Sulfuro de cobalto(III)", "Sulfuro de níquel(II)"," Sulfuro de níquel(III)","Sulfuro de cobre(I) ","Sulfuro de cobre(II)","Sulfuro de zinc","Sulfuro de paladio(II)","Sulfuro de paladio(IV)","Sulfuro de platino(II)","Sulfuro de platino(IV)","Sulfuro de plata","Sulfuro de cadmio","Sulfuro de mercurio(I)","Sulfuro de mercurio(II)","Sulfuro de oro(I)","Sulfuro de oro(III)","Sulfuro de aluminio","Sulfuro de carbono(IV)","Sulfuro de estaño(II)","Sulfuro de estaño(IV)","Sulfuro de plomo(II)","Sulfuro de plomo(IV)","Carburo de silicio","Nitruro de cromo(III)","Nitruro de hierro(II)","Nitruro de hierro(III)","Nitruro de sodio","Nitruro de calcio","Fosfuro de sodio","Fosfuro de calcio","Fluoruro de litio","Fluoruro de sodio", "Fluoruro de potasio", "Fluoruro de rubidio", "Fluoruro de cesio", "Fluoruro de berilio", "Fluoruro de magnesio", "Fluoruro de calcio", "Fluoruro de estroncio", "Fluoruro de bario", "Fluoruro de cromo(II)", "Fluoruro de cromo(III)", "Fluoruro de cromo(VI)", "Fluoruro de manganeso(II)", "Fluoruro de manganeso(III)", "Fluoruro de manganeso(VI)", "Fluoruro de hierro(II)", "Fluoruro de hierro(III)", "Fluoruro de cobalto(II)", "Fluoruro de cobalto(III)", "Fluoruro de níquel(II)", "Fluoruro de níquel(III)", "Fluoruro de cobre(I)", "Fluoruro de cobre(II)", "Fluoruro de zinc","Fluoruro de paladio(II)","Fluoruro de paladio(IV)", "Fluoruro de platino(II)", "Fluoruro de platino(IV)", "Fluoruro de plata", "Fluoruro de cadmio", "Fluoruro de mercurio(I)", "Fluoruro de mercurio(II)", "Fluoruro de oro(I)", "Fluoruro de oro(III)", "Fluoruro de boro", "Fluoruro de aluminio", "Fluoruro de galio(III)", "Fluoruro de indio(I)", "Fluoruro de indio(III)", "Fluoruro de talio(I)", "Fluoruro de talio(III)", "Fluoruro de carbono(IV)", "Fluoruro de silicio(IV)", "Fluoruro de germanio(II)", "Fluoruro de germanio(IV)", "Fluoruro de estaño(II)", "Fluoruro de estaño(IV)", "Fluoruro de plomo(II)", "Fluoruro de plomo(IV)", "Fluoruro de nitrógeno(III)", "Fluoruro de fósforo(III)", "Fluoruro de arsénico(III)", "Fluoruro de arsénico(V)", "Fluoruro de antimonio(III)", "Fluoruro de antimonio(V)", "Fluoruro de bismuto(III)", "Fluoruro de bismuto(V)", "Fluoruro de oxígeno(II)", "Fluoruro de azufre(II)", "Fluoruro de azufre(IV)", "Fluoruro de azufre(VI)", "Fluoruro de selenio(II)", "Fluoruro de selenio(IV)", "Fluoruro de selenio(VI)","Fluoruro de teluro(II)","Fluoruro de teluro(IV)","Fluoruro de teluro(VI)","Fluoruro de cloro(I)","Fluoruro de cloro(III)","Fluoruro de cloro(V)","Fluoruro de cloro(VII)","Fluoruro de bromo(I)","Fluoruro de bromo(III)","Fluoruro de bromo(V)","Fluoruro de bromo(VII)","Fluoruro de yodo(I)","Fluoruro de yodo(III)","Fluoruro de yodo(V)","Fluoruro de yodo(VII)","Cloruro de litio", "Cloruro de sodio", "Cloruro de potasio", "Cloruro de rubidio", "Cloruro de cesio", "Cloruro de berilio", "Cloruro de magnesio", "Cloruro de calcio", "Cloruro de estroncio", "Cloruro de bario", "Cloruro de cromo(II)", "Cloruro de cromo(III)", "Cloruro de cromo(VI)", "Cloruro de manganeso(II)", "Cloruro de manganeso(III)", "Cloruro de manganeso(VI)", "Cloruro de hierro(II)", "Cloruro de hierro(III)", "Cloruro de cobalto(II)", "Cloruro de cobalto(III)", "Cloruro de níquel(II)", "Cloruro de níquel(III)", "Cloruro de cobre(I)", "Cloruro de cobre(II)", "Cloruro de zinc", "Cloruro de paladio(II)", "Cloruro de paladio(IV)", "Cloruro de platino(II)", "Cloruro de platino(IV)", "Cloruro de plata", "Cloruro de cadmio", "Cloruro de mercurio(I)", "Cloruro de mercurio(II)", "Cloruro de oro(I)", "Cloruro de oro(III)", "Cloruro de boro", "Cloruro de aluminio", "Cloruro de galio(III)", "Cloruro de indio(I)", "Cloruro de indio(III)", "Cloruro de talio(I)", "Cloruro de talio(III)", "Cloruro de carbono(IV)", "Cloruro de silicio(IV)", "Cloruro de germanio(II)", "Cloruro de germanio(IV)", "Cloruro de estaño(II)", "Cloruro de estaño(IV)", "Cloruro de plomo(II)", "Cloruro de plomo(IV)", "Cloruro de nitrógeno(III)", "Cloruro de fósforo(III)", "Cloruro de arsénico(III)", "Cloruro de arsénico(V)", "Cloruro de antimonio(III)", "Cloruro de antimonio(V)", "Cloruro de bismuto(III)", "Cloruro de bismuto(V)", "Cloruro de azufre(II)", "Cloruro de azufre(IV)", "Cloruro de azufre(VI)", "Cloruro de selenio(II)", "Cloruro de selenio(IV)", "Cloruro de selenio(VI)", "Cloruro de teluro(II)", "Cloruro de teluro(IV)", "Cloruro de teluro(VI)", "Cloruro de bromo(I)", "Cloruro de bromo(III)", "Cloruro de bromo(V)", "Cloruro de bromo(VII)", "Cloruro de yodo(I)", "Cloruro de yodo(III)", "Cloruro de yodo(V)", "Cloruro de yodo(VII)","Bromuro de litio", "Bromuro de sodio", "Bromuro de potasio", "Bromuro de rubidio", "Bromuro de cesio", "Bromuro de berilio", "Bromuro de magnesio", "Bromuro de calcio", "Bromuro de estroncio", "Bromuro de bario", "Bromuro de cromo(II)", "Bromuro de cromo(III)", "Bromuro de cromo(VI)", "Bromuro de manganeso(II)", "Bromuro de manganeso(III)", "Bromuro de manganeso(VI)", "Bromuro de hierro(II)", "Bromuro de hierro(III)", "Bromuro de cobalto(II)", "Bromuro de cobalto(III)", "Bromuro de níquel(II)", "Bromuro de níquel(III)", "Bromuro de cobre(I)", "Bromuro de cobre(II)", "Bromuro de zinc", "Bromuro de paladio(II)", "Bromuro de paladio(IV)", "Bromuro de platino(II)", "Bromuro de platino(IV)", "Bromuro de plata", "Bromuro de cadmio", "Bromuro de mercurio(I)", "Bromuro de mercurio(II)", "Bromuro de oro(I)", "Bromuro de oro(III)", "Bromuro de boro", "Bromuro de aluminio", "Bromuro de galio(III)", "Bromuro de indio(I)", "Bromuro de indio(III)", "Bromuro de talio(I)", "Bromuro de talio(III)", "Bromuro de carbono(IV)", " Bromuro de silicio(IV)", "Bromuro de germanio(II)", "Bromuro de germanio(IV)", "Bromuro de estaño(II)", "Bromuro de estaño(IV)", "Bromuro de plomo(II)", "Bromuro de plomo(IV)", "Bromuro de nitrógeno(III)", "Bromuro de fósforo(III)", "Bromuro de arsénico(III)", "Bromuro de arsénico(V)", "Bromuro de antimonio(III)", "Bromuro de antimonio(V)", "Bromuro de bismuto(III)", "Bromuro de bismuto(V)", "Bromuro de azufre(II)", "Bromuro de azufre(IV)", "Bromuro de azufre(VI)", "Bromuro de selenio(II)", "Bromuro de selenio(IV)", "Bromuro de selenio(VI)", "Bromuro de teluro(II)", "Bromuro de teluro(IV)", "Bromuro de teluro(VI)", "Bromuro de yodo(I)", "Bromuro de yodo(III)", "Bromuro de yodo(V)", "Bromuro de yodo(VII)", "Yoduro de litio", "Yoduro de sodio", "Yoduro de potasio", "Yoduro de rubidio", "Yoduro de cesio", "Yoduro de berilio", "Yoduro de magnesio", "Yoduro de calcio", "Yoduro de estroncio", "Yoduro de bario", "Yoduro de cromo(II)", "Yoduro de cromo(III)", "Yoduro de cromo(VI)", "Yoduro de manganeso(II)", "Yoduro de manganeso(III)", "Yoduro de manganeso(VI)", "Yoduro de hierro(II)", "Yoduro de hierro(III)", "Yoduro de cobalto(II)", "Yoduro de cobalto(III)", "Yoduro de níquel(II)", "Yoduro de níquel(III)", "Yoduro de cobre(I)", "Yoduro de cobre(II)", "Yoduro de zinc", "Yoduro de paladio(II)", "Yoduro de paladio(IV)", "Yoduro de platino(II)", "Yoduro de platino(IV)", "Yoduro de plata", "Yoduro de cadmio", "Yoduro de mercurio(I)", "Yoduro de mercurio(II)", "Yoduro de oro(I)", "Yoduro de oro(III)", "Yoduro de boro", "Yoduro de aluminio", "Yoduro de galio(III)", "Yoduro de indio(I)", "Yoduro de indio(III)", "Yoduro de talio(I)", "Yoduro de talio(III)", "Yoduro de carbono(IV)", "Yoduro de silicio(IV)", "Yoduro de germanio(II)", "Yoduro de germanio(IV)","Yoduro de estaño(II)","Yoduro de estaño(IV)", "Yoduro de plomo(II)", "Yoduro de plomo(IV)", "Yoduro de nitrógeno(III)", "Yoduro de fósforo(III)", "Yoduro de arsénico(III)", "Yoduro de arsénico(V)", "Yoduro de antimonio(III)", "Yoduro de antimonio(V)", "Yoduro de bismuto(III)", "Yoduro de bismuto(V)", "Yoduro de azufre(II)", "Yoduro de azufre(IV)", "Yoduro de azufre(VI)", "Yoduro de selenio(II)", "Yoduro de selenio(IV)","Yoduro de selenio(VI)", "Yoduro de teluro(II)", "Yoduro de teluro(IV)", "Yoduro de teluro(VI)","Hidruro de arsénico(III)","Hidruro de arsénico(V)","Hidruro de antimonio(III)","Hidruro de antimonio(V)","Hidruro de bismuto(III)","Hidruro de bismuto(V)","Sulfuro de hidrógeno","Selenuro de hidrógeno","Telururo de hidrógeno","Fluoruro de hidrógeno","Cloruro de hidrógeno","Bromuro de hidrógeno","Yoduro de hidrógeno"]; //  compuestos
+  
+   var formula=["LI2S", "NA2S", "K2S", "RB2S", "CS2S", "BES", "MGS", "CAS", "SRS", "BAS", "CRS", "CR2S3", "CRS3", "MNS", "MN2S3", "FES", "FE2S3", "COS", "CO2S3", "NIS", "NI2S3", "CU2S", "CUS", "ZNS", "PDS", "PDS2", "PTS", "PTS2", "AG2S", "CDS", "HG2S", "HGS", "AU2S", "AU2S3", "AL2S3", "CS2", "SNS", "SNS2", "PBS", "PBS2", "SIC", "CRN", "FE2N3", "FEN", "NA3N", "CA3N2", "NA3P", "CA3P2", "LIF", "NAF", "KF", "RBF", "CSF", "BEF2", "MGF2", "CAF2", "SRF2", "BAF2", "CRF2", "CRF3", "CRF6", "MNF2", "MNF3", "MNF6", "FEF2", "FEF3", "COF2", "COF3", "NIF2", "NIF3", "CUF", "CUF2", "ZNF2", "PDF2", "PDF4", "PTF2", "PTF4", "AGF", "CDF2", "HGF", "HGF2", "AUF", "AUF3", "BF3", "ALF3", "GAF3", "INF", "INF3", "TLF", "TLF3", "CF4", "SIF4", "GEF2", "GEF4", "SNF2", "SNF4", "PBF2", "PBF4", "NF3", "PF3", "ASF3", "ASF5", "SBF3", "SBF5", "BIF3", "BIF5", "OF2", "SF2", "SF4", "SF6", "SEF2", "SEF4", "SEF6", "TEF2", "TEF4", "TEF6", "CLF", "CLF3", "CLF5", "CLF7", "BRF", "BRF3", "BRF5", "BRF7", "IF", "IF3", "IF5", "IF7", "LICL", "NACL", "KCL", "RBCL", "CSCL", "BECL2", "MGCL2", "CACL2", "SRCL2", "BACL2", "CRCL2", "CRCL3", "CRCL6", "MNCL2", "MNCL3", "MNCL6", "FECL2", "FECL3", "COCL2", "COCL3", "NICL2", "NICL3", "CUCL", "CUCL2", "ZNCL2", "PDCL2", "PDCL4", "PTCL2", "PTCL4", "AGCL", "CDCL2", "HGCL", "HGCL2", "AUCL", "AUCL3", "BCL3", "ALCL3", "GACL3", "INCL", "INCL3", "TLCL", "TLCL3", "CCL4", "SICL4", "GECL2", "GECL4", "SNCL2", "SNCL4", "PBCL2", "PBCL4", "NCL3", "PCL3", "ASCL3", "ASCL5", "SBCL3", "SBCL5", "BICL3", "BICL5", "SCL2", "SCL4", "SCL6", "SECL2", "SECL4", "SECL6", "TECL2", "TECL4", "TECL6", "BRCL", "BRCL3", "BRCL5", "BRCL7", "ICL", "ICL3", "ICL5", "ICL7", "LIBR", "NABR", "KBR", "RBBR", "CSBR", "BEBR2", "MGBR2", "CABR2", "SRBR2", "BABR2", "CRBR2", "CRBR3", "CRBR6", "MNBR2", "MNBR3", "MNBR6", "FEBR2", "FEBR3", "COBR2", "COBR3", "NIBR2", "NIBR3", "CUBR", "CUBR2", "ZNBR2", "PDBR2", "PDBR4", "PTBR2", "PTBR4", "AGBR", "CDBR2", "HGBR", "HGBR2", "AUBR", "AUBR3", "BBR3" , "ALBR3", "GABR3", "INBR", "INBR3", "TLBR", "TLBR3", "CBR4", "SIBR4", "GEBR2", "GEBR4", "SNBR2", "SNBR4", "PBBR2", "PBBR4", "NBR3", "PBR3", "ASBR3", "ASBR5", "SBBR3", "SBBR5", "BIBR3", "BIBR5", "SBR2", "SBR4", "SBR6", "SEBR2", "SEBR4", "SEBR6", "TEBR2", "TEBR4", "TEBR6", "IBR", "IBR3", "IBR5", "IBR7", "LII", "NAI", "KI", "RBI", "CSI", "BEI2", "MGI2", "CAI2", "SRI2", "BAI2", "CRI2", "CRI3", "CRI6", "MNI2", "MNI3", "MNI6", "FEI2", "FEI3", "COI2", "COI3", "NII2", "NII3", "CUI", "CUI2", "ZNI2", "PDI2", "PDI4", "PTI2", "PTI4", "AGI", "CDI2", "IGI", "IGI2", "AUI", "AUI3", "BI3", "ALI3", "GAI3", "INI", "INI3", "TLI", "TLI3", "CI4", "SII4", "GEI2", "GEI4", "SNI2", "SNI4", "PBI2", "PBI4", "NI3", "PI3", "ASI3", "ASI5", "SBI3", "SBI5", "BII3", "BII5", "SI2", "SI4", "SI6", "SEI2", "SEI4", "SEI6", "TEI2", "TEI4", "TEI6","ASH3","ASH5","SBH3","SBH5","BIH3","BIH5","H2S","H2SE","H2TE","HF","HCL","HBR","HI"];  // FALTA AÑADIR 13 COMPUESTOS del final del array nomenclatura 
+  
+  var formulaminuscula=["Li2S","Na2S","K2S","Rb2S","Cs2S","BeS","MgS","CaS","SrS","BaS","CrS","Cr2S3","CrS3","MnS","Mn2S3","FeS","Fe2S3","CoS","Co2S3","NiS","Ni2S3","Cu2S","CuS","ZnS","PdS","PdS2","PtS","PtS2","Ag2S","CdS","Hg2S","HgS","Au2S","Au2S3","Al2S3","CS2","SnS","SnS2","PbS","PbS2","SiC","CrN","Fe2N3","FeN","Na3N","Ca3N2","Na3P","Ca3P2","LiF","NaF","KF","RbF","CsF","BeF2","MgF2", "CaF2", "SrF2", "BaF2", "CrF2", "CrF3", "CrF6", "MnF2", "MnF3", "MnF6", "FeF2", "FeF3", "CoF2", "CoF3", "NiF2", "NiF3", "CuF", "CuF2", "ZnF2", "PdF2", "PdF4", "PtF2", "PtF4", "AgF", "CdF2", "HgF", "HgF2", "AuF", "AuF3", "BF3", "AlF3", "GaF3", "InF", "InF3", "TlF", "TlF3", "CF4", "SiF4", "GeF2", "GeF4", "SnF2", "SnF4", "PbF2", "PbF4", "NF3", "PF3", "AsF3", "AsF5", "SbF3", "SbF5", "BiF3", "BiF5", "OF2", "SF2", "SF4", "SF6", "SeF2", "SeF4", "SeF6", "TeF2", "TeF4", "TeF6", "ClF", "ClF3", "ClF5", "ClF7", "BrF", "BrF3", "BrF5", "BrF7", "IF", "IF3", "IF5", "IF7", "LiCl", "NaCl", "KCl", "RbCl", "CsCl", "BeCl2", "MgCl2", "CaCl2", "SrCl2", "BaCl2", "CrCl2", "CrCl3", "CrCl6", "MnCl2", "MnCl3", "MnCl6", "FeCl2", "FeCl3", "CoCl2", "CoCl3", "NiCl2", "NiCl3", "CuCl", "CuCl2", "ZnCl2", "PdCl2", "PdCl4", "PtCl2", "PtCl4", "AgCl", "CdCl2", "HgCl", "HgCl2", "AuCl", "AuCl3", "BCl3", "AlCl3", "GaCl3", "InCl", "InCl3", "TlCl", "TlCl3", "CCl4", "SiCl4", "GeCl2", "GeCl4", "SnCl2", "SnCl4", "PbCl2", "PbCl4", "NCl3", "PCl3", "AsCl3", "AsCl5", "SbCl3", "SbCl5", "BiCl3", "BiCl5", "SCl2", "SCl4", "SCl6", "SeCl2", "SeCl4", "SeCl6", "TeCl2", "TeCl4", "TeCl6", "BrCl", "BrCl3", "BrCl5", "BrCl7", "ICl", "ICl3", "ICl5", "ICl7", "LiBr", "NaBr", "KBr", "RbBr", "CsBr", "BeBr2", "MgBr2", "CaBr2", "SrBr2", "BaBr2", "CrBr2", "CrBr3", "CrBr6", "MnBr2", "MnBr3", "MnBr6", "FeBr2", "FeBr3", "CoBr2", "CoBr3", "NiBr2", "NiBr3", "CuBr", "CuBr2", "ZnBr2", "PdBr2", "PdBr4", "PtBr2", "PtBr4", "AgBr", "CdBr2", "HgBr", "HgBr2", "AuBr", "AuBr3", "BBr3" , "AlBr3", "GaBr3", "InBr", "InBr3", "TlBr", "TlBr3", "CBr4", "SiBr4", "GeBr2", "GeBr4", "SnBr2", "SnBr4", "PbBr2", "PbBr4", "NBr3", "PBr3", "AsBr3", "AsBr5", "SbBr3", "SbBr5", "BiBr3", "BiBr5", "SBr2", "SBr4", "SBr6", "SeBr2", "SeBr4", "SeBr6", "TeBr2", "TeBr4", "TeBr6", "IBr", "IBr3", "IBr5", "IBr7", "LiI", "NaI", "KI", "RbI", "CsI", "BeI2", "MgI2", "CaI2", "SrI2", "BaI2", "CrI2", "CrI3", "CrI6", "MnI2", "MnI3", "MnI6", "FeI2", "FeI3", "CoI2", "CoI3", "NiI2", "NiI3", "CuI", "CuI2", "ZnI2", "PdI2", "PdI4", "PtI2", "PtI4", "AgI", "CdI2", "IgI", "IgI2", "AuI", "AuI3", "BI3", "AlI3", "GaI3", "InI", "InI3", "TlI", "TlI3", "CI4", "SiI4", "GeI2", "GeI4", "SnI2", "SnI4", "PbI2", "PbI4", "NI3", "PI3", "AsI3", "AsI5", "SbI3", "SbI5", "BiI3", "BiI5", "SI2", "SI4", "SI6", "SeI2", "SeI4", "SeI6", "TeI2", "TeI4", "TeI6","AsH3","AsH5","SbH3","SbH5","BiH3","BiH5","H2S","H2Se","H2Te","HF","HCl","HBr","HI"]; //340 compuestos
+	var porcien;
+	var numeropregunta=1;
+	var aciertos;
+	aciertos=0;
+	var fallos;
+	fallos=0;
+	var res,sol, input; 
+	//variables respuesta, solución correcta/falsa y la variable para tomar el valor del input
+	var i=0;	//i recorre el array
+	var corregir; //Esta variable controla para que no puedas corregir varias veces seguidas.
+	corregir=0;
+	var random;
+	random=Math.round(Math.random()*280); //280= a os compuestos que nos de Bea
+	document.getElementById('a').innerHTML=nomenclatura[random];
+	function comprobar() 
+	{
+		input=document.getElementById('respuesta').value;
+		res=input.toUpperCase();
+  
+		//tomamos el valor escrito en el input
+		if (corregir===0 || corregir===1) 
+		{
+			 //Sirve para que solo puedas darle una vez a corregir
+			if(res===formula[random])
+			{
+			aciertos++;
+			frases();
+			//Incrementamos aciertos y los mostramos
+			document.getElementById('naciertos').innerHTML= "ACIERTOS: " + aciertos;
+			document.getElementById('VoF').style.color="green";
+
+			corregir=2;
+			}
+			else
+			{
+			  if(corregir===0){
+			    //fallos++
+			corregir++;
+			document.getElementById('VoF').innerHTML= "Es incorrecto. Inténtalo de nuevo.";
+			document.getElementById('VoF').style.color="red";
+
+			}
+			  else{
+			    if(corregir===1){
+			fallos++;
+			corregir++;
+			document.getElementById('VoF').innerHTML= "Es incorrecto. Estudia más.";
+			document.getElementById('nfallos').innerHTML= "FALLOS: " + fallos;
+			document.getElementById('solucion').innerHTML= "La respuesta correcta es: " + formulaminuscula[random];
+			document.getElementById('VoF').style.color="red";
+			    }
+		}
+		}
+		}
+	}
+	function next()
+	{
+	 if(corregir===2){
+		if (numeropregunta<15) 
+		{
+			i++;
+			numeropregunta++;
+	  document.getElementById('npregunta').innerHTML= "Pregunta " + numeropregunta + " de 15"
+		document.getElementById('respuesta').value="";
+		random= Math.round(Math.random()*280);
+		document.getElementById('a').innerHTML= nomenclatura[random];
+		document.getElementById('VoF').innerHTML="";
+		document.getElementById('solucion').innerHTML= "";
+		corregir=0;
+		}
+		else
+		{
+		  document.getElementById('VoF').innerHTML="";
+		  document.getElementById('solucion').innerHTML= "";
+		  document.getElementById('fin').innerHTML= "RESULTADO DEL TEST";
+		  porcien= aciertos * 100 / 15;
+		  porcien= porcien.toFixed(0);
+		  document.getElementById('porcentaje').innerHTML= "Porcentaje de aciertos= " + porcien + "%";
+		   
+		   if (0<=porcien){	document.getElementById('porcentajes').innerHTML= "Ufff! Aún te falta mucho,vuelve a intentarlo... ";}
+		   if (25<=porcien){	document.getElementById('porcentajes').innerHTML= "Bueno, tendrás que mejorar para aprobar.";}
+		   if (50<=porcien){	document.getElementById('porcentajes').innerHTML= "Bien hecho campeón ;)";}
+	     if (75<=porcien){	document.getElementById('porcentajes').innerHTML= "Madre mía, no hace falta que hagas el examen, que te pongan el 10 en este momento.";} 
+	       document.getElementById("div1").style.display="none";
+  		document.getElementById("final").style.display="block";
+
+	  }
+  }
+	}
+</script>
+</body>
+</html>

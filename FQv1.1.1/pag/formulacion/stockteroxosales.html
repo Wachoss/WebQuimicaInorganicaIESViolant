@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+	<title>Formulación</title>
+ <link rel="stylesheet" type="text/css" href="../../CSS/5.css">
+ <script src="../../js/frase.js" language="Javascript"></script>
+</head>
+<body>
+<h1>Oxosales (Stock)</h1>
+<div id="acifallos">
+	<h3 id="naciertos">ACIERTOS: 0</h3>
+	<h3 id="nfallos">FALLOS: 0</h3>
+</div>
+<p id="formulanomenclatura">FORMULACIÓN</p>
+<p id="npregunta">Pregunta 1 de 15</p>
+<div id="todo">
+	<p id="formulacompuesto"> ¿Qué fórmula tiene este compuesto? </p>
+	<h2 id="a"></h2>
+
+	
+<input value="" id="respuesta"><br>  
+<br>
+<button id="comprobar" type="button" onclick=comprobar()>Comprobar</button>
+<button id="next" type="button" onclick=next()>Siguiente</button>
+</div>
+<br>
+<div id="div1">
+<p id="VoF"></p>
+<p id="solucion"></p>
+</div>
+<div id="final">
+<p id="fin">
+<p id="porcentaje"></p>
+<p id="porcentajes"></p>
+</div>
+
+<script>
+ var nomenclatura= ["Cianuro de sodio","Cianuro de potasio","Carbonito de litio","Carbonato de litio","Carbonito de sodio","Carbonato de sodio","Carbonito de potasio","Carbonato de potasio","Carbonito de rubidio","Carbonato de rubidio","Carbonito de berilio","Carbonato de berilio","Carbonito de magnesio","Carbonato de magnesio","Carbonito de calcio","Carbonato de calcio","Carbonito de estroncio","Carbonato de estroncio","Carbonito de bario","Carbonato de bario","Carbonito de cromo(II)","Carbonato de cromo(II)","Carbonito de cromo(III)","Carbonato de cromo(III)","Carbonito de hierro(II)","Carbonato de hierro(II)","Carbonito de hierro(III)","Carbonato de hierro(III)","Carbonito de cobalto(II)","Carbonato de cobalto(II)","Carbonato de cobalto(III)","Carbonato de níquel(II)","Carbonito de níquel(III)","Carbonato de níquel(III)","Carbonito de cobre(I)","Carbonito de cobre(II)","Carbonato de cobre(II)","Carbonito de zinc","Carbonato de zinc","Carbonito de paladio(II)","Carbonato de paladio(II)","Carbonato de paladio(IV)","Carbonito de platino(II)","Carbonato de platino(IV)","Carbonito de plata","Carbonato de plata","Carbonato de cadmio","Carbonito de mercurio(I)","Carbonato de mercurio(I)","Carbonito de mercurio(II)","Carbonato de mercurio(II)", "Carbonato de oro(I)","Carbonito de oro(III)","Carbonato de oro(III)","Carbonato de aluminio","Carbonato de estaño(II)","Carbonito de estaño(IV)","Carbonato de estaño(IV)", "Carbonito de plomo(II)","Carbonato de plomo(II)","Carbonato de plomo(IV)","Nitrito de litio","Nitrato de litio","Nitrito de sodio","Nitrato de sodio","Nitrito de potasio", "Nitrato de potasio","Nitrato de rubidio","Nitrito de berilio","Nitrato de berilio","Nitrito de magnesio","Nitrato de magnesio","Nitrito de calcio","Nitrato de calcio", "Nitrito de estroncio","Nitrato de estroncio","Nitrito de bario", "Nitrato de bario", "Nitrito de cromo(II)", "Nitrato de cromo(II)", "Nitrito de cromo(III)", "Nitrato de cromo(III)", "Nitrito de hierro(II)", "Nitrato de hierro(II)", "Nitrito de hierro(III)", "Nitrato de hierro(III)", "Nitrito de cobalto(II)", "Nitrato de cobalto(II)", "Nitrito de cobalto(III)", "Nitrato de cobalto(III)", "Nitrito de níquel(II)", "Nitrato de níquel(II)", "Nitrito de níquel(III)", "Nitrato de níquel(III)", "Nitrito de cobre(I)", "Nitrato de cobre(I)", "Nitrito de cobre(II)", "Nitrato de cobre(II)", "Nitrito de zinc", "Nitrato de zinc", "Nitrato de paladio(II)", "Nitrato de paladio(IV)", "Nitrito de platino(II)", "Nitrato de platino(II)", "Nitrito de platino(IV)", "Nitrato de platino(IV)", "Nitrito de plata", "Nitrato de plata", "Nitrito de cadmio", "Nitrato de cadmio", "Nitrito de mercurio(I)", "Nitrato de mercurio(I)", "Nitrito de mercurio(II)", "Nitrato de mercurio(II)", "Nitrito de oro(I)", "Nitrato de oro(I)", "Nitrito de oro(III)", "Nitrato de oro(III)", "Nitrito de aluminio", "Nitrato de aluminio", "Nitrito de estaño(II)", "Nitrato de estaño(II)", "Nitrito de estaño(IV)", "Nitrato de estaño(IV)", "Nitrito de plomo(II)", "Nitrato de plomo(II)", "Nitrito de plomo(IV)", "Nitrato de plomo(IV)", "Fosfito de litio", "Fosfito de sodio", "Fosfito de potasio", "Fosfito de cobre(I)", "Fosfito de plata", "Fosfito de oro(I)", "Fosfito de mercurio(I)", "Fosfito de berilio","Fosfito de magnesio", "Fosfito de calcio", "Fosfito de hierro(II)", "Fosfito de cobalto(II)","Fosfito de níquel(II)", "Fosfito de cobre(II)", "Fosfito de zinc", "Fosfito de mercurio(II)","Fosfito de aluminio", "Fosfito de hierro(III)", "Fosfito de cobalto(III)","Fosfito de níquel(III)", "Fosfito de cromo(III)", "Fosfito de oro(III)", "Fosfato de litio","Fosfato de sodio", "Fosfato de potasio", "Fosfato de cobre(I)", "Fosfato de plata","Fosfato de oro(I)", "Fosfato de mercurio(I)", "Fosfato de berilio", "Fosfato de magnesio","Fosfato de calcio", "Fosfato de hierro(II)", "Fosfato de cobalto(II)", "Fosfato de níquel(II)", "Fosfato de cobre(II)", "Fosfato de zinc", "Fosfato de mercurio(II)", "Fosfato de aluminio", "Fosfato de hierro(III)", "Fosfato de cobalto(III)", "Fosfato de níquel(III)", "Fosfato de oro(III)", "Fosfato de cromo(III)", "Sulfito de litio", "Sulfito de sodio", "Sulfito de potasio", "Sulfito de rubidio", "Sulfito de cesio", "Sulfito de cobre(I)", "Sulfito de plata", "Sulfito de mercurio(I)", "Sulfito de oro(I)", "Sulfito de berilio", "Sulfito de magnesio", "Sulfito de calcio", "Sulfito de estroncio", "Sulfito de bario", "Sulfito de hierro(II)", "Sulfito de cobalto(II)", "Sulfito de níquel(II)", "Sulfito de cobre(II)", "Sulfito de zinc", "Sulfito de mercurio(II)", "Sulfito de platino(II)", "Sulfito de estaño(II)", "Sulfito de aluminio", "Sulfito de hierro(III)", "Sulfito de cobalto(III)", "Sulfito de níquel(III)","Sulfito de oro(III)","Sulfito de estaño(IV)", "Sulfito de platino(IV)", "Sulfito de plomo(IV)","Sulfato de litio","Sulfato de sodio","Sulfato de potasio", "Sulfato de rubidio","Sulfato de cesio","Sulfato de cobre(I)","Sulfato de plata","Sulfato de mercurio(I)","Sulfato de oro(I)", "Sulfato de berilio", "Sulfato de magnesio","Sulfato de calcio","Sulfato de estroncio","Sulfato de bario","Sulfato de hierro(II)","Sulfato de cobalto(II)","Sulfato de níquel(II)","Sulfato de cobre(II)", "Sulfato de zinc","Sulfato de cadmio","Sulfato de mercurio(II)","Sulfato de platino(II)","Sulfato de estaño(II)","Sulfato de aluminio","Sulfato de hierro(III)","Sulfato de cobalto(III)", "Sulfato de níquel(III)","Sulfato de oro(III)", "Sulfato de estaño(IV)","Sulfato de platino(IV)","Sulfato de plomo(IV)","Selenito de litio","Selenito de sodio","Selenito de cobre(I)","Selenito de mercurio(I)","Selenito de magnesio","Selenito de calcio","Selenito de cobalto(II)","Selenito de cobre(II)","Selenito de zinc","Selenito de estaño(II)","Selenito de aluminio","Selenito de hierro(III)", "Selenito de estaño(IV)","Selenito de plomo(IV)","Seleniato de sodio","Seleniato de potasio","Seleniato de plata","Seleniato de oro(I)","Seleniato de magnesio","Seleniato de calcio","Seleniato de hierro(II)", "Seleniato de cobre","Seleniato de zinc","Seleniato de cadmio","Seleniato de mercurio(II)","Seleniato de platino(II)","Seleniato de estaño(II)","Seleniato de aluminio","Seleniato de hierro(III)","Seleniato de oro(III)","Seleniato de estaño(IV)","Seleniato de plomo(IV)","Telurito de sodio","Telurito de cobre(I)","Telurito de oro(I)","Telurito de magnesio","Telurito de cobre(II)","Telurito de zinc","Telurito de hierro(III)", "Hipofluorito de sodio","Hipofluorito de calcio", "Hipofluorito de cobre(I)","Hipofluorito de cobre(II)","Hipoclorito de litio","Hipoclorito de sodio","Hipoclorito de potasio", "Hipoclorito de rubidio","Hipoclorito de cobre(I)","Hipoclorito de plata", "Hipoclorito de mercurio(I)","Hipoclorito de oro(I)","Hipoclorito de berilio","Hipoclorito de magnesio", "Hipoclorito de calcio", "Hipoclorito de estroncio","Hipoclorito de bario", "Hipoclorito de hierro(II)","Hipoclorito de cobalto(II)","Hipoclorito de níquel(II)", "Hipoclorito de cobre(II)", "Hipoclorito de zinc","Hipoclorito de mercurio(II)","Hipoclorito de platino(II)", "Hipoclorito de estaño(II)","Hipoclorito de aluminio","Hipoclorito de hierro(III)", "Hipoclorito de cobalto(III)","Hipoclorito de níquel(III)","Hipoclorito de oro(III)","Hipoclorito de estaño(IV)","Hipoclorito de platino(IV)","Hipoclorito de plomo(IV)","Hipobromito de litio", "Hipobromito de sodio","Hipobromito de potasio","Hipobromito de cobre(I)","Hipobromito de plata", "Hipobromito de mercurio(I)","Hipobromito de magnesio","Hipobromito de calcio","Hipobromito de bario", "Hipobromito de hierro(II)", "Hipobromito de cobre(II)","Hipobromito de zinc","Hipobromito de mercurio(II)","Hipobromito de estaño(II)","Hipobromito de aluminio","Hipobromito de hierro(III)","Hipobromito de cobalto(III)","Hipobromito de níquel(III)","Hipobromito de oro(III)","Hipobromito de estaño(IV)","Hipobromito de plomo(IV)","Hipoyodito de sodio","Hipoyodito de potasio","Hipoyodito de rubidio","Hipoyodito de plata","Hipoyodito de mercurio(I)","Hipoyodito de magnesio","Hipoyodito de calcio","Hipoyodito de bario","Hipoyodito de hierro(II)","Hipoyodito de cobalto(II)","Hipoyodito de zinc","Hipoyodito de mercurio(II)","Hipoyodito de platino(II)","Hipoyodito de aluminio","Hipoyodito de hierro(III)","Hipoyodito de níquel(III)","Hipoyodito de oro(III)","Hipoyodito de estaño(IV)","Hipoyodito de platino(IV)","Hipoyodito de plomo(IV)","Clorito de litio","Clorito de sodio","Clorito de potasio","Clorito de rubidio","Clorito de cobre(I)","Clorito de plata","Clorito de mercurio(I)","Clorito de oro(I)","Clorito de berilio","Clorito de magnesio","Clorito de calcio","Clorito de estroncio","Clorito de bario","Clorito de hierro(II)","Clorito de cobalto(II)","Clorito de níquel(II)","Clorito de cobre(II)","Clorito de zinc","Clorito de mercurio(II)","Clorito de platino(II)","Clorito de estaño(II)","Clorito de aluminio","Clorito de hierro(III)","Clorito de cobalto(III)","Clorito de níquel(III)","Clorito de oro(III)","Clorito de estaño(IV)","Clorito de platino(IV)","Clorito de plomo(IV)","Bromito de litio","Bromito de sodio","Bromito de potasio","Bromito de cobre(I)","Bromito de plata","Bromito de mercurio(I)","Bromito de magnesio","Bromito de calcio","Bromito de bario","Bromito de hierro(II)","Bromito de cobre(II)","Bromito de zinc","Bromito de mercurio(II)","Bromito de estaño(II)","Bromito de aluminio","Bromito de hierro(III)","Bromito de cobalto(III)","Bromito de níquel(III)","Bromito de oro(III)","Bromito de estaño(IV)","Bromito de plomo(IV)","Yodito de sodio","Yodito de potasio","Yodito de rubidio","Yodito de plata","Yodito de mercurio(I)","Yodito de magnesio","Yodito de calcio","Yodito de bario","Yodito de hierro(II)","Yodito de cobalto(II)","Yodito de zinc","Yodito de mercurio(II)","Yodito de platino(II)","Yodito de aluminio","Yodito de hierro(III)","Yodito de níquel(III)","Yodito de oro(III)","Yodito de estaño(IV)","Yodito de platino(IV)","Yodito de plomo(IV)"]; 
+  
+  var formula= ["NACN","KCN","LI2CO2","LI2CO3","NA2CO2","NA2CO3","K2CO2","K2CO3","RB2CO2","RB2CO3","BECO2","BECO3","MGCO2","MGCO3","CACO2","CACO3","SRCO2","SRCO3","BACO2","BACO3","CRCO2","CRCO3", "CR2(CO2)3","CR2(CO3)3","FECO2","FECO3","FE2(CO2)3","FE2(CO3)3","COCO2","COCO3","CO2(CO3)3","NICO3","NI2(CO2)3","NI2(CO3)3", "CU2CO2", "CUCO2","CUCO3","ZNCO2","ZNCO3","PDCO2","PDCO3","PD(CO3)2", "PTCO2","PD(CO3)2","AG2CO2","AG2CO3","CDCO3","HG2CO2","HG2CO3","HGCO2","HGCO3","AU2CO3","AU2(CO2)3","AU2(CO3)3","AL2(CO3)3","SNCO3","SN(CO2)2","SN(CO3)2","PBCO2","PBCO3","PB(CO3)2","LINO2", "LINO3","NANO2","NANO3","KNO2","KNO3","RBNO3","BE(NO2)2","BE(NO3)2","MG(NO2)2","MG(NO3)2","CA(NO2)2","CA(NO3)2","SR(NO2)2","SR(NO3)2","BA(NO2)2","BA(NO3)2","CR(NO2)2","CR(NO3)2", "CR(NO2)3","CR(NO3)3","FE(NO2)2","FE(NO3)2","FE(NO2)3","FE(NO3)3","CO(NO2)2","CO(NO3)3","CO(NO2)3","CO(NO3)3","NI(NO2)2","NI(NO3)2","NI(NO2)3","NI(NO3)3","CUNO2","CUNO3","CU(NO2)2","CU(NO3)2","ZN(NO2)2","ZN(NO3)2","PD(NO3)2","PD(NO3)4","PT(NO2)2","PT(NO3)2","PD(NO2)4","PD(NO3)4","AGNO2","AGNO3","CD(NO2)2","CD(NO3)2","HGNO2","HGNO3","HG(NO2)2","HG(NO3)2","AUNO2","AUNO3","AU(NO2)3","AU(NO3)3","AL(NO2)3","AL(NO3)3","SN(NO2)2","SN(NO3)2","SN(NO2)4","SN(NO3)4","PB(NO2)2","PB(NO3)2","PB(NO2)4","PB(NO3)4","LI3PO3","NA3PO3","K3PO3","CU3PO3","AG3PO3","AU3PO3","HG3PO3","BE3(PO3)2","MG3(PO3)2","CA3(PO3)2","FE3(PO3)2","CO3(PO3)2","NI3(PO3)2","CU3(PO3)2","ZN3(PO3)2","HG3(PO3)2","ALPO3","FEPO3","COPO3","NIPO3","CRPO3","AUPO3","LI3PO4","NA3PO4","K3PO4","CU3PO4","AG3PO4","AU3PO4","HG3PO4","BE3(PO4)2","MG3(PO4)2","CA3(PO4)2","FE3(PO4)2","CO3(PO4)2","NI3(PO4)2","CU3(PO4)2","ZN3(PO4)2","HG3(PO4)2","ALPO4","FEPO4","COPO4","NIPO4","AUPO4","CRPO4","LI2SO3","NA2SO3","K2SO3","RB2SO3","CS2SO3","CU2SO3","AG2SO3", "HG2SO3","AU2SO3","BESO3","MGSO3","CASO3","SRSO3","BASO3","FESO3","COSO3","NISO3","CUSO3","ZNSO3","HGSO3","PTSO3","SNSO3","AL2(SO3)3","FE2(SO3)3","CO2(SO3)3","NI2(SO3)3","AU2(SO3)3","SN(SO3)2","PT(SO3)2","PB(SO3)2","LI2SO4","NA2SO4","K2SO4","RB2SO4","CS2SO4","CU2SO4","AG2SO4","HG2SO4","AU2SO4","BESO4","MGSO4","CASO4","SRSO4","BASO4","FESO4","COSO4","NISO4","CUSO4","ZNSO4","CDSO4","HGSO4","PTSO4","SNSO4","AL2(SO4)3","FE2(SO4)3","CO2(SO4)3","NI2(SO4)3","AU2(SO4)3","SN(SO4)2","PT(SO4)2","PB(SO4)2","LI2SEO3","NA2SEO3","CU2SEO3","HG2SEO3","MGTEO3","CASEO3","COSEO3","CUSEO3","ZNSEO3","SNSEO3","AL2(SEO3)3","FE2(SEO3)3","SN(SEO3)2","PB(SEO3)2","NA2SEO4","K2SEO4","AG2SEO4","AU2SEO4","MGSEO4","CASEO4","FESEO4","CUSEO4", "ZNSEO4", "CDSEO4", "HGSEO4", "PTSEO4", "SNSEO4", "AL2(SEO4)3", "FE2(SEO4)3", "AU2(SEO4)3", "SN(SEO4)2", "PB(SEO4)2", "NA2TEO3", "CU2TEO3", "AU2TEO3", "MGTEO3", "CUTEO3", "ZNTEO3", "FE2(TEO3)3", "NAFO", "CA(FO)2", "CUFO", "CU(FO)2", "LICLO", "NACLO", "KCLO", "RBCLO", "CUCLO", "AGCLO", "HGCLO", "AUCLO", "BE(CLO)2", "MG(CLO)2", "CA(CLO)2", "SR(CLO)2", "BA(CLO)2", "FE(CLO)2", "CO(CLO)2", "NI(CLO)2", "CU(CLO)2", "ZN(CLO)2", "HG(CLO)2", "PT(CLO)2", "SN(CLO)2", "AL(CLO)3", "FE(CLO)3", "CO(CLO)3","NI(CLO)3", "AU(CLO)3", "SN(CLO)4", "PT(CLO)4", "PB(CLO)4", "LIBRO", "NABRO", "KBRO", "CUBRO","AGBRO","HGBRO","MG(BRO)2","CA(BRO)2","BA(BRO)2","FE(BRO)2","CU(BRO)2","ZN(BRO)2", "HG(BRO)2", "SN(BRO)2","AL(BRO)3","FE(BRO)3","CO(BRO)3","NI(BRO)3","AU(BRO)3","SN(BRO)4","PB(BRO)4","NAIO","KIO","RBIO","AGIO","HGIO","MG(IO)2","CA(IO)2","BA(IO)2","FE(IO)2","CO(IO)2","ZN(IO)2","HG(IO)2","PT(IO)2","AL(IO)3","FE(IO)3","NI(IO)3","AU(IO)3","SN(IO)4","PT(IO)4","PB(IO)4","LICLO2","NACLO2","KCLO2","RBCLO2","CUCLO2","AGCLO2","HGCLO2","AUCLO2","BE(CLO2)2","MG(CLO2)2","CA(CLO2)2","SR(CLO2)2","BA(CLO2)2","FE(CLO2)2","CO(CLO2)2","NI(CLO2)2","CU(CLO2)2", "ZN(CLO2)2", "HG(CLO2)2","PT(CLO2)2","SN(CLO2)2","AL(CLO2)3","FE(CLO2)3","CO(CLO2)3","NI(CLO2)3","AU(CLO2)3","SN(CLO2)4","PT(CLO2)4", "PB(CLO2)4", "LIBRO2", "NABRO2", "KBRO2","CUBRO2", "AGBRO2", "HGBRO2", "MG(BRO2)2", "CA(BRO2)2", "BA(BRO2)2", "FE(BRO2)2", "CU(BRO2)2", "ZN(BRO2)2", "HG(BRO2)2", "SN(BRO2)2", "AL(BRO2)3", "FE(BRO2)3", "CO(BRO2)3", "NI(BRO2)3", "AU(BRO2)3", "SN(BRO2)4", "PB(BRO2)4", "NAIO2", "KIO2","RBIO2","AGIO2","HGIO2","MG(IO2)2","CA(IO2)2","BA(IO2)2","FE(IO2)2","CO(IO2)2","ZN(IO2)2","HG(IO2)2","PT(IO2)2","AL(IO2)3","FE(IO2)3","NI(IO2)3","AU(IO2)3","SN(IO2)4","PT(IO2)4","PB(IO2)4"]; //415 compuestos 
+  
+  var formulaminuscula= ["NaCN","KCN","Li2CO2","Li2CO3","Na2CO2","Na2CO3","K2CO2","K2CO3","Rb2CO2","Rb2CO3","BeCO2","BeCO3","MgCO2","MgCO3","CaCO2","CaCO3","SrCO2","SrCO3","BaCO2","BaCO3","CrCO2","CrCO3","Cr2(CO2)3","Cr2(CO3)3","FeCO2","FeCO3","Fe2(CO2)3","Fe2(CO3)3","CoCO2","CoCO3","Co2(CO3)3","NiCO3","Ni2(CO2)3","Ni2(CO3)3","Cu2CO2","CuCO2","CuCO3","ZnCO2","ZnCO3","PdCO2","PdCO3","Pd(CO3)2","PtCO2","Pd(CO3)2","Ag2CO2","Ag2CO3","CdCO3","Hg2CO2","Hg2CO3","HgCO2","HgCO3","Au2CO3","Au2(CO2)3","Au2(CO3)3","Al2(CO3)3","SnCO3","Sn(CO2)2","Sn(CO3)2","PbCO2","PbCO3","Pb(CO3)2","LiNO2","LiNO3","NaNO2","NaNO3","KNO2","KNO3","RbNO3","Be(NO2)2","Be(NO3)2","Mg(NO2)2","Mg(NO3)2","Ca(NO2)2","Ca(NO3)2","Sr(NO2)2","Sr(NO3)2","Ba(NO2)2","Ba(NO3)2","Cr(NO2)2","Cr(NO3)2","Cr(NO2)3","Cr(NO3)3","Fe(NO2)2","Fe(NO3)2","Fe(NO2)3","Fe(NO3)3","Co(NO2)2","Co(NO3)3","Co(NO2)3","Co(NO3)3","Ni(NO2)2","Ni(NO3)2","Ni(NO2)3","Ni(NO3)3","CuNO2","CuNO3","Cu(NO2)2","Cu(NO3)2","Zn(NO2)2","Zn(NO3)2","Pd(NO3)2","Pd(NO3)4","Pt(NO2)2","Pt(NO3)2","Pd(NO2)4","Pd(NO3)4","AgNO2","AgNO3","Cd(NO2)2","Cd(NO3)2","HgNO2","HgNO3","Hg(NO2)2","Hg(NO3)2","AuNO2","AuNO3","Au(NO2)3","Au(NO3)3","Al(NO2)3","Al(NO3)3","Sn(NO2)2","Sn(NO3)2","Sn(NO2)4","Sn(NO3)4","Pb(NO2)2","Pb(NO3)2","Pb(NO2)4","Pb(NO3)4","Li3PO3","Na3PO3","K3PO3","Cu3PO3","Ag3PO3","Au3PO3","Hg3PO3","Be3(PO3)2","Mg3(PO3)2","Ca3(PO3)2","Fe3(PO3)2","Co3(PO3)2","Ni3(PO3)2","Cu3(PO3)2","Zn3(PO3)2","Hg3(PO3)2","AlPO3","FePO3","CoPO3","NiPO3","CrPO3","AuPO3","Li3PO4","Na3PO4","K3PO4","Cu3PO4","Ag3PO4","Au3PO4","Hg3PO4","Be3(PO4)2","Mg3(PO4)2","Ca3(PO4)2","Fe3(PO4)2","Co3(PO4)2","Ni3(PO4)2","Cu3(PO4)2","Zn3(PO4)2","Hg3(PO4)2","AlPO4","FePO4","CoPO4","NiPO4","AuPO4","CrPO4","Li2SO3","Na2SO3","K2SO3","Rb2SO3","Cs2SO3","Cu2SO3","Ag2SO3","Hg2SO3","Au2SO3","BeSO3","MgSO3","CaSO3","SrSO3","BaSO3","FeSO3","CoSO3","NiSO3","CuSO3","ZnSO3","HgSO3","PtSO3","SnSO3","Al2(SO3)3","Fe2(SO3)3","Co2(SO3)3","Ni2(SO3)3","Au2(SO3)3","Sn(SO3)2","Pt(SO3)2","Pb(SO3)2","Li2SO4","Na2SO4","K2SO4","Rb2SO4","Cs2SO4","Cu2SO4","Ag2SO4","Hg2SO4","Au2SO4","BeSO4","MgSO4","CaSO4","SrSO4","BaSO4","FeSO4","CoSO4","NiSO4","CuSO4","ZnSO4","CdSO4","HgSO4","PtSO4","SnSO4","Al2(SO4)3","Fe2(SO4)3","Co2(SO4)3","Ni2(SO4)3","Au2(SO4)3","Sn(SO4)2","Pt(SO4)2","Pb(SO4)2","Li2SeO3","Na2SeO3","Cu2SeO3","Hg2SeO3","MgTeO3","CaSeO3","CoSeO3","CuSeO3", "ZnSeO3","SnSeO3","Al2(SeO3)3","Fe2(SeO3)3","Sn(SeO3)2","Pb(SEO3)2","Na2SeO4","K2SeO4","Ag2SeO4","Au2SeO4","MgSeO4","CaSeO4","FeSeO4","CuSeO4","ZnSeO4","CdSeO4","HgSeO4","PtSeO4","SnSeO4","Al2(SeO4)3","Fe2(SeO4)3","Au2(SeO4)3","Sn(SeO4)2","Pb(SeO4)2","Na2TeO3","Cu2TeO3","Au2TeO3","MgTeO3","CuTeO3","ZnTeO3","Fe2(TeO3)3","NaFO", "Ca(FO)2", "CuFO", "Cu(FO)2", "LiClO", "NaClO", "KClO", "RbClO", "CuClO", "AgClO", "HgClO", "AuClO", "Be(ClO)2", "Mg(ClO)2", "Ca(ClO)2", "Sr(ClO)2", "Ba(ClO)2", "Fe(ClO)2", "Co(ClO)2", "Ni(ClO)2", "Cu(ClO)2", "Zn(ClO)2", "Hg(ClO)2", "Pt(ClO)2", "Sn(ClO)2", "Al(ClO)3", "Fe(ClO)3", "Co(ClO)3", "Ni(ClO)3", "Au(ClO)3", "Sn(ClO)4", "Pt(ClO)4", "Pb(ClO)4", "LiBrO", "NaBrO", "KBrO", "CuBrO", "AgBrO", "HgBrO", "Mg(BrO)2", "Ca(BrO)2", "Ba(BrO)2", "Fe(BrO)2", "Cu(BrO)2", "Zn(BrO)2", "Hg(BrO)2", "Sn(BrO)2", "Al(BrO)3", "Fe(BrO)3", "Co(BrO)3", "Ni(BrO)3", "Au(BrO)3", "Sn(BrO)4", "Pb(BrO)4", "NaIO", "KIO", "RbIO", "AgIO", "HgIO", "Mg(IO)2", "Ca(IO)2", "Ba(IO)2", "Fe(IO)2", "Co(IO)2", "Zn(IO)2", "Hg(IO)2", "Pt(IO)2", "Al(IO)3", "Fe(IO)3", "Ni(IO)3", "Au(IO)3", "Sn(IO)4", "Pt(IO)4", "Pb(IO)4", "LiClO2", "NaClO2", "KClO2", "RbClO2", "CuClO2", "AgClO2", "HgClO2", "AuClO2", "Be(ClO2)2", "Mg(ClO2)2", "Ca(ClO2)2", "Sr(ClO2)2", "Ba(ClO2)2", "Fe(ClO2)2", "Co(ClO2)2", "Ni(ClO2)2", "Cu(ClO2)2", "Zn(ClO2)2", "Hg(ClO2)2", "Pt(ClO2)2", "Sn(ClO2)2", "Al(ClO2)3", "Fe(ClO2)3", "Co(ClO2)3", "Ni(ClO2)3", "Au(ClO2)3", "Sn(ClO2)4", "Pt(ClO2)4", "Pb(ClO2)4", "LiBrO2", "NaBrO2", "KBrO2", "CuBrO2", "AgBrO2", "HgBrO2", "Mg(BrO2)2", "Ca(BrO2)2", "Ba(BrO2)2", "Fe(BrO2)2", "Cu(BrO2)2", "Zn(BrO2)2", "Hg(BrO2)2", "Sn(BrO2)2", "Al(BrO2)3", "Fe(BrO2)3", "Co(BrO2)3", "Ni(BrO2)3", "Au(BrO2)3", "Sn(BrO2)4", "Pb(BrO2)4", "NaIO2", "KIO2", "RbIO2", "AgIO2", "HgIO2", "Mg(IO2)2", "Ca(IO2)2", "Ba(IO2)2", "Fe(IO2)2", "Co(IO2)2", "Zn(IO2)2", "Hg(IO2)2", "Pt(IO2)2", "Al(IO2)3", "Fe(IO2)3", "Ni(IO2)3", "Au(IO2)3", "Sn(IO2)4", "Pt(IO2)4", "Pb(IO2)4"];
+	var porcien;
+	var numeropregunta=1;
+	var aciertos;
+	aciertos=0;
+	var fallos;
+	fallos=0;
+	var res,sol, input; 
+	//variables respuesta, solución correcta/falsa y la variable para tomar el valor del input
+	var i=0;	//i recorre el array
+	var corregir; //Esta variable controla para que no puedas corregir varias veces seguidas.
+	corregir=0;
+	var random;
+	random=Math.round(Math.random()*414); //64= a los compuestos que nos de Bea
+	document.getElementById('a').innerHTML=nomenclatura[random];
+	function comprobar() 
+	{
+		input=document.getElementById('respuesta').value;
+		res=input.toUpperCase();
+  
+		//tomamos el valor escrito en el input
+		if (corregir===0 || corregir===1) 
+		{
+			 //Sirve para que solo puedas darle una vez a corregir
+			if(res===formula[random])
+			{
+			aciertos++;
+			frases();
+			//Incrementamos aciertos y los mostramos
+			document.getElementById('naciertos').innerHTML= "ACIERTOS: " + aciertos;
+			document.getElementById('VoF').style.color="green";
+
+			corregir=2;
+			}
+			else
+			{
+			  if(corregir===0){
+			    //fallos++
+			corregir++;
+			document.getElementById('VoF').innerHTML= "Es incorrecto. Inténtalo de nuevo.";
+			document.getElementById('VoF').style.color="red";
+
+			}
+			  else{
+			    if(corregir===1){
+			fallos++;
+			corregir++;
+			document.getElementById('VoF').innerHTML= "Es incorrecto. Estudia más.";
+			document.getElementById('nfallos').innerHTML= "FALLOS: " + fallos;
+			document.getElementById('solucion').innerHTML= "La respuesta correcta es: " + formulaminuscula[random];
+			document.getElementById('VoF').style.color="red";
+			    }
+		}
+		}
+		}
+	}
+	function next()
+	{
+	 if(corregir===2){
+		if (numeropregunta<15) 
+		{
+			i++;
+			numeropregunta++;
+	  document.getElementById('npregunta').innerHTML= "Pregunta " + numeropregunta + " de 15"
+		document.getElementById('respuesta').value="";
+		random= Math.round(Math.random()*414);
+		document.getElementById('a').innerHTML= nomenclatura[random];
+		document.getElementById('VoF').innerHTML="";
+		document.getElementById('solucion').innerHTML= "";
+		corregir=0;
+		}
+		else
+		{
+		  document.getElementById('VoF').innerHTML="";
+		  document.getElementById('solucion').innerHTML= "";
+		  document.getElementById('fin').innerHTML= "RESULTADO DEL TEST";
+		  porcien= aciertos * 100 / 15;
+		  porcien= porcien.toFixed(0);
+		  document.getElementById('porcentaje').innerHTML= "Porcentaje de aciertos= " + porcien + "%";
+		   
+		   if (0<=porcien){	document.getElementById('porcentajes').innerHTML= "Ufff! Aún te falta mucho,vuelve a intentarlo... ";}
+		   if (25<=porcien){	document.getElementById('porcentajes').innerHTML= "Bueno, tendrás que mejorar para aprobar.";}
+		   if (50<=porcien){	document.getElementById('porcentajes').innerHTML= "Bien hecho campeón ;)";}
+	     if (75<=porcien){	document.getElementById('porcentajes').innerHTML= "Madre mía, no hace falta que hagas el examen, que te pongan el 10 en este momento.";} 
+	    document.getElementById("div1").style.display="none";
+  		document.getElementById("final").style.display="block";
+
+	  }
+  }
+	}
+</script>
+</body>
+</html>

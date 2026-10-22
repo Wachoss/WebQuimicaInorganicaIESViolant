@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+<title>Formulación inórganica</title>
+<link rel="stylesheet" type="text/css" href="CSS/4.css">
+<link rel="Shortcut Icon" type="image/x-icon" href="IMAGES/moleculatoguapa.ico">
+<script src="js/llamada.js" language="Javascript"></script>
+<script src="js/disable.js" language="Javascript"></script>
+
+</head>
+<body>
+<header>
+<h1>NOMENCLATURA QUÍMICA INORGÁNICA</h1><br>
+<h4><a href="https://portal.edu.gva.es/iesbenicassim/es/centre-3/">IES VIOLANT DE CASALDUCH - BENICÀSSIM</a></h4>
+	<div class="title">
+	<div class="logo1">
+		<a href="https://portal.edu.gva.es/iesbenicassim/es/centre-3/"><img src="IMAGES/benicasim1.png" height="100%" width="120px"> </a>
+	</div>
+	<div class="logo2">
+		<img src="IMAGES/mol.gif" height="100%">
+	</div>
+	</div>
+</header>
+<div id="cuerpo">
+<aside>
+<nav>
+	<ul>
+		<button class="seleccion" onclick="instrucciones()">INSTRUCCIONES</button> <!--  -->
+		<button class="seleccion" onclick="formularmenu()">FORMULACIÓN</button> <!--  -->
+<div id="menuform">
+<form id="frm1">
+ <div id="nomenclatura">
+ <h3><strong>Nomenclatura:</strong></h3>
+    <input type="radio" name="nomen" id="iupac" onclick="disablesist()" value="iupac">Nomenclatura sistemática<br>
+    <input type="radio" name="nomen" id="stock" onclick="disablestock()" value="stock">Nomenclatura Stock<br>
+    <input type="radio" name="nomen" id="clasica" onclick="disabletrad()" value="clasica">Nomenclatura tradicional<br>
+</div>
+</form>
+<br>
+
+<form id="frm2">
+<div id="binarios">
+<h3><strong>Binarios:</strong></h3>
+    <input type="radio" name="tipos" id="1" value="hidruros">Hidruros<br>
+    <input type="radio" name="tipos" id="2" value="oxidos">Óxidos<br>
+    <input type="radio" name="tipos" id="3" value="sales">Sales<br>
+    <input type="radio" name="tipos" id="4" value="peroxidos">Peróxidos<br>
+</div>
+<br>
+
+<div id="ternarios">
+<h3><strong>Ternarios y cuaternarios:</strong></h3>
+    <input type="radio" name="tipos" id="6" value="hidroxidos">Hidróxidos<br>
+    <input type="radio" name="tipos" id="7" value="oxoacidos">Oxoácidos<br>
+    <input type="radio" name="tipos" id="8" value="oxosales">Oxosales<br>
+    <input type="radio" name="tipos" id="9" value="sales acidas">Sales ácidas de oxoácidos<br>
+</div>
+</form>
+<br>
+<button class="empezar" onclick="enviarf()">Empezar</button> <!-- Escogida la opción formulación -->
+</div>
+		<button class="seleccion" onclick=nomenmenu()>NOMENCLATURA</button> <!---->
+<div id="menunom">
+ <form id="frm3">
+ <div id="nomenclatura">
+ <h3><strong>Nomenclatura:</strong></h3>
+    <input type="radio" name="nomen" id="iupac" onclick="disablesist()" value="iupac">Nomenclatura sistemática<br>
+    <input type="radio" name="nomen" id="stock" onclick="disablestock()" value="stock">Nomenclatura Stock<br>
+    <input type="radio" name="nomen" id="clasica" onclick="disabletrad()" value="clasica">Nomenclatura tradicional<br>
+</div>
+</form>
+<br>
+
+<form id="frm4">
+<div id="binarios">
+<h3><strong>Binarios:</strong></h3>
+    <input type="radio" name="tipos" id="11" value="hidruros">Hidruros<br>
+    <input type="radio" name="tipos" id="12" value="oxidos">Óxidos<br>
+    <input type="radio" name="tipos" id="13" value="sales">Sales<br>
+    <input type="radio" name="tipos" id="14" value="peroxidos">Peróxidos<br>
+</div>
+<br>
+<div id="ternarios">
+<h3><strong>Ternarios y cuaternarios:</strong></h3>
+    <input type="radio" name="tipos" id="16" value="hidroxidos">Hidróxidos<br>
+    <input type="radio" name="tipos" id="17" value="oxoacidos">Oxoácidos<br>
+    <input type="radio" name="tipos" id="18" value="oxosales">Oxosales<br>
+    <input type="radio" name="tipos" id="19" value="sales acidas">Sales ácidas de oxoácidos<br>
+</div>
+</form>
+<br>
+<button class="empezar" onclick="enviarn()">Empezar</button> <!-- Nomenclatura-->
+</div>
+<button class="seleccion" onclick="window.open(&quot;IMAGES/Tabla-Valencias.jpg&quot;)">TABLA DE VALENCIAS</button>
+<button class="seleccion" onclick="window.open(&quot;IMAGES/Tabla-Periódica.jpg&quot;)">TABLA PERIÓDICA</button> <!-- -------- -->
+
+
+</ul>
+</nav>
+</aside>
+<article>
+<iframe src="pag/bienvenida.html" name="iframe1" width="100%" height="100%">	
+</iframe>
+</article>
+</div>
+
+<script>
+
+function enviarf()
+{
+	var nomen = document.forms["frm1"];
+	var tipos = document.forms["frm2"];
+	var text1 = "";
+	var text2 = "";
+  var i;
+
+    // cogemos la opción seleccionada del primer grupo
+    for (i = 0; i < nomen.length ;i++)
+     {
+		if (nomen.elements[i].checked)
+		{
+			text1 = nomen.elements[i].value;
+		}
+     }
+
+     // cogemos la opción seleccionada del segundo grupo
+     for (i = 0; i < tipos.length ;i++)
+     {
+		if (tipos.elements[i].checked)
+		{
+			text2 = tipos.elements[i].value;
+		}
+     }
+
+  //document.getElementById('art').style.display="block";
+	llamadaf(text1,text2);
+}
+function enviarn()
+{
+	var nomen = document.forms["frm3"];
+	var tipos = document.forms["frm4"];
+	var text1 = "";
+	var text2 = "";
+  var i;
+
+    // cogemos la opción seleccionada del primer grupo
+    for (i = 0; i < nomen.length ;i++)
+     {
+		if (nomen.elements[i].checked)
+		{
+			text1 = nomen.elements[i].value;
+		}
+     }
+
+     // cogemos la opción seleccionada del segundo grupo
+     for (i = 0; i < tipos.length ;i++)
+     {
+		if (tipos.elements[i].checked)
+		{
+			text2 = tipos.elements[i].value;
+		}
+     }
+
+	llamadan(text1,text2);
+}
+</script>
+<footer>Realizada por alumnos de 2º Bachiller (2018) en la asignatura TIC2 del IES Violant de Casalduch y Corregída por Daniel "Santos" Martín Sánchez (2023) <strong>Contacto:</strong> b.blategea@edu.gva.es</footer>
+</body>
+</html>

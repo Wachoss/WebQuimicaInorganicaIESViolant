@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+	<title>Nomenclatura</title>
+ <link rel="stylesheet" type="text/css" href="../../CSS/5.css">
+ <script src="../../js/frase.js" language="Javascript"></script>
+</head>
+<body>
+<h1>Sales ácidas de oxoácidos (Stock)</h1>
+<div id="acifallos">
+	<h3 id="naciertos">ACIERTOS: 0</h3>
+	<h3 id="nfallos">FALLOS: 0</h3>
+</div>
+<p id="formulanomenclatura">NOMENCLATURA</p>
+<p id="npregunta">Pregunta 1 de 15</p>
+<div id="todo">
+	<p id="formulacompuesto"> ¿Qué compuesto es este? </p>
+	<h2 id="a"></h2>
+
+	
+<input value="" id="respuesta"><br>  
+<br>
+<button id="comprobar" type="button" onclick=comprobar()>Comprobar</button>
+<button id="next" type="button" onclick=next()>Siguiente</button>
+</div>
+<br>
+<div id="div1">
+<p id="VoF"></p>
+<p id="solucion"></p>
+</div>
+<div id="final">
+<p id="fin">
+<p id="porcentaje"></p>
+<p id="porcentajes"></p>
+</div>
+
+<script>
+  var nomenclaturaminuscula=["Hidrogenocarbonito de sodio", "Hidrogenocarbonato de sodio", "Hidrogenocarbonato de potasio", "Hidrogenocarbonato de magnesio", "Hidrogenocarbonato de calcio", "Hidrogenocarbonato de hierro(II)", "Hidrogenocarbonato de hierro(III)", "Hidrogenocarbonato de oro(I)", "Hidrogenocarbonato de oro(III)", "Hidrogenocarbonato de estaño(II)", "Hidrogenocarbonato de estaño(IV)", "Hidrogenofosfito de litio", "Dihidrogenofosfito de litio", "Hidrogenofosfito de potasio", "Dihidrogenofosfito de potasio", "Hidrogenofosfito de cobre(I)", "Dihidrogenofosfito de cobre(I)","Hidrogenofosfito de manganeso", "Dihidrogenofosfito de calcio", "Hidrogenofosfito de hierro(II)", "Dihidrogenofosfito de hierro(II)", "Hidrogenofosfito de hierro(III)", "Dihidrogenofosfito de hierro(III)", "Hidrogenofosfito de cobre(II)", "Hidrogenofosfito de aluminio", "Dihidrogenofosfito de aluminio", "Hidrogenofosfato de sodio", "Dihidrogenofosfato de sodio", "Dihidrogenofosfato de litio", "Hidrogenofosfato de potasio", "Dihidrogenofosfato de potasio", "Hidrogenofosfato de cobre(I)", "Dihidrogenofosfato de cobre(I)", "Hidrogenofosfato de calcio", "Dihidrogenofosfato de calcio", "Hidrogenofosfato de hierro(II)", "Dihidrogenofosfato de hierro(II)", "Hidrogenofosfato de cobre(I)", "Hidrogenofosfato de hierro(III)", "Dihidrogenofosfato de hierro(III)", "Hidrogenofosfato de cobre(II)", "Hidrogenofosfato de aluminio", "Dihidrogenofosfato de aluminio", "Hidrogenosulfito de potasio", "Hidrogenosulfito de cobre(I)", "Hidrogenosulfito de magnesio", "Hidrogenosulfito de calcio", "Hidrogenosulfito de hierro(II)", "Hidrogenosulfito de níquel(II)", "Hidrogenosulfito de cobre(II)", "Hidrogenosulfito de zinc", "Hidrogenosulfito de estaño(II)", "Hidrogenosulfito de aluminio", "Hidrogenosulfito de hierro(III)", "Hidrogenosulfito de plomo(IV)", "Hidrogenosulfato de litio", "Hidrogenosulfato de sodio", "Hidrogenosulfato de potasio", "Hidrogenosulfato de cobre(I)", "Hidrogenosulfato de plata", "Hidrogenosulfato de magnesio", "Hidrogenosulfato de calcio", "Hidrogenosulfato de hierro(II)", "Hidrogenosulfato de cobalto(II)", "Hidrogenosulfato de cobre(II)", "Hidrogenosulfato de zinc", "Hidrogenosulfato de aluminio", "Hidrogenosulfato de hierro(III)", "Hidrogenosulfato de níquel(III)", "Hidrogenosulfato de estaño(II)", "Hidrogenosulfato de estaño(IV)"]; //71 compuestos
+  
+  var nomenclatura=["HIDROGENOCARBONITO DE SODIO", "HIDROGENOCARBONATO DE SODIO", "HIDROGENOCARBONATO DE POTASIO", "HIDROGENOCARBONATO DE MAGNESIO", "HIDROGENOCARBONATO DE CALCIO", "HIDROGENOCARBONATO DE HIERRO(II)", "HIDROGENOCARBONATO DE HIERRO(III)", "HIDROGENOCARBONATO DE ORO(I)", "HIDROGENOCARBONATO DE ORO(III)", "HIDROGENOCARBONATO DE ESTAÑO(II)", "HIDROGENOCARBONITO DE ESTAÑO(IV)", "HIDROGENOFOSFITO DE LITIO", "DIHIDROGENOFOSFITO DE LITIO", "HIDROGENOFOSFITO DE POTASIO", "DIHIDROGENOFOSFITO DE POTASIO", "HIDROGENOFOSFITO DE COBRE(I)", "DIHIDROGENOFOSFITO DE COBRE(I)","HIDROGENOFOSFITO DE MANGANESO", "DIHIDROGENOFOSFITO DE CALCIO", "HIDROGENOFOSFITO DE HIERRO(II)", "DIHIDROGENOFOSFITO DE HIERRO(II)", "HIDROGENOFOSFITO DE HIERRO(III)", "DIHIDROGENOFOSFITO DE HIERRO(III)", "HIDROGENOFOSFITO DE COBRE(II)", "HIDROGENOFOSFITO DE ALUMINIO", "DIHIDROGENOFOSFITO DE ALUMINIO", "HIDROGENOFOSFATO DE SODIO", "DIHIDROGENOFOSFATO DE SODIO" , "DIHIDROGENOFOSFATO DE LITIO", "HIDROGENOFOSFATO DE POTASIO", "DIHIDROGENOFOSFATO DE POTASIO", "HIDROGENOFOSFATO DE COBRE(I)", "DIHIDROGENOFOSFATO DE COBRE(I)", "HIDROGENOFOSFATO DE CALCIO", "DIHIDROGENOFOSFATO DE CALCIO", "HIDROGENOFOSFATO DE HIERRO(II)", "DIHIDROGENOFOSFATO DE HIERRO(II)", "HIDROGENOFOSFATO DE COBRE(I)", "HIDROGENOFOSFATO DE HIERRO(III)", "DIHIDROGENOFOSFATO DE HIERRO(III)", "HIDROGENOFOSFATO DE COBRE(II)", "HIDROGENOFOSFATO DE ALUMINIO", "DIHIDROGENOFOSFATO DE ALUMINIO", "HIDROGENOSULFITO DE POTASIO", "HIDROGENOSULFITO DE COBRE(I)", "HIDROGENOSULFITO DE MAGNESIO", "HIDROGENOSULFITO DE CALCIO", "HIDROGENOSULFITO DE HIERRO(II)", "HIDROGENOSULFITO DE NÍQUEL(II)", "HIDROGENOSULFITO DE COBRE(II)", "HIDROGENOSULFITO DE ZINC", "HIDROGENOSULFITO DE ESTAÑO(II)", "HIDROGENOSULFITO DE ALUMINIO", "HIDROGENOSULFITO DE HIERRO(III)", "HIDROGENOSULFITO DE PLOMO(IV)", "HIDROGENOSULFATO DE LITIO", "HIDROGENOSULFATO DE SODIO", "HIDROGENOSULFATO DE POTASIO", "HIDROGENOSULFATO DE COBRE(I)", "HIDROGENOSULFATO DE PLATA", "HIDROGENOSULFATO DE MAGNESIO", "HIDROGENOSULFATO DE CALCIO", "HIDROGENOSULFATO DE HIERRO(II)", "HIDROGENOSULFATO DE COBALTO(II)", "HIDROGENOSULFATO DE COBRE(II)", "HIDROGENOSULFATO DE ZINC", "HIDROGENOSULFATO DE ALUMINIO", "HIDROGENOSULFATO DE HIERRO(III)", "HIDROGENOSULFATO DE NÍQUEL(III)", "HIDROGENOSULFATO DE ESTAÑO(II)", "HIDROGENOSULFATO DE ESTAÑO(IV)"]; // 71 			compuestos
+  
+  var formula= ["NaHCO2","NaHCO3","KHCO3","Mg(HCO3)2","Ca(HCO3)2","Fe(HCO3)2","Fe(HCO3)3","AuHCO3","Au(HCO3)3","Sn(HCO3)2","Sn(HCO3)4","Li2HPO3","LiH2PO3","K2HPO3","KH2PO3","Cu2HPO3","CuH2PO3","MgHPO3","Ca(H2PO3)2","FeHPO3","Fe(H2PO3)2","Fe2(HPO3)3","Fe(H2PO3)3","CuHPO3","Al2(HPO3)3","Al(H2PO3)3","Na2HPO4","NaH2PO4","LiH2PO4","K2HPO4","KH2PO4","Cu2HPO4","CuH2PO4","CaHPO4","Ca(HPO4)2","FeHPO4","Fe(H2PO4)2","Cu2HPO4","Fe2(HPO4)3","Fe(H2PO4)3","CuHPO4","Al2(HPO4)3","Al(H2PO4)3","KHSO3","CuHSO3","Mg(HSO3)2","Ca(HSO3)2","Fe(HSO3)2","Ni(HSO3)2","Cu(HSO3)2","Zn(HSO3)2","Sn(HSO3)2","Al(HSO3)3","Fe(HSO3)3","Pb(HSO3)4","LiHSO4","NaHSO4","KHSO4","CuHSO4","AgHSO4","Mg(HSO4)2","Ca(HSO4)2","Fe(HSO4)2","Co(HSO4)2","Cu(HSO4)2","Zn(HSO4)2","Al(HSO4)3","Fe2(HSO4)3","Ni2(HSO4)3","Sn(HSO4)2","Sn(HSO4)4"]; // 71 compuestos
+	var porcien;
+	var numeropregunta=1;
+	var aciertos;
+	aciertos=0;
+	var fallos;
+	fallos=0;
+	var res,sol, input; 
+	//variables respuesta, solución correcta/falsa y la variable para tomar el valor del input
+	var i=0;	//i recorre el array
+	var corregir; //Esta variable controla para que no puedas corregir varias veces seguidas.
+	corregir=0;
+	var random;
+	random=Math.round(Math.random()*71); //71 los compuestos que nos de Bea
+	document.getElementById('a').innerHTML=formula[random];
+	function comprobar() 
+	{
+		input=document.getElementById('respuesta').value;
+		res=input.toUpperCase();
+  
+		//tomamos el valor escrito en el input
+		if (corregir===0 || corregir===1) 
+		{
+			 //Sirve para que solo puedas darle una vez a corregir
+			if(res===nomenclatura[random])
+			{
+			aciertos++;
+			frases();
+			//Incrementamos aciertos y los mostramos
+			document.getElementById('naciertos').innerHTML= "ACIERTOS: " + aciertos;
+			document.getElementById('VoF').style.color="green";
+
+			corregir=2;
+			}
+			else
+			{
+			  if(corregir===0){
+			    //fallos++
+			corregir++;
+			document.getElementById('VoF').innerHTML= "Es incorrecto. Inténtalo de nuevo.";
+			document.getElementById('VoF').style.color="red";
+
+			}
+			  else{
+			    if(corregir===1){
+			fallos++;
+			corregir++;
+			document.getElementById('VoF').innerHTML= "Es incorrecto. Estudia más.";
+			document.getElementById('nfallos').innerHTML= "FALLOS: " + fallos;
+			document.getElementById('solucion').innerHTML= "La respuesta correcta es: " + nomenclaturaminuscula[random];
+			document.getElementById('VoF').style.color="red";
+			    }
+		}
+		}
+		}
+	}
+	function next()
+	{
+	 if(corregir===2){
+		if (numeropregunta<15) 
+		{
+			i++;
+			numeropregunta++;
+	  document.getElementById('npregunta').innerHTML= "Pregunta " + numeropregunta + " de 15"
+		document.getElementById('respuesta').value="";
+		random= Math.round(Math.random()*70);
+		document.getElementById('a').innerHTML= formula[random];
+		document.getElementById('VoF').innerHTML="";
+		document.getElementById('solucion').innerHTML= "";
+		corregir=0;
+		}
+		else
+		{
+		  document.getElementById('VoF').innerHTML="";
+		  document.getElementById('solucion').innerHTML= "";
+		  document.getElementById('fin').innerHTML= "RESULTADO DEL TEST";
+		  porcien= aciertos * 100 / 15;
+		  document.getElementById('porcentaje').innerHTML= "Porcentaje de aciertos= " + porcien.toFixed(0) + "%";
+		  
+       if (0<=porcien){	document.getElementById('porcentajes').innerHTML= "Ufff! Aún te falta mucho,vuelve a intentarlo... ";}
+		   if (25<=porcien){	document.getElementById('porcentajes').innerHTML= "Bueno, tendrás que mejorar para aprobar.";}
+		   if (50<=porcien){	document.getElementById('porcentajes').innerHTML= "Bien hecho campeón ;)";}
+	     if (75<=porcien){	document.getElementById('porcentajes').innerHTML= "Madre mía, no hace falta que hagas el examen, que te pongan el 10 en este momento.";} 
+	     document.getElementById("div1").style.display="none";
+  		document.getElementById("final").style.display="block";
+  }
+	}
+	}
+</script>
+</body>
+</html>
+

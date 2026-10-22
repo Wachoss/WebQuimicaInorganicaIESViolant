@@ -1,0 +1,152 @@
+  body
+	  	{
+	   		text-align:center;
+	  	}
+	  #acifallos
+	  	{
+	  		position:absolute;
+			top:62%;
+			right:80%;
+			font-size: 1.5vw;
+	  	}
+	  #div1 /*es para poner lo de es correcto y eso*/
+	  	{
+	  		position:absolute;
+			top:62%;
+			right:20%;
+			font-size: 1.7vw;
+	  	}
+	  	a {
+			color: black;
+			text-decoration: none ;
+		}
+		
+		h1
+	  	{
+	  	font-size: 2.5vw;
+	  		position:absolute;
+			top:0%;
+			right:80%;
+	  	}
+	  	#npregunta
+	  	{
+	  	  font-size: 2vw;
+	  		position:absolute;
+			top:0%;
+			right:5%;
+	  	}
+	  	#todo
+	  	{
+	  	  width: 25%;
+	  		position:absolute;
+			top:16.5%;
+			right:41%;
+	  	}
+	  	#nfallos
+	  	{
+	  		color:#BC110E;
+	  	}
+	  	#naciertos
+	  	{
+	  		color:#509A32;
+	  	}
+	  	#VoF
+	  	{
+	  		color:none;
+	  	}
+	  	#formulacompuesto{
+	  	  font-size: 1.7vw;
+	  	}
+	  	#comprobar
+	  	{
+	  		background-color: black;
+		  	border: none;
+    		color: white;
+    		padding: 12px 21px;
+    		text-align: center;
+    		text-decoration: none;
+    		display: inline-block;
+			  font-size: 1.5vw;
+    		margin: 4px 2px;
+    		cursor: pointer;
+    		border-radius: 12px;
+	  	}
+	  	#next
+	  	{
+	  		background-color: black;
+		  	border: none;
+    		color: white;
+    		padding: 12px 21px;
+    		text-align: center;
+    		text-decoration: none;
+    		display: inline-block;
+		  	font-size: 1.5vw;
+    		margin: 4px 2px;
+    		cursor: pointer;
+    		border-radius: 12px;
+		}	  	
+	  	#comprobar
+	  	{
+    		background-color: white; 
+    		color: black; 
+    		border: 2px solid black;
+		}
+
+		#comprobar:hover 
+		{
+    		background-color: black;
+    		color: white;
+		}
+		#next
+	  	{
+    		background-color: white; 
+    		color: black; 
+    		border: 2px solid black;
+		}
+
+		#next:hover 
+		{
+    		background-color: black;
+    		color: white;
+		}
+		#a
+		{
+			font-size: 1.85vw;
+
+		}
+		#respuesta
+		{
+			width: 20vw;
+			height: 2vw;
+			font-size: 1.5vw;
+		}
+		#final /*esto es cuando te pone el resultado*/
+		{
+			font-family:sans-serif;
+			color: #ffffff;
+			font-size: 1.7vw;
+			font-weight: 400;
+			text-align: center;
+			background: #1564ad;
+			margin: 0 0 25px;
+			overflow: hidden;
+			padding: 1.5vw;
+			border-radius: 35px 35px 35px 35px;
+			-moz-border-radius: 35px 35px 35px 35px;
+			-webkit-border-radius: 35px 35px 35px 35px;
+			border: 5px solid #1715E2;
+			position:absolute;
+			top:19%;
+			right:34%;
+			display: none;
+			border-style: dashed;
+
+			
+		}
+#formulanomenclatura{
+    position:absolute;
+    right:45%;
+    font-size:2.2vw;
+    color: #1564ad;
+}
+    
