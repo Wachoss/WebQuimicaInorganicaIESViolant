@@ -170,6 +170,7 @@ legend + * { clear: both; }
   border: 1px solid transparent;
   cursor: pointer;
 }
+a.boton { text-decoration: none; display: inline-flex; align-items: center; }
 .boton--principal { background: var(--principal); color: #fff; }
 @media (prefers-color-scheme: dark) { .boton--principal { color: #0b1a14; } }
 .boton--principal:hover { background: var(--principal-hover); }
