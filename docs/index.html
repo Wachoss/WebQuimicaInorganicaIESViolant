@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Formulación inorgánica · IES Violant de Casalduch</title>
+  <meta name="description" content="Practica formulación y nomenclatura inorgánica con baterías de preguntas.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚗️</text></svg>">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <header class="cabecera">
+    <div class="contenedor cabecera__fila">
+      <div>
+        <h1 data-texto="titulo"></h1>
+        <p class="cabecera__subtitulo" data-texto="subtitulo"></p>
+      </div>
+      <nav class="cabecera__tablas">
+        <button type="button" class="boton boton--suave" data-tabla="valencias" data-texto="tablaValencias"></button>
+        <button type="button" class="boton boton--suave" data-tabla="periodica" data-texto="tablaPeriodica"></button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <p id="error" class="aviso aviso--error" hidden data-texto="errorDatos"></p>
+
+    <!-- Pantalla 1: elegir la batería -->
+    <form id="pantalla-seleccion" class="pantalla" hidden>
+      <fieldset class="tarjeta">
+        <legend data-texto="pasoTipos"></legend>
+        <div class="grupos">
+          <div class="grupo" data-grupo="binarios">
+            <div class="grupo__cabecera">
+              <h3 data-texto="binarios"></h3>
+              <button type="button" class="enlace" data-marcar="binarios" data-texto="todos"></button>
+            </div>
+            <div class="opciones" id="tipos-binarios"></div>
+          </div>
+          <div class="grupo" data-grupo="ternarios">
+            <div class="grupo__cabecera">
+              <h3 data-texto="ternarios"></h3>
+              <button type="button" class="enlace" data-marcar="ternarios" data-texto="todos"></button>
+            </div>
+            <div class="opciones" id="tipos-ternarios"></div>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset class="tarjeta">
+        <legend data-texto="pasoSistemas"></legend>
+        <div class="opciones opciones--fila" id="sistemas"></div>
+      </fieldset>
+
+      <fieldset class="tarjeta">
+        <legend data-texto="pasoModo"></legend>
+        <div class="opciones opciones--fila" id="modos"></div>
+      </fieldset>
+
+      <fieldset class="tarjeta">
+        <legend data-texto="pasoCantidad"></legend>
+        <div class="opciones opciones--fila" id="cantidades"></div>
+      </fieldset>
+
+      <div class="barra-empezar">
+        <p id="resumen" aria-live="polite"></p>
+        <button type="submit" class="boton boton--principal" id="empezar" data-texto="empezar"></button>
+      </div>
+    </form>
+
+    <!-- Pantalla 2: el test -->
+    <section id="pantalla-test" class="pantalla" hidden>
+      <div class="test__barra">
+        <span id="contador-pregunta"></span>
+        <span class="marcador">
+          <span class="marcador__acierto"><span data-texto="aciertos"></span>: <strong id="n-aciertos">0</strong></span>
+          <span class="marcador__fallo"><span data-texto="fallos"></span>: <strong id="n-fallos">0</strong></span>
+        </span>
+      </div>
+      <div class="progreso" aria-hidden="true"><div class="progreso__relleno" id="progreso"></div></div>
+
+      <form id="formulario-respuesta" class="tarjeta pregunta" autocomplete="off">
+        <p class="pregunta__etiqueta" id="etiqueta-seccion"></p>
+        <p class="pregunta__enunciado" id="enunciado"></p>
+        <p class="pregunta__compuesto" id="compuesto"></p>
+        <label class="pregunta__campo">
+          <span class="sr-only" id="pide"></span>
+          <input id="respuesta" type="text" spellcheck="false" autocapitalize="off" autocorrect="off">
+        </label>
+        <p class="pregunta__pista" id="pista"></p>
+        <div class="pregunta__botones">
+          <button type="submit" class="boton boton--principal" id="comprobar" data-texto="comprobar"></button>
+          <button type="button" class="boton boton--principal" id="siguiente" hidden></button>
+        </div>
+        <div id="mensaje" class="mensaje" aria-live="polite"></div>
+      </form>
+      <button type="button" class="enlace" id="salir" data-texto="salir"></button>
+    </section>
+
+    <!-- Pantalla 3: el resultado -->
+    <section id="pantalla-resultado" class="pantalla" hidden>
+      <div class="tarjeta resultado">
+        <h2 data-texto="resultado"></h2>
+        <p class="resultado__porcentaje" id="porcentaje"></p>
+        <p class="resultado__detalle" id="detalle"></p>
+        <p class="resultado__nota" id="nota"></p>
+        <div class="pregunta__botones">
+          <button type="button" class="boton boton--principal" id="repetir" data-texto="repetir"></button>
+          <button type="button" class="boton boton--suave" id="cambiar" data-texto="cambiar"></button>
+        </div>
+      </div>
+      <div class="tarjeta" id="repaso" hidden>
+        <h2 data-texto="repasar"></h2>
+        <ul class="repaso" id="lista-repaso"></ul>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="dialogo-tabla" class="dialogo">
+    <form method="dialog" class="dialogo__cabecera">
+      <h2 id="dialogo-titulo"></h2>
+      <button class="boton boton--suave" data-texto="cerrar"></button>
+    </form>
+    <a id="dialogo-enlace" target="_blank" rel="noopener"><img id="dialogo-imagen" alt=""></a>
+    <p class="dialogo__pista" data-texto="ampliar"></p>
+  </dialog>
+
+  <footer class="pie contenedor">
+    <p data-texto="creditos"></p>
+    <p>
+      <a href="https://github.com/Wachoss/WebQuimicaInorganicaIESViolant/tree/main/FQv1.1.1" data-texto="original"></a>
+      ·
+      <a href="https://github.com/Wachoss/WebQuimicaInorganicaIESViolant" data-texto="codigo"></a>
+    </p>
+  </footer>
+</body>
+</html>
