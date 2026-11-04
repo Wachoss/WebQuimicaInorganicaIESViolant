@@ -1,0 +1,13 @@
+{
+  "id": "peroxidos-tradicional",
+  "tipo": "peroxidos",
+  "grupo": "binarios",
+  "sistema": "tradicional",
+  "compuestos": [
+    {
+      "formula": "H2O2",
+      "nombre": "Agua oxigenada",
+      "alternativos": []
+    }
+  ]
+}

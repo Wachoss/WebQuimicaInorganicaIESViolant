@@ -1,0 +1,98 @@
+{
+  "id": "peroxidos-stock",
+  "tipo": "peroxidos",
+  "grupo": "binarios",
+  "sistema": "stock",
+  "compuestos": [
+    {
+      "formula": "Li2O2",
+      "nombre": "Peróxido de litio",
+      "alternativos": []
+    },
+    {
+      "formula": "Na2O2",
+      "nombre": "Peróxido de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "K2O2",
+      "nombre": "Peróxido de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "Rb2O2",
+      "nombre": "Peróxido de rubidio",
+      "alternativos": []
+    },
+    {
+      "formula": "Cs2O2",
+      "nombre": "Peróxido de cesio",
+      "alternativos": []
+    },
+    {
+      "formula": "BeO2",
+      "nombre": "Peróxido de berilio",
+      "alternativos": []
+    },
+    {
+      "formula": "MgO2",
+      "nombre": "Peróxido de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "CaO2",
+      "nombre": "Peróxido de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "SrO2",
+      "nombre": "Peróxido de estroncio",
+      "alternativos": []
+    },
+    {
+      "formula": "BaO2",
+      "nombre": "Peróxido de bario",
+      "alternativos": []
+    },
+    {
+      "formula": "Cu2O2",
+      "nombre": "Peróxido de cobre(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "CuO2",
+      "nombre": "Peróxido de cobre(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ag2O2",
+      "nombre": "Peróxido de plata",
+      "alternativos": []
+    },
+    {
+      "formula": "ZnO2",
+      "nombre": "Peróxido de zinc",
+      "alternativos": []
+    },
+    {
+      "formula": "CdO2",
+      "nombre": "Peróxido de cadmio",
+      "alternativos": []
+    },
+    {
+      "formula": "Hg2O2",
+      "nombre": "Peróxido de mercurio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "HgO2",
+      "nombre": "Peróxido de mercurio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "H2O2",
+      "nombre": "Peróxido de hidrógeno",
+      "alternativos": []
+    }
+  ]
+}

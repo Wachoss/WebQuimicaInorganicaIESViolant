@@ -1,0 +1,333 @@
+{
+  "id": "hidruros-stock",
+  "tipo": "hidruros",
+  "grupo": "binarios",
+  "sistema": "stock",
+  "compuestos": [
+    {
+      "formula": "LiH",
+      "nombre": "Hidruro de litio",
+      "alternativos": []
+    },
+    {
+      "formula": "NaH",
+      "nombre": "Hidruro de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "KH",
+      "nombre": "Hidruro de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "RbH",
+      "nombre": "Hidruro de rubidio",
+      "alternativos": []
+    },
+    {
+      "formula": "CsH",
+      "nombre": "Hidruro de cesio",
+      "alternativos": []
+    },
+    {
+      "formula": "BeH2",
+      "nombre": "Hidruro de berilio",
+      "alternativos": []
+    },
+    {
+      "formula": "MgH2",
+      "nombre": "Hidruro de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "CaH2",
+      "nombre": "Hidruro de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "SrH2",
+      "nombre": "Hidruro de estroncio",
+      "alternativos": []
+    },
+    {
+      "formula": "BaH2",
+      "nombre": "Hidruro de bario",
+      "alternativos": []
+    },
+    {
+      "formula": "CrH2",
+      "nombre": "Hidruro de cromo(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "CrH3",
+      "nombre": "Hidruro de cromo(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "CrH6",
+      "nombre": "Hidruro de cromo(VI)",
+      "alternativos": []
+    },
+    {
+      "formula": "MnH2",
+      "nombre": "Hidruro de manganeso(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "MnH3",
+      "nombre": "Hidruro de manganeso(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "MnH6",
+      "nombre": "Hidruro de manganeso(VI)",
+      "alternativos": []
+    },
+    {
+      "formula": "FeH2",
+      "nombre": "Hidruro de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "FeH3",
+      "nombre": "Hidruro de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "CoH2",
+      "nombre": "Hidruro de cobalto(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "CoH3",
+      "nombre": "Hidruro de cobalto(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "NiH2",
+      "nombre": "Hidruro de níquel(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "NiH3",
+      "nombre": "Hidruro de níquel(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "CuH",
+      "nombre": "Hidruro de cobre(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "CuH2",
+      "nombre": "Hidruro de cobre(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "ZnH2",
+      "nombre": "Hidruro de zinc",
+      "alternativos": []
+    },
+    {
+      "formula": "PdH2",
+      "nombre": "Hidruro de paladio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "PdH4",
+      "nombre": "Hidruro de paladio(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "PtH2",
+      "nombre": "Hidruro de platino(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "PtH4",
+      "nombre": "Hidruro de platino(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "AgH",
+      "nombre": "Hidruro de plata",
+      "alternativos": []
+    },
+    {
+      "formula": "CdH2",
+      "nombre": "Hidruro de cadmio",
+      "alternativos": []
+    },
+    {
+      "formula": "HgH",
+      "nombre": "Hidruro de mercurio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "HgH2",
+      "nombre": "Hidruro de mercurio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "AuH",
+      "nombre": "Hidruro de oro(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "AuH3",
+      "nombre": "Hidruro de oro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "BH3",
+      "nombre": "Hidruro de boro",
+      "alternativos": []
+    },
+    {
+      "formula": "AlH3",
+      "nombre": "Hidruro de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "GaH3",
+      "nombre": "Hidruro de galio(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "InH",
+      "nombre": "Hidruro de indio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "InH3",
+      "nombre": "Hidruro de indio(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "TlH",
+      "nombre": "Hidruro de talio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "TlH3",
+      "nombre": "Hidruro de talio(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "CH4",
+      "nombre": "Hidruro de carbono(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "SiH4",
+      "nombre": "Hidruro de silicio(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "GeH2",
+      "nombre": "Hidruro de germanio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "GeH4",
+      "nombre": "Hidruro de germanio(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "SnH2",
+      "nombre": "Hidruro de estaño(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "SnH4",
+      "nombre": "Hidruro de estaño(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "PbH2",
+      "nombre": "Hidruro de plomo(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "PbH4",
+      "nombre": "Hidruro de plomo(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "NH3",
+      "nombre": "Hidruro de nitrógeno(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "PH3",
+      "nombre": "Hidruro de fósforo(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "AsH3",
+      "nombre": "Hidruro de arsénico(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "AsH5",
+      "nombre": "Hidruro de arsénico(V)",
+      "alternativos": []
+    },
+    {
+      "formula": "SbH3",
+      "nombre": "Hidruro de antimonio(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "SbH5",
+      "nombre": "Hidruro de antimonio(V)",
+      "alternativos": []
+    },
+    {
+      "formula": "BiH3",
+      "nombre": "Hidruro de bismuto(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "BiH5",
+      "nombre": "Hidruro de bismuto(V)",
+      "alternativos": []
+    },
+    {
+      "formula": "H2S",
+      "nombre": "Sulfuro de hidrógeno",
+      "alternativos": []
+    },
+    {
+      "formula": "H2Se",
+      "nombre": "Selenuro de hidrógeno",
+      "alternativos": []
+    },
+    {
+      "formula": "H2Te",
+      "nombre": "Telururo de hidrógeno",
+      "alternativos": []
+    },
+    {
+      "formula": "HF",
+      "nombre": "Fluoruro de hidrógeno",
+      "alternativos": []
+    },
+    {
+      "formula": "HCl",
+      "nombre": "Cloruro de hidrógeno",
+      "alternativos": []
+    },
+    {
+      "formula": "HBr",
+      "nombre": "Bromuro de hidrógeno",
+      "alternativos": []
+    },
+    {
+      "formula": "HI",
+      "nombre": "Yoduro de hidrógeno",
+      "alternativos": []
+    }
+  ]
+}

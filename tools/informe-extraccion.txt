@@ -1,0 +1,241 @@
+formulacion/sistbinhid.html: espacios sobrantes en "MnH3 " / "Trihidruro de manganeso"
+formulacion/sistbinhid.html: espacios sobrantes en "CoH3 " / "Trihidruro de cobalto"
+formulacion/sistbinhid.html: espacios sobrantes en "NiH3 " / "Trihidruro de níquel"
+formulacion/sistbinhid.html: espacios sobrantes en "HgH2 " / "Hidruro de mercurio"
+formulacion/sistbinhid.html: espacios sobrantes en "AuH3 " / "Trihidruro de oro"
+formulacion/sistbinhid.html: espacios sobrantes en "CH4 " / "Tetrahidruro de carbono"
+formulacion/sistbinhid.html: espacios sobrantes en "GeH2 " / "Dihidruro de germanio"
+formulacion/sistbinhid.html: espacios sobrantes en "SnH4 " / "Tetrahidruro de estaño"
+formulacion/sistbinhid.html: espacios sobrantes en "PbH2" / "Dihidruro de  plomo"
+formulacion/sistbinhid.html: espacios sobrantes en "AsH5 " / "Pentahidruro de arsénico"
+formulacion/sistbinhid.html: espacios sobrantes en "SbH3 " / "Trihidruro de antimonio"
+formulacion/sistbinoxi.html: espacios sobrantes en "CrO " / "Óxido de cromo"
+formulacion/sistbinoxi.html: espacios sobrantes en "PbO" / "Óxido de  plomo"
+formulacion/sistbinoxi.html: espacios sobrantes en "PbO2" / "Dióxido de  plomo"
+formulacion/sistbinsales.html: elegía con Math.random()*280 pero hay 341 compuestos (índices 0-340)
+formulacion/sistterhid.html: espacios sobrantes en "Cr(OH)3 " / "Trihidróxido de cromo"
+formulacion/sistterhid.html: espacios sobrantes en "Fe(OH)3 " / "Trihidróxido de hierro"
+formulacion/sistterhid.html: espacios sobrantes en "Co(OH)3 " / "Trihidróxido de cobalto"
+formulacion/sistterhid.html: espacios sobrantes en "Ni(OH)2 " / "Dihidróxido de níquel"
+formulacion/sistterhid.html: espacios sobrantes en "Ni(OH)3 " / "Trihidróxido de níquel"
+formulacion/sistterhid.html: espacios sobrantes en "B(OH)3 " / "Hidróxido de boro"
+formulacion/sistterhid.html: espacios sobrantes en "Al(OH)3 " / "Hidróxido de aluminio"
+formulacion/sistterhid.html: espacios sobrantes en "Ga(OH)3 " / "Trihidruro de galio"
+formulacion/sistterhid.html: espacios sobrantes en "Sn(OH)2 " / "Dihidróxido de estaño"
+formulacion/sistterhid.html: espacios sobrantes en "Sn(OH)4 " / "Tetrahidróxido de estaño"
+formulacion/sistterhid.html: espacios sobrantes en "Pb(OH)2 " / "Dihidróxido de plomo"
+formulacion/stockbinhid.html: espacios sobrantes en "MnH3 " / "Hidruro de manganeso(III)"
+formulacion/stockbinhid.html: espacios sobrantes en "CoH3 " / "Hidruro de cobalto(III)"
+formulacion/stockbinhid.html: espacios sobrantes en "NiH3 " / "Hidruro de níquel(III)"
+formulacion/stockbinhid.html: la versión en mayúsculas no coincide: "PDH4" frente a "PdH2"
+formulacion/stockbinhid.html: espacios sobrantes en "HgH2 " / "Hidruro de mercurio(II)"
+formulacion/stockbinhid.html: espacios sobrantes en "AuH3 " / "Hidruro de oro(III)"
+formulacion/stockbinhid.html: espacios sobrantes en "CH4 " / "Hidruro de carbono(IV)"
+formulacion/stockbinhid.html: espacios sobrantes en "AsH5 " / "Hidruro de arsénico(V)"
+formulacion/stockbinoxi.html: espacios sobrantes en "CrO " / "Óxido de cromo(II)"
+formulacion/stockbinsales.html: elegía con Math.random()*280 pero hay 354 compuestos (índices 0-353)
+formulacion/stockbinsales.html: espacios sobrantes en "Ni2S3" / " Sulfuro de níquel(III)"
+formulacion/stockbinsales.html: espacios sobrantes en "Cu2S" / "Sulfuro de cobre(I) "
+formulacion/stockbinsales.html: espacios sobrantes en "SiBr4" / " Bromuro de silicio(IV)"
+formulacion/stockterhid.html: los arrays formula y formulaminuscula están intercambiados: el original nunca daba por buena la respuesta
+formulacion/stockterhid.html: elegía con Math.random()*17 pero hay 44 compuestos (índices 0-43)
+formulacion/stockterhid.html: espacios sobrantes en "Sn(OH)4" / "Hidróxido de  estaño(IV)"
+formulacion/stockterhid.html: espacios sobrantes en "Pb(OH)4" / "Hidróxido de  plomo(IV)"
+formulacion/stockteroxosales.html: elegía con Math.random()*414 pero hay 416 compuestos (índices 0-415)
+formulacion/stocktersalesacidas.html: elegía con Math.random()*70 pero hay 76 compuestos (índices 0-75)
+formulacion/tradteroxoacidos.html: la versión en mayúsculas no coincide: "H4SiO4" frente a "H4SiO4"
+nomenclatura/sistbinhidnom.html: la versión en mayúsculas no coincide: "DIHIDRURO DE MAGNESIO" frente a "Dihidruro de manganeso"
+nomenclatura/sistbinhidnom.html: espacios sobrantes en "MnH3 " / "Trihidruro de manganeso"
+nomenclatura/sistbinhidnom.html: la versión en mayúsculas no coincide: "TRIHIDRURO DE MAGNESIO" frente a "Trihidruro de manganeso"
+nomenclatura/sistbinhidnom.html: la versión en mayúsculas no coincide: "HEXAHIDRURO DE MAGNESIO" frente a "Hexahidruro de manganeso"
+nomenclatura/sistbinhidnom.html: espacios sobrantes en "CoH3 " / "Trihidruro de cobalto"
+nomenclatura/sistbinhidnom.html: espacios sobrantes en "NiH3 " / "Trihidruro de níquel"
+nomenclatura/sistbinhidnom.html: espacios sobrantes en "HgH2 " / "Hidruro de mercurio"
+nomenclatura/sistbinhidnom.html: espacios sobrantes en "AuH3 " / "Trihidruro de oro"
+nomenclatura/sistbinhidnom.html: espacios sobrantes en "CH4 " / "Tetrahidruro de carbono"
+nomenclatura/sistbinhidnom.html: espacios sobrantes en "GeH2 " / "Dihidruro de germanio"
+nomenclatura/sistbinhidnom.html: espacios sobrantes en "SnH4 " / "Tetrahidruro de estaño"
+nomenclatura/sistbinhidnom.html: espacios sobrantes en "PbH2" / "Dihidruro de  plomo"
+nomenclatura/sistbinhidnom.html: espacios sobrantes en "AsH5 " / "Pentahidruro de arsénico"
+nomenclatura/sistbinhidnom.html: espacios sobrantes en "SbH3 " / "Trihidruro de antimonio"
+nomenclatura/sistbinoxinom.html: elegía con Math.random()*74 pero hay 88 compuestos (índices 0-87)
+nomenclatura/sistbinoxinom.html: espacios sobrantes en "CrO " / "Óxido de cromo"
+nomenclatura/sistbinoxinom.html: espacios sobrantes en "PbO" / "Óxido de  plomo"
+nomenclatura/sistbinoxinom.html: espacios sobrantes en "PbO2" / "Dióxido de  plomo"
+nomenclatura/sistbinoxinom.html: espacios sobrantes en "OCl2" / "Dicloruro  de oxígeno"
+nomenclatura/sistbinoxinom.html: espacios sobrantes en "OBr2" / "Dibromuro  de oxígeno"
+nomenclatura/sistbinoxinom.html: espacios sobrantes en "OI2" / "Diioduro de  de oxígeno"
+nomenclatura/sistbinoxinom.html: espacios sobrantes en "O3Cl" / "Dicloruro  de trioxígeno"
+nomenclatura/sistbinoxinom.html: espacios sobrantes en "O3Br2" / "Dibromuro  de trioxígeno"
+nomenclatura/sistbinoxinom.html: espacios sobrantes en "O3I2" / "Diioduro de  de trioxígeno"
+nomenclatura/sistbinoxinom.html: espacios sobrantes en "O5Cl2" / "Dicloruro  de pentaoxígeno"
+nomenclatura/sistbinoxinom.html: espacios sobrantes en "O5Br2" / "Dibromuro  de pentaoxígeno"
+nomenclatura/sistbinoxinom.html: espacios sobrantes en "O5I2" / "Diioduro de  de pentaoxígeno"
+nomenclatura/sistbinoxinom.html: espacios sobrantes en "O7Cl2" / "Dicloruro  de heptaoxígeno"
+nomenclatura/sistbinoxinom.html: espacios sobrantes en "O7Br2" / "Dibromuro  de heptaoxígeno"
+nomenclatura/sistbinoxinom.html: espacios sobrantes en "O7I2" / "Diioduro de  de heptaoxígeno"
+nomenclatura/sistbinoxinom.html: Ga2O3 se llama "trióxido de digalio" aquí y "Trióxido de digalio" en formulación: no se añade
+nomenclatura/sistbinoxinom.html: OF2 ("Difluoruro de oxígeno") solo está en la página de nomenclatura: revisar que el nombre corresponde
+nomenclatura/sistbinoxinom.html: OCl2 ("Dicloruro de oxígeno") solo está en la página de nomenclatura: revisar que el nombre corresponde
+nomenclatura/sistbinoxinom.html: OBr2 ("Dibromuro de oxígeno") solo está en la página de nomenclatura: revisar que el nombre corresponde
+nomenclatura/sistbinoxinom.html: OI2 ("Diyoduro de oxígeno") solo está en la página de nomenclatura: revisar que el nombre corresponde
+nomenclatura/sistbinoxinom.html: O3Cl2 ("Dicloruro de trioxígeno") solo está en la página de nomenclatura: revisar que el nombre corresponde
+nomenclatura/sistbinoxinom.html: O3Br2 ("Dibromuro de trioxígeno") solo está en la página de nomenclatura: revisar que el nombre corresponde
+nomenclatura/sistbinoxinom.html: O3I2 ("Diyoduro de trioxígeno") solo está en la página de nomenclatura: revisar que el nombre corresponde
+nomenclatura/sistbinoxinom.html: O5Cl2 ("Dicloruro de pentaoxígeno") solo está en la página de nomenclatura: revisar que el nombre corresponde
+nomenclatura/sistbinoxinom.html: O5Br2 ("Dibromuro de pentaoxígeno") solo está en la página de nomenclatura: revisar que el nombre corresponde
+nomenclatura/sistbinoxinom.html: O5I2 ("Diyoduro de pentaoxígeno") solo está en la página de nomenclatura: revisar que el nombre corresponde
+nomenclatura/sistbinoxinom.html: O7Cl2 ("Dicloruro de heptaoxígeno") solo está en la página de nomenclatura: revisar que el nombre corresponde
+nomenclatura/sistbinoxinom.html: O7Br2 ("Dibromuro de heptaoxígeno") solo está en la página de nomenclatura: revisar que el nombre corresponde
+nomenclatura/sistbinoxinom.html: O7I2 ("Diyoduro de heptaoxígeno") solo está en la página de nomenclatura: revisar que el nombre corresponde
+nomenclatura/sistbinsalesnom.html: elegía con Math.random()*280 pero hay 341 compuestos (índices 0-340)
+nomenclatura/sistbinsalesnom.html: la versión en mayúsculas no coincide: "TETRALORURO DE CARBONO" frente a "Tetracloruro de carbono"
+nomenclatura/sistbinsalesnom.html: CrS3 se llama "Trisulfuro de cromo" aquí y "Hexasulfuro de cromo" en formulación: no se añade
+nomenclatura/sistbinsalesnom.html: MnS ("Sulfuro de manganeso") solo está en la página de nomenclatura: revisar que el nombre corresponde
+nomenclatura/sistbinsalesnom.html: FeS se llama "Sulfuro de hierro" aquí y "Disulfuro de hierro" en formulación: no se añade
+nomenclatura/sistbinsalesnom.html: CoS se llama "Sulfuro de cobalto" aquí y "Disulfuro de cobalto" en formulación: no se añade
+nomenclatura/sistbinsalesnom.html: NiS se llama "Sulfuro de níquel" aquí y "Disulfuro de níquel" en formulación: no se añade
+nomenclatura/sistbinsalesnom.html: GaF3 se llama "Fluoruro de galio" aquí y "Trifluoruro de galio" en formulación: no se añade
+nomenclatura/sistbinsalesnom.html: CF4 se llama "Trifluoruro de carbono" aquí y "Fluoruro de carbono" en formulación: no se añade
+nomenclatura/sistbinsalesnom.html: SiF4 se llama "Trifluoruro de silicio" aquí y "Tetrafluoruro de silicio" en formulación: no se añade
+nomenclatura/sistbinsalesnom.html: AuCl3 se llama "Tricloruro de oro" aquí y "Triclorurode oro" en formulación: no se añade
+nomenclatura/sistbinsalesnom.html: GaCl3 se llama "Cloruro de galio" aquí y "Tricloruro de galio" en formulación: no se añade
+nomenclatura/sistbinsalesnom.html: CCl4 se llama "Tetracloruro de carbono" aquí y "Cloruro de carbono" en formulación: no se añade
+nomenclatura/sistbinsalesnom.html: GaBr3 se llama "Bromuro de galio" aquí y "Tribromuro de galio" en formulación: no se añade
+nomenclatura/sistbinsalesnom.html: GaI3 se llama "Triyoduro de galio" aquí y "Yoduro de galio" en formulación: no se añade
+nomenclatura/sistbinsalesnom.html: SiI4 se llama "Yoduro de silicio" aquí y "Tetrayoduro de silicio" en formulación: no se añade
+nomenclatura/sistterhidnom.html: espacios sobrantes en "Cr(OH)3 " / "Trihidróxido de cromo"
+nomenclatura/sistterhidnom.html: espacios sobrantes en "Fe(OH)3 " / "Trihidróxido de hierro"
+nomenclatura/sistterhidnom.html: espacios sobrantes en "Co(OH)3 " / "Trihidróxido de cobalto"
+nomenclatura/sistterhidnom.html: espacios sobrantes en "Ni(OH)2 " / "Dihidróxido de níquel"
+nomenclatura/sistterhidnom.html: espacios sobrantes en "Ni(OH)3 " / "Trihidróxido de níquel"
+nomenclatura/sistterhidnom.html: espacios sobrantes en "B(OH)3 " / "Hidróxido de boro"
+nomenclatura/sistterhidnom.html: espacios sobrantes en "Al(OH)3 " / "Hidróxido de aluminio"
+nomenclatura/sistterhidnom.html: espacios sobrantes en "Ga(OH)3 " / "Trihidróxido de galio"
+nomenclatura/sistterhidnom.html: espacios sobrantes en "Sn(OH)2 " / "Dihidróxido de estaño"
+nomenclatura/sistterhidnom.html: espacios sobrantes en "Sn(OH)4 " / "Tetrahidróxido de estaño"
+nomenclatura/sistterhidnom.html: espacios sobrantes en "Pb(OH)2 " / "Dihidróxido de plomo"
+nomenclatura/sistterhidnom.html: Ga(OH)3 se llama "Trihidróxido de galio" aquí y "Trihidruro de galio" en formulación: no se añade
+nomenclatura/stockbinhidnom.html: espacios sobrantes en "MnH3 " / "Hidruro de manganeso(III)"
+nomenclatura/stockbinhidnom.html: espacios sobrantes en "CoH3 " / "Hidruro de cobalto(III)"
+nomenclatura/stockbinhidnom.html: espacios sobrantes en "NiH3 " / "Hidruro de níquel(III)"
+nomenclatura/stockbinhidnom.html: espacios sobrantes en "HgH2 " / "Hidruro de mercurio(II)"
+nomenclatura/stockbinhidnom.html: espacios sobrantes en "AuH3 " / "Hidruro de oro(III)"
+nomenclatura/stockbinhidnom.html: espacios sobrantes en "CH4 " / "Hidruro de carbono(IV)"
+nomenclatura/stockbinhidnom.html: espacios sobrantes en "GeH2 " / "Hidruro de germanio(II)"
+nomenclatura/stockbinhidnom.html: espacios sobrantes en "SnH4 " / "Hidruro de estaño(IV)"
+nomenclatura/stockbinhidnom.html: espacios sobrantes en "AsH5 " / "Hidruro de arsénico(V)"
+nomenclatura/stockbinhidnom.html: espacios sobrantes en "SbH3 " / "Hidruro de antimonio(III)"
+nomenclatura/stockbinhidnom.html: SiH4 se llama "Tetrahidruro de silicio" aquí y "Hidruro de silicio(IV)" en formulación: no se añade
+nomenclatura/stockbinoxinom.html: espacios sobrantes en "CrO " / "Óxido de cromo(II)"
+nomenclatura/stockbinoxinom.html: Ga2O3 se llama "Óxido de galio(III)" aquí y "Óxido de galio" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: elegía con Math.random()*280 pero hay 341 compuestos (índices 0-340)
+nomenclatura/stockbinsalesnom.html: espacios sobrantes en "Ni2S3" / " Sulfuro de níquel(III)"
+nomenclatura/stockbinsalesnom.html: espacios sobrantes en "Cu2S" / "Sulfuro de cobre(I) "
+nomenclatura/stockbinsalesnom.html: GaCl3 se llama "Cloruro de galio" aquí y "Cloruro de galio(III)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: SiCl4 se llama "Cloruro de silicio" aquí y "Cloruro de silicio(IV)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: GaBr3 se llama "Bromuro de galio" aquí y "Bromuro de galio(III)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: SiBr4 se llama "Bromuro de silicio" aquí y "Bromuro de silicio(IV)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: SnBr4 se llama "Bromuro de plomo(II)" aquí y "Bromuro de estaño(IV)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: PbBr2 se llama "Bromuro de plomo(IV)" aquí y "Bromuro de plomo(II)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: PbBr4 se llama "Bromuro de nitrógeno(III)" aquí y "Bromuro de plomo(IV)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: NBr3 se llama "Bromuro de fósforo(III)" aquí y "Bromuro de nitrógeno(III)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: PBr3 se llama "Bromuro de arsénico(III)" aquí y "Bromuro de fósforo(III)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: AsBr3 se llama "Bromuro de arsénico(V)" aquí y "Bromuro de arsénico(III)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: AsBr5 se llama "Bromuro de antimonio(III)" aquí y "Bromuro de arsénico(V)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: SbBr3 se llama "Bromuro de antimonio(V)" aquí y "Bromuro de antimonio(III)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: SbBr5 se llama "Bromuro de bismuto(III)" aquí y "Bromuro de antimonio(V)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: BiBr3 se llama "Bromuro de bismuto(V)" aquí y "Bromuro de bismuto(III)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: BiBr5 se llama "Bromuro de azufre(II)" aquí y "Bromuro de bismuto(V)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: SBr2 se llama "Bromuro de azufre(IV)" aquí y "Bromuro de azufre(II)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: SBr4 se llama "Bromuro de azufre(VI)" aquí y "Bromuro de azufre(IV)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: SBr6 se llama "Bromuro de selenio(II)" aquí y "Bromuro de azufre(VI)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: SeBr2 se llama "Bromuro de selenio(IV)" aquí y "Bromuro de selenio(II)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: SeBr4 se llama "Bromuro de selenio(VI)" aquí y "Bromuro de selenio(IV)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: SeBr6 se llama "Bromuro de teluro(II)" aquí y "Bromuro de selenio(VI)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: TeBr2 se llama "Bromuro de teluro(IV)" aquí y "Bromuro de teluro(II)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: TeBr4 se llama "Bromuro de teluro(VI)" aquí y "Bromuro de teluro(IV)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: TeBr6 se llama "Bromuro de yodo(I)" aquí y "Bromuro de teluro(VI)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: IBr se llama "Bromuro de yodo(III)" aquí y "Bromuro de yodo(I)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: IBr3 se llama "Bromuro de yodo(V)" aquí y "Bromuro de yodo(III)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: IBr5 se llama "Bromuro de yodo(VII)" aquí y "Bromuro de yodo(V)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: IBr7 se llama "Yoduro de litio" aquí y "Bromuro de yodo(VII)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: LiI se llama "Yoduro de sodio" aquí y "Yoduro de litio" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: NaI se llama "Yoduro de potasio" aquí y "Yoduro de sodio" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: KI se llama "Yoduro de rubidio" aquí y "Yoduro de potasio" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: RbI se llama "Yoduro de cesio" aquí y "Yoduro de rubidio" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: CsI se llama "Yoduro de berilio" aquí y "Yoduro de cesio" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: BeI2 se llama "Yoduro de magnesio" aquí y "Yoduro de berilio" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: MgI2 se llama "Yoduro de calcio" aquí y "Yoduro de magnesio" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: CaI2 se llama "Yoduro de estroncio" aquí y "Yoduro de calcio" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: SrI2 se llama "Yoduro de bario" aquí y "Yoduro de estroncio" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: BaI2 se llama "Yoduro de cromo(II)" aquí y "Yoduro de bario" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: CrI2 se llama "Yoduro de cromo(III)" aquí y "Yoduro de cromo(II)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: CrI3 se llama "Yoduro de cromo(VI)" aquí y "Yoduro de cromo(III)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: CrI6 se llama "Yoduro de manganeso(II)" aquí y "Yoduro de cromo(VI)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: MnI2 se llama "Yoduro de manganeso(III)" aquí y "Yoduro de manganeso(II)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: MnI3 se llama "Yoduro de manganeso(VI)" aquí y "Yoduro de manganeso(III)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: MnI6 se llama "Yoduro de hierro(II)" aquí y "Yoduro de manganeso(VI)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: FeI2 se llama "Yoduro de hierro(III)" aquí y "Yoduro de hierro(II)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: FeI3 se llama "Yoduro de cobalto(II)" aquí y "Yoduro de hierro(III)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: CoI2 se llama "Yoduro de cobalto(III)" aquí y "Yoduro de cobalto(II)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: CoI3 se llama "Yoduro de níquel(II)" aquí y "Yoduro de cobalto(III)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: NiI2 se llama "Yoduro de níquel(III)" aquí y "Yoduro de níquel(II)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: NiI3 se llama "Yoduro de cobre(I)" aquí y "Yoduro de níquel(III)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: CuI se llama "Yoduro de cobre(II)" aquí y "Yoduro de cobre(I)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: CuI2 se llama "Yoduro de zinc" aquí y "Yoduro de cobre(II)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: ZnI2 se llama "Yoduro de paladio(II)" aquí y "Yoduro de zinc" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: PdI2 se llama "Yoduro de paladio(IV)" aquí y "Yoduro de paladio(II)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: PdI4 se llama "Yoduro de platino(II)" aquí y "Yoduro de paladio(IV)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: PtI2 se llama "Yoduro de platino(IV)" aquí y "Yoduro de platino(II)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: PtI4 se llama "Yoduro de plata" aquí y "Yoduro de platino(IV)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: AgI se llama "Yoduro de cadmio" aquí y "Yoduro de plata" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: CdI2 se llama "Yoduro de mercurio(I)" aquí y "Yoduro de cadmio" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: AuI se llama "Yoduro de oro(III)" aquí y "Yoduro de oro(I)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: AuI3 se llama "Yoduro de boro" aquí y "Yoduro de oro(III)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: BI3 se llama "Yoduro de aluminio" aquí y "Yoduro de boro" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: AlI3 se llama "Yoduro de galio" aquí y "Yoduro de aluminio" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: GaI3 se llama "Yoduro de indio(I)" aquí y "Yoduro de galio(III)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: InI se llama "Yoduro de indio(III)" aquí y "Yoduro de indio(I)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: InI3 se llama "Yoduro de talio(I)" aquí y "Yoduro de indio(III)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: TlI se llama "Yoduro de talio(III)" aquí y "Yoduro de talio(I)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: TlI3 se llama "Yoduro de carbono(IV)" aquí y "Yoduro de talio(III)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: CI4 se llama "Yoduro de silicio" aquí y "Yoduro de carbono(IV)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: SiI4 se llama "Yoduro de germanio(II)" aquí y "Yoduro de silicio(IV)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: GeI2 se llama "Yoduro de germanio(IV)" aquí y "Yoduro de germanio(II)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: GeI4 se llama "Yoduro de estaño(II)" aquí y "Yoduro de germanio(IV)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: SnI2 se llama "Yoduro de estaño(IV)" aquí y "Yoduro de estaño(II)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: SnI4 se llama "Yoduro de plomo(II)" aquí y "Yoduro de estaño(IV)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: PbI2 se llama "Yoduro de plomo(IV)" aquí y "Yoduro de plomo(II)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: PbI4 se llama "Yoduro de nitrógeno(III)" aquí y "Yoduro de plomo(IV)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: NI3 se llama "Yoduro de fósforo(III)" aquí y "Yoduro de nitrógeno(III)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: PI3 se llama "Yoduro de arsénico(III)" aquí y "Yoduro de fósforo(III)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: AsI3 se llama "Yoduro de arsénico(V)" aquí y "Yoduro de arsénico(III)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: AsI5 se llama "Yoduro de antimonio(III)" aquí y "Yoduro de arsénico(V)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: SbI3 se llama "Yoduro de antimonio(V)" aquí y "Yoduro de antimonio(III)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: SbI5 se llama "Yoduro de bismuto(III)" aquí y "Yoduro de antimonio(V)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: BiI3 se llama "Yoduro de bismuto(V)" aquí y "Yoduro de bismuto(III)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: BiI5 se llama "Yoduro de azufre(II)" aquí y "Yoduro de bismuto(V)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: SI2 se llama "Yoduro de azufre(IV)" aquí y "Yoduro de azufre(II)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: SI4 se llama "Yoduro de azufre(VI)" aquí y "Yoduro de azufre(IV)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: SI6 se llama "Yoduro de selenio(II)" aquí y "Yoduro de azufre(VI)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: SeI2 se llama "Yoduro de selenio(IV)" aquí y "Yoduro de selenio(II)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: SeI4 se llama "Yoduro de selenio(VI)" aquí y "Yoduro de selenio(IV)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: SeI6 se llama "Yoduro de teluro(II)" aquí y "Yoduro de selenio(VI)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: TeI2 se llama "Yoduro de teluro(IV)" aquí y "Yoduro de teluro(II)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: TeI4 se llama "Yoduro de teluro(VI)" aquí y "Yoduro de teluro(IV)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: TeI6 se llama "Hidruro de arsénico(III)" aquí y "Yoduro de teluro(VI)" en formulación: no se añade
+nomenclatura/stockterhidnom.html: DESCARTADA: arrays de distinta longitud (fórmulas 43, nombres 44, mayúsculas 44)
+nomenclatura/stockteroxosalesnom.html: DESCARTADA: arrays de distinta longitud (fórmulas 574, nombres 731, mayúsculas 417)
+nomenclatura/stocktersalesacidasnom.html: elegía con Math.random()*71 pero hay 71 compuestos (índices 0-70)
+nomenclatura/stocktersalesacidasnom.html: la versión en mayúsculas no coincide: "HIDROGENOCARBONITO DE ESTAÑO(IV)" frente a "Hidrogenocarbonato de estaño(IV)"
+nomenclatura/stocktersalesacidasnom.html: Sn(HCO3)4 se llama "Hidrogenocarbonato de estaño(IV)" aquí y "Hidrogenocarbonito de estaño(IV)" en formulación: no se añade
+nomenclatura/stocktersalesacidasnom.html: MgHPO3 se llama "Hidrogenofosfito de manganeso" aquí y "Hidrogenofosfito de magnesio" en formulación: no se añade
+nomenclatura/tradbinhidnom.html: la versión en mayúsculas no coincide: "AMONÍACO" frente a "Amoníaco o azano"
+nomenclatura/tradbinhidnom.html: H2S(aq) ("Ácido sulfhídrico") solo está en la página de nomenclatura: revisar que el nombre corresponde
+nomenclatura/tradbinhidnom.html: H2Se(aq) ("Ácido selenhídrico") solo está en la página de nomenclatura: revisar que el nombre corresponde
+nomenclatura/tradbinhidnom.html: H2Te(aq) ("Ácido telurhídrico") solo está en la página de nomenclatura: revisar que el nombre corresponde
+nomenclatura/tradbinhidnom.html: HF(aq) ("Ácido fluorhídrico") solo está en la página de nomenclatura: revisar que el nombre corresponde
+nomenclatura/tradbinhidnom.html: HCl(aq) ("Ácido clorhídrico") solo está en la página de nomenclatura: revisar que el nombre corresponde
+nomenclatura/tradbinhidnom.html: HBr(aq) ("Ácido bromhídrico") solo está en la página de nomenclatura: revisar que el nombre corresponde
+nomenclatura/tradbinhidnom.html: HI(aq) ("Ácido yodhídrico") solo está en la página de nomenclatura: revisar que el nombre corresponde

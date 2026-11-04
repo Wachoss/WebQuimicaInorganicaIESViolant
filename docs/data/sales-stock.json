@@ -1,0 +1,1778 @@
+{
+  "id": "sales-stock",
+  "tipo": "sales",
+  "grupo": "binarios",
+  "sistema": "stock",
+  "compuestos": [
+    {
+      "formula": "Li2S",
+      "nombre": "Sulfuro de litio",
+      "alternativos": []
+    },
+    {
+      "formula": "Na2S",
+      "nombre": "Sulfuro de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "K2S",
+      "nombre": "Sulfuro de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "Rb2S",
+      "nombre": "Sulfuro de rubidio",
+      "alternativos": []
+    },
+    {
+      "formula": "Cs2S",
+      "nombre": "Sulfuro de cesio",
+      "alternativos": []
+    },
+    {
+      "formula": "BeS",
+      "nombre": "Sulfuro de berilio",
+      "alternativos": []
+    },
+    {
+      "formula": "MgS",
+      "nombre": "Sulfuro de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "CaS",
+      "nombre": "Sulfuro de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "SrS",
+      "nombre": "Sulfuro de estroncio",
+      "alternativos": []
+    },
+    {
+      "formula": "BaS",
+      "nombre": "Sulfuro de bario",
+      "alternativos": []
+    },
+    {
+      "formula": "CrS",
+      "nombre": "Sulfuro de cromo(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Cr2S3",
+      "nombre": "Sulfuro de cromo(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "CrS3",
+      "nombre": "Sulfuro de cromo(VI)",
+      "alternativos": []
+    },
+    {
+      "formula": "MnS",
+      "nombre": "Sulfuro de manganeso(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Mn2S3",
+      "nombre": "Sulfuro de manganeso(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "FeS",
+      "nombre": "Sulfuro de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe2S3",
+      "nombre": "Sulfuro de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "CoS",
+      "nombre": "Sulfuro de cobalto(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Co2S3",
+      "nombre": "Sulfuro de cobalto(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "NiS",
+      "nombre": "Sulfuro de níquel(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ni2S3",
+      "nombre": "Sulfuro de níquel(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Cu2S",
+      "nombre": "Sulfuro de cobre(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "CuS",
+      "nombre": "Sulfuro de cobre(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "ZnS",
+      "nombre": "Sulfuro de zinc",
+      "alternativos": []
+    },
+    {
+      "formula": "PdS",
+      "nombre": "Sulfuro de paladio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "PdS2",
+      "nombre": "Sulfuro de paladio(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "PtS",
+      "nombre": "Sulfuro de platino(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "PtS2",
+      "nombre": "Sulfuro de platino(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ag2S",
+      "nombre": "Sulfuro de plata",
+      "alternativos": []
+    },
+    {
+      "formula": "CdS",
+      "nombre": "Sulfuro de cadmio",
+      "alternativos": []
+    },
+    {
+      "formula": "Hg2S",
+      "nombre": "Sulfuro de mercurio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "HgS",
+      "nombre": "Sulfuro de mercurio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Au2S",
+      "nombre": "Sulfuro de oro(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Au2S3",
+      "nombre": "Sulfuro de oro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Al2S3",
+      "nombre": "Sulfuro de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "CS2",
+      "nombre": "Sulfuro de carbono(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "SnS",
+      "nombre": "Sulfuro de estaño(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "SnS2",
+      "nombre": "Sulfuro de estaño(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "PbS",
+      "nombre": "Sulfuro de plomo(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "PbS2",
+      "nombre": "Sulfuro de plomo(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "SiC",
+      "nombre": "Carburo de silicio",
+      "alternativos": []
+    },
+    {
+      "formula": "CrN",
+      "nombre": "Nitruro de cromo(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe2N3",
+      "nombre": "Nitruro de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "FeN",
+      "nombre": "Nitruro de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Na3N",
+      "nombre": "Nitruro de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ca3N2",
+      "nombre": "Nitruro de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "Na3P",
+      "nombre": "Fosfuro de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ca3P2",
+      "nombre": "Fosfuro de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "LiF",
+      "nombre": "Fluoruro de litio",
+      "alternativos": []
+    },
+    {
+      "formula": "NaF",
+      "nombre": "Fluoruro de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "KF",
+      "nombre": "Fluoruro de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "RbF",
+      "nombre": "Fluoruro de rubidio",
+      "alternativos": []
+    },
+    {
+      "formula": "CsF",
+      "nombre": "Fluoruro de cesio",
+      "alternativos": []
+    },
+    {
+      "formula": "BeF2",
+      "nombre": "Fluoruro de berilio",
+      "alternativos": []
+    },
+    {
+      "formula": "MgF2",
+      "nombre": "Fluoruro de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "CaF2",
+      "nombre": "Fluoruro de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "SrF2",
+      "nombre": "Fluoruro de estroncio",
+      "alternativos": []
+    },
+    {
+      "formula": "BaF2",
+      "nombre": "Fluoruro de bario",
+      "alternativos": []
+    },
+    {
+      "formula": "CrF2",
+      "nombre": "Fluoruro de cromo(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "CrF3",
+      "nombre": "Fluoruro de cromo(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "CrF6",
+      "nombre": "Fluoruro de cromo(VI)",
+      "alternativos": []
+    },
+    {
+      "formula": "MnF2",
+      "nombre": "Fluoruro de manganeso(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "MnF3",
+      "nombre": "Fluoruro de manganeso(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "MnF6",
+      "nombre": "Fluoruro de manganeso(VI)",
+      "alternativos": []
+    },
+    {
+      "formula": "FeF2",
+      "nombre": "Fluoruro de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "FeF3",
+      "nombre": "Fluoruro de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "CoF2",
+      "nombre": "Fluoruro de cobalto(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "CoF3",
+      "nombre": "Fluoruro de cobalto(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "NiF2",
+      "nombre": "Fluoruro de níquel(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "NiF3",
+      "nombre": "Fluoruro de níquel(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "CuF",
+      "nombre": "Fluoruro de cobre(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "CuF2",
+      "nombre": "Fluoruro de cobre(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "ZnF2",
+      "nombre": "Fluoruro de zinc",
+      "alternativos": []
+    },
+    {
+      "formula": "PdF2",
+      "nombre": "Fluoruro de paladio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "PdF4",
+      "nombre": "Fluoruro de paladio(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "PtF2",
+      "nombre": "Fluoruro de platino(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "PtF4",
+      "nombre": "Fluoruro de platino(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "AgF",
+      "nombre": "Fluoruro de plata",
+      "alternativos": []
+    },
+    {
+      "formula": "CdF2",
+      "nombre": "Fluoruro de cadmio",
+      "alternativos": []
+    },
+    {
+      "formula": "HgF",
+      "nombre": "Fluoruro de mercurio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "HgF2",
+      "nombre": "Fluoruro de mercurio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "AuF",
+      "nombre": "Fluoruro de oro(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "AuF3",
+      "nombre": "Fluoruro de oro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "BF3",
+      "nombre": "Fluoruro de boro",
+      "alternativos": []
+    },
+    {
+      "formula": "AlF3",
+      "nombre": "Fluoruro de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "GaF3",
+      "nombre": "Fluoruro de galio(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "InF",
+      "nombre": "Fluoruro de indio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "InF3",
+      "nombre": "Fluoruro de indio(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "TlF",
+      "nombre": "Fluoruro de talio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "TlF3",
+      "nombre": "Fluoruro de talio(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "CF4",
+      "nombre": "Fluoruro de carbono(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "SiF4",
+      "nombre": "Fluoruro de silicio(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "GeF2",
+      "nombre": "Fluoruro de germanio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "GeF4",
+      "nombre": "Fluoruro de germanio(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "SnF2",
+      "nombre": "Fluoruro de estaño(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "SnF4",
+      "nombre": "Fluoruro de estaño(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "PbF2",
+      "nombre": "Fluoruro de plomo(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "PbF4",
+      "nombre": "Fluoruro de plomo(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "NF3",
+      "nombre": "Fluoruro de nitrógeno(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "PF3",
+      "nombre": "Fluoruro de fósforo(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "AsF3",
+      "nombre": "Fluoruro de arsénico(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "AsF5",
+      "nombre": "Fluoruro de arsénico(V)",
+      "alternativos": []
+    },
+    {
+      "formula": "SbF3",
+      "nombre": "Fluoruro de antimonio(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "SbF5",
+      "nombre": "Fluoruro de antimonio(V)",
+      "alternativos": []
+    },
+    {
+      "formula": "BiF3",
+      "nombre": "Fluoruro de bismuto(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "BiF5",
+      "nombre": "Fluoruro de bismuto(V)",
+      "alternativos": []
+    },
+    {
+      "formula": "OF2",
+      "nombre": "Fluoruro de oxígeno(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "SF2",
+      "nombre": "Fluoruro de azufre(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "SF4",
+      "nombre": "Fluoruro de azufre(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "SF6",
+      "nombre": "Fluoruro de azufre(VI)",
+      "alternativos": []
+    },
+    {
+      "formula": "SeF2",
+      "nombre": "Fluoruro de selenio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "SeF4",
+      "nombre": "Fluoruro de selenio(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "SeF6",
+      "nombre": "Fluoruro de selenio(VI)",
+      "alternativos": []
+    },
+    {
+      "formula": "TeF2",
+      "nombre": "Fluoruro de teluro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "TeF4",
+      "nombre": "Fluoruro de teluro(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "TeF6",
+      "nombre": "Fluoruro de teluro(VI)",
+      "alternativos": []
+    },
+    {
+      "formula": "ClF",
+      "nombre": "Fluoruro de cloro(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "ClF3",
+      "nombre": "Fluoruro de cloro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "ClF5",
+      "nombre": "Fluoruro de cloro(V)",
+      "alternativos": []
+    },
+    {
+      "formula": "ClF7",
+      "nombre": "Fluoruro de cloro(VII)",
+      "alternativos": []
+    },
+    {
+      "formula": "BrF",
+      "nombre": "Fluoruro de bromo(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "BrF3",
+      "nombre": "Fluoruro de bromo(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "BrF5",
+      "nombre": "Fluoruro de bromo(V)",
+      "alternativos": []
+    },
+    {
+      "formula": "BrF7",
+      "nombre": "Fluoruro de bromo(VII)",
+      "alternativos": []
+    },
+    {
+      "formula": "IF",
+      "nombre": "Fluoruro de yodo(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "IF3",
+      "nombre": "Fluoruro de yodo(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "IF5",
+      "nombre": "Fluoruro de yodo(V)",
+      "alternativos": []
+    },
+    {
+      "formula": "IF7",
+      "nombre": "Fluoruro de yodo(VII)",
+      "alternativos": []
+    },
+    {
+      "formula": "LiCl",
+      "nombre": "Cloruro de litio",
+      "alternativos": []
+    },
+    {
+      "formula": "NaCl",
+      "nombre": "Cloruro de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "KCl",
+      "nombre": "Cloruro de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "RbCl",
+      "nombre": "Cloruro de rubidio",
+      "alternativos": []
+    },
+    {
+      "formula": "CsCl",
+      "nombre": "Cloruro de cesio",
+      "alternativos": []
+    },
+    {
+      "formula": "BeCl2",
+      "nombre": "Cloruro de berilio",
+      "alternativos": []
+    },
+    {
+      "formula": "MgCl2",
+      "nombre": "Cloruro de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "CaCl2",
+      "nombre": "Cloruro de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "SrCl2",
+      "nombre": "Cloruro de estroncio",
+      "alternativos": []
+    },
+    {
+      "formula": "BaCl2",
+      "nombre": "Cloruro de bario",
+      "alternativos": []
+    },
+    {
+      "formula": "CrCl2",
+      "nombre": "Cloruro de cromo(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "CrCl3",
+      "nombre": "Cloruro de cromo(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "CrCl6",
+      "nombre": "Cloruro de cromo(VI)",
+      "alternativos": []
+    },
+    {
+      "formula": "MnCl2",
+      "nombre": "Cloruro de manganeso(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "MnCl3",
+      "nombre": "Cloruro de manganeso(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "MnCl6",
+      "nombre": "Cloruro de manganeso(VI)",
+      "alternativos": []
+    },
+    {
+      "formula": "FeCl2",
+      "nombre": "Cloruro de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "FeCl3",
+      "nombre": "Cloruro de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "CoCl2",
+      "nombre": "Cloruro de cobalto(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "CoCl3",
+      "nombre": "Cloruro de cobalto(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "NiCl2",
+      "nombre": "Cloruro de níquel(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "NiCl3",
+      "nombre": "Cloruro de níquel(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "CuCl",
+      "nombre": "Cloruro de cobre(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "CuCl2",
+      "nombre": "Cloruro de cobre(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "ZnCl2",
+      "nombre": "Cloruro de zinc",
+      "alternativos": []
+    },
+    {
+      "formula": "PdCl2",
+      "nombre": "Cloruro de paladio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "PdCl4",
+      "nombre": "Cloruro de paladio(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "PtCl2",
+      "nombre": "Cloruro de platino(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "PtCl4",
+      "nombre": "Cloruro de platino(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "AgCl",
+      "nombre": "Cloruro de plata",
+      "alternativos": []
+    },
+    {
+      "formula": "CdCl2",
+      "nombre": "Cloruro de cadmio",
+      "alternativos": []
+    },
+    {
+      "formula": "HgCl",
+      "nombre": "Cloruro de mercurio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "HgCl2",
+      "nombre": "Cloruro de mercurio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "AuCl",
+      "nombre": "Cloruro de oro(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "AuCl3",
+      "nombre": "Cloruro de oro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "BCl3",
+      "nombre": "Cloruro de boro",
+      "alternativos": []
+    },
+    {
+      "formula": "AlCl3",
+      "nombre": "Cloruro de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "GaCl3",
+      "nombre": "Cloruro de galio(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "InCl",
+      "nombre": "Cloruro de indio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "InCl3",
+      "nombre": "Cloruro de indio(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "TlCl",
+      "nombre": "Cloruro de talio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "TlCl3",
+      "nombre": "Cloruro de talio(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "CCl4",
+      "nombre": "Cloruro de carbono(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "SiCl4",
+      "nombre": "Cloruro de silicio(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "GeCl2",
+      "nombre": "Cloruro de germanio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "GeCl4",
+      "nombre": "Cloruro de germanio(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "SnCl2",
+      "nombre": "Cloruro de estaño(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "SnCl4",
+      "nombre": "Cloruro de estaño(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "PbCl2",
+      "nombre": "Cloruro de plomo(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "PbCl4",
+      "nombre": "Cloruro de plomo(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "NCl3",
+      "nombre": "Cloruro de nitrógeno(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "PCl3",
+      "nombre": "Cloruro de fósforo(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "AsCl3",
+      "nombre": "Cloruro de arsénico(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "AsCl5",
+      "nombre": "Cloruro de arsénico(V)",
+      "alternativos": []
+    },
+    {
+      "formula": "SbCl3",
+      "nombre": "Cloruro de antimonio(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "SbCl5",
+      "nombre": "Cloruro de antimonio(V)",
+      "alternativos": []
+    },
+    {
+      "formula": "BiCl3",
+      "nombre": "Cloruro de bismuto(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "BiCl5",
+      "nombre": "Cloruro de bismuto(V)",
+      "alternativos": []
+    },
+    {
+      "formula": "SCl2",
+      "nombre": "Cloruro de azufre(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "SCl4",
+      "nombre": "Cloruro de azufre(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "SCl6",
+      "nombre": "Cloruro de azufre(VI)",
+      "alternativos": []
+    },
+    {
+      "formula": "SeCl2",
+      "nombre": "Cloruro de selenio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "SeCl4",
+      "nombre": "Cloruro de selenio(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "SeCl6",
+      "nombre": "Cloruro de selenio(VI)",
+      "alternativos": []
+    },
+    {
+      "formula": "TeCl2",
+      "nombre": "Cloruro de teluro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "TeCl4",
+      "nombre": "Cloruro de teluro(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "TeCl6",
+      "nombre": "Cloruro de teluro(VI)",
+      "alternativos": []
+    },
+    {
+      "formula": "BrCl",
+      "nombre": "Cloruro de bromo(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "BrCl3",
+      "nombre": "Cloruro de bromo(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "BrCl5",
+      "nombre": "Cloruro de bromo(V)",
+      "alternativos": []
+    },
+    {
+      "formula": "BrCl7",
+      "nombre": "Cloruro de bromo(VII)",
+      "alternativos": []
+    },
+    {
+      "formula": "ICl",
+      "nombre": "Cloruro de yodo(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "ICl3",
+      "nombre": "Cloruro de yodo(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "ICl5",
+      "nombre": "Cloruro de yodo(V)",
+      "alternativos": []
+    },
+    {
+      "formula": "ICl7",
+      "nombre": "Cloruro de yodo(VII)",
+      "alternativos": []
+    },
+    {
+      "formula": "LiBr",
+      "nombre": "Bromuro de litio",
+      "alternativos": []
+    },
+    {
+      "formula": "NaBr",
+      "nombre": "Bromuro de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "KBr",
+      "nombre": "Bromuro de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "RbBr",
+      "nombre": "Bromuro de rubidio",
+      "alternativos": []
+    },
+    {
+      "formula": "CsBr",
+      "nombre": "Bromuro de cesio",
+      "alternativos": []
+    },
+    {
+      "formula": "BeBr2",
+      "nombre": "Bromuro de berilio",
+      "alternativos": []
+    },
+    {
+      "formula": "MgBr2",
+      "nombre": "Bromuro de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "CaBr2",
+      "nombre": "Bromuro de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "SrBr2",
+      "nombre": "Bromuro de estroncio",
+      "alternativos": []
+    },
+    {
+      "formula": "BaBr2",
+      "nombre": "Bromuro de bario",
+      "alternativos": []
+    },
+    {
+      "formula": "CrBr2",
+      "nombre": "Bromuro de cromo(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "CrBr3",
+      "nombre": "Bromuro de cromo(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "CrBr6",
+      "nombre": "Bromuro de cromo(VI)",
+      "alternativos": []
+    },
+    {
+      "formula": "MnBr2",
+      "nombre": "Bromuro de manganeso(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "MnBr3",
+      "nombre": "Bromuro de manganeso(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "MnBr6",
+      "nombre": "Bromuro de manganeso(VI)",
+      "alternativos": []
+    },
+    {
+      "formula": "FeBr2",
+      "nombre": "Bromuro de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "FeBr3",
+      "nombre": "Bromuro de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "CoBr2",
+      "nombre": "Bromuro de cobalto(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "CoBr3",
+      "nombre": "Bromuro de cobalto(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "NiBr2",
+      "nombre": "Bromuro de níquel(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "NiBr3",
+      "nombre": "Bromuro de níquel(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "CuBr",
+      "nombre": "Bromuro de cobre(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "CuBr2",
+      "nombre": "Bromuro de cobre(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "ZnBr2",
+      "nombre": "Bromuro de zinc",
+      "alternativos": []
+    },
+    {
+      "formula": "PdBr2",
+      "nombre": "Bromuro de paladio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "PdBr4",
+      "nombre": "Bromuro de paladio(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "PtBr2",
+      "nombre": "Bromuro de platino(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "PtBr4",
+      "nombre": "Bromuro de platino(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "AgBr",
+      "nombre": "Bromuro de plata",
+      "alternativos": []
+    },
+    {
+      "formula": "CdBr2",
+      "nombre": "Bromuro de cadmio",
+      "alternativos": []
+    },
+    {
+      "formula": "HgBr",
+      "nombre": "Bromuro de mercurio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "HgBr2",
+      "nombre": "Bromuro de mercurio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "AuBr",
+      "nombre": "Bromuro de oro(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "AuBr3",
+      "nombre": "Bromuro de oro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "BBr3",
+      "nombre": "Bromuro de boro",
+      "alternativos": []
+    },
+    {
+      "formula": "AlBr3",
+      "nombre": "Bromuro de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "GaBr3",
+      "nombre": "Bromuro de galio(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "InBr",
+      "nombre": "Bromuro de indio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "InBr3",
+      "nombre": "Bromuro de indio(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "TlBr",
+      "nombre": "Bromuro de talio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "TlBr3",
+      "nombre": "Bromuro de talio(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "CBr4",
+      "nombre": "Bromuro de carbono(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "SiBr4",
+      "nombre": "Bromuro de silicio(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "GeBr2",
+      "nombre": "Bromuro de germanio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "GeBr4",
+      "nombre": "Bromuro de germanio(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "SnBr2",
+      "nombre": "Bromuro de estaño(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "SnBr4",
+      "nombre": "Bromuro de estaño(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "PbBr2",
+      "nombre": "Bromuro de plomo(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "PbBr4",
+      "nombre": "Bromuro de plomo(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "NBr3",
+      "nombre": "Bromuro de nitrógeno(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "PBr3",
+      "nombre": "Bromuro de fósforo(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "AsBr3",
+      "nombre": "Bromuro de arsénico(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "AsBr5",
+      "nombre": "Bromuro de arsénico(V)",
+      "alternativos": []
+    },
+    {
+      "formula": "SbBr3",
+      "nombre": "Bromuro de antimonio(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "SbBr5",
+      "nombre": "Bromuro de antimonio(V)",
+      "alternativos": []
+    },
+    {
+      "formula": "BiBr3",
+      "nombre": "Bromuro de bismuto(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "BiBr5",
+      "nombre": "Bromuro de bismuto(V)",
+      "alternativos": []
+    },
+    {
+      "formula": "SBr2",
+      "nombre": "Bromuro de azufre(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "SBr4",
+      "nombre": "Bromuro de azufre(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "SBr6",
+      "nombre": "Bromuro de azufre(VI)",
+      "alternativos": []
+    },
+    {
+      "formula": "SeBr2",
+      "nombre": "Bromuro de selenio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "SeBr4",
+      "nombre": "Bromuro de selenio(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "SeBr6",
+      "nombre": "Bromuro de selenio(VI)",
+      "alternativos": []
+    },
+    {
+      "formula": "TeBr2",
+      "nombre": "Bromuro de teluro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "TeBr4",
+      "nombre": "Bromuro de teluro(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "TeBr6",
+      "nombre": "Bromuro de teluro(VI)",
+      "alternativos": []
+    },
+    {
+      "formula": "IBr",
+      "nombre": "Bromuro de yodo(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "IBr3",
+      "nombre": "Bromuro de yodo(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "IBr5",
+      "nombre": "Bromuro de yodo(V)",
+      "alternativos": []
+    },
+    {
+      "formula": "IBr7",
+      "nombre": "Bromuro de yodo(VII)",
+      "alternativos": []
+    },
+    {
+      "formula": "LiI",
+      "nombre": "Yoduro de litio",
+      "alternativos": []
+    },
+    {
+      "formula": "NaI",
+      "nombre": "Yoduro de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "KI",
+      "nombre": "Yoduro de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "RbI",
+      "nombre": "Yoduro de rubidio",
+      "alternativos": []
+    },
+    {
+      "formula": "CsI",
+      "nombre": "Yoduro de cesio",
+      "alternativos": []
+    },
+    {
+      "formula": "BeI2",
+      "nombre": "Yoduro de berilio",
+      "alternativos": []
+    },
+    {
+      "formula": "MgI2",
+      "nombre": "Yoduro de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "CaI2",
+      "nombre": "Yoduro de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "SrI2",
+      "nombre": "Yoduro de estroncio",
+      "alternativos": []
+    },
+    {
+      "formula": "BaI2",
+      "nombre": "Yoduro de bario",
+      "alternativos": []
+    },
+    {
+      "formula": "CrI2",
+      "nombre": "Yoduro de cromo(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "CrI3",
+      "nombre": "Yoduro de cromo(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "CrI6",
+      "nombre": "Yoduro de cromo(VI)",
+      "alternativos": []
+    },
+    {
+      "formula": "MnI2",
+      "nombre": "Yoduro de manganeso(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "MnI3",
+      "nombre": "Yoduro de manganeso(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "MnI6",
+      "nombre": "Yoduro de manganeso(VI)",
+      "alternativos": []
+    },
+    {
+      "formula": "FeI2",
+      "nombre": "Yoduro de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "FeI3",
+      "nombre": "Yoduro de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "CoI2",
+      "nombre": "Yoduro de cobalto(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "CoI3",
+      "nombre": "Yoduro de cobalto(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "NiI2",
+      "nombre": "Yoduro de níquel(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "NiI3",
+      "nombre": "Yoduro de níquel(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "CuI",
+      "nombre": "Yoduro de cobre(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "CuI2",
+      "nombre": "Yoduro de cobre(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "ZnI2",
+      "nombre": "Yoduro de zinc",
+      "alternativos": []
+    },
+    {
+      "formula": "PdI2",
+      "nombre": "Yoduro de paladio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "PdI4",
+      "nombre": "Yoduro de paladio(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "PtI2",
+      "nombre": "Yoduro de platino(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "PtI4",
+      "nombre": "Yoduro de platino(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "AgI",
+      "nombre": "Yoduro de plata",
+      "alternativos": []
+    },
+    {
+      "formula": "CdI2",
+      "nombre": "Yoduro de cadmio",
+      "alternativos": []
+    },
+    {
+      "formula": "HgI",
+      "nombre": "Yoduro de mercurio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "HgI2",
+      "nombre": "Yoduro de mercurio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "AuI",
+      "nombre": "Yoduro de oro(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "AuI3",
+      "nombre": "Yoduro de oro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "BI3",
+      "nombre": "Yoduro de boro",
+      "alternativos": []
+    },
+    {
+      "formula": "AlI3",
+      "nombre": "Yoduro de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "GaI3",
+      "nombre": "Yoduro de galio(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "InI",
+      "nombre": "Yoduro de indio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "InI3",
+      "nombre": "Yoduro de indio(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "TlI",
+      "nombre": "Yoduro de talio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "TlI3",
+      "nombre": "Yoduro de talio(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "CI4",
+      "nombre": "Yoduro de carbono(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "SiI4",
+      "nombre": "Yoduro de silicio(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "GeI2",
+      "nombre": "Yoduro de germanio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "GeI4",
+      "nombre": "Yoduro de germanio(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "SnI2",
+      "nombre": "Yoduro de estaño(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "SnI4",
+      "nombre": "Yoduro de estaño(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "PbI2",
+      "nombre": "Yoduro de plomo(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "PbI4",
+      "nombre": "Yoduro de plomo(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "NI3",
+      "nombre": "Yoduro de nitrógeno(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "PI3",
+      "nombre": "Yoduro de fósforo(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "AsI3",
+      "nombre": "Yoduro de arsénico(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "AsI5",
+      "nombre": "Yoduro de arsénico(V)",
+      "alternativos": []
+    },
+    {
+      "formula": "SbI3",
+      "nombre": "Yoduro de antimonio(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "SbI5",
+      "nombre": "Yoduro de antimonio(V)",
+      "alternativos": []
+    },
+    {
+      "formula": "BiI3",
+      "nombre": "Yoduro de bismuto(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "BiI5",
+      "nombre": "Yoduro de bismuto(V)",
+      "alternativos": []
+    },
+    {
+      "formula": "SI2",
+      "nombre": "Yoduro de azufre(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "SI4",
+      "nombre": "Yoduro de azufre(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "SI6",
+      "nombre": "Yoduro de azufre(VI)",
+      "alternativos": []
+    },
+    {
+      "formula": "SeI2",
+      "nombre": "Yoduro de selenio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "SeI4",
+      "nombre": "Yoduro de selenio(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "SeI6",
+      "nombre": "Yoduro de selenio(VI)",
+      "alternativos": []
+    },
+    {
+      "formula": "TeI2",
+      "nombre": "Yoduro de teluro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "TeI4",
+      "nombre": "Yoduro de teluro(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "TeI6",
+      "nombre": "Yoduro de teluro(VI)",
+      "alternativos": []
+    },
+    {
+      "formula": "AsH3",
+      "nombre": "Hidruro de arsénico(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "AsH5",
+      "nombre": "Hidruro de arsénico(V)",
+      "alternativos": []
+    },
+    {
+      "formula": "SbH3",
+      "nombre": "Hidruro de antimonio(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "SbH5",
+      "nombre": "Hidruro de antimonio(V)",
+      "alternativos": []
+    },
+    {
+      "formula": "BiH3",
+      "nombre": "Hidruro de bismuto(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "BiH5",
+      "nombre": "Hidruro de bismuto(V)",
+      "alternativos": []
+    },
+    {
+      "formula": "H2S",
+      "nombre": "Sulfuro de hidrógeno",
+      "alternativos": []
+    },
+    {
+      "formula": "H2Se",
+      "nombre": "Selenuro de hidrógeno",
+      "alternativos": []
+    },
+    {
+      "formula": "H2Te",
+      "nombre": "Telururo de hidrógeno",
+      "alternativos": []
+    },
+    {
+      "formula": "HF",
+      "nombre": "Fluoruro de hidrógeno",
+      "alternativos": []
+    },
+    {
+      "formula": "HCl",
+      "nombre": "Cloruro de hidrógeno",
+      "alternativos": []
+    },
+    {
+      "formula": "HBr",
+      "nombre": "Bromuro de hidrógeno",
+      "alternativos": []
+    },
+    {
+      "formula": "HI",
+      "nombre": "Yoduro de hidrógeno",
+      "alternativos": []
+    }
+  ]
+}

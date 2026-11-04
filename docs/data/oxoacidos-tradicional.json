@@ -1,0 +1,188 @@
+{
+  "id": "oxoacidos-tradicional",
+  "tipo": "oxoacidos",
+  "grupo": "ternarios",
+  "sistema": "tradicional",
+  "compuestos": [
+    {
+      "formula": "H3BO3",
+      "nombre": "Ácido bórico",
+      "alternativos": []
+    },
+    {
+      "formula": "H4SiO4",
+      "nombre": "Ácido silícico",
+      "alternativos": []
+    },
+    {
+      "formula": "H2CO2",
+      "nombre": "Ácido carbonoso",
+      "alternativos": []
+    },
+    {
+      "formula": "H2CO3",
+      "nombre": "Ácido carbónico",
+      "alternativos": []
+    },
+    {
+      "formula": "HNO",
+      "nombre": "Ácido hiponitroso",
+      "alternativos": []
+    },
+    {
+      "formula": "HNO2",
+      "nombre": "Ácido nitroso",
+      "alternativos": []
+    },
+    {
+      "formula": "HNO3",
+      "nombre": "Ácido nítrico",
+      "alternativos": []
+    },
+    {
+      "formula": "H3PO3",
+      "nombre": "Ácido fosforoso",
+      "alternativos": []
+    },
+    {
+      "formula": "H3PO4",
+      "nombre": "Ácido fosfórico",
+      "alternativos": []
+    },
+    {
+      "formula": "H2SO2",
+      "nombre": "Ácido hiposulfuroso",
+      "alternativos": []
+    },
+    {
+      "formula": "H2SO3",
+      "nombre": "Ácido sulfuroso",
+      "alternativos": []
+    },
+    {
+      "formula": "H2SO4",
+      "nombre": "Ácido sulfúrico",
+      "alternativos": []
+    },
+    {
+      "formula": "H2SeO2",
+      "nombre": "Ácido hiposelenioso",
+      "alternativos": []
+    },
+    {
+      "formula": "H2SeO3",
+      "nombre": "Ácido selenioso",
+      "alternativos": []
+    },
+    {
+      "formula": "H2SeO4",
+      "nombre": "Ácido selénico",
+      "alternativos": []
+    },
+    {
+      "formula": "H2TeO2",
+      "nombre": "Ácido hipoteluroso",
+      "alternativos": []
+    },
+    {
+      "formula": "H2TeO3",
+      "nombre": "Ácido teluroso",
+      "alternativos": []
+    },
+    {
+      "formula": "H2TeO4",
+      "nombre": "Ácido telúrico",
+      "alternativos": []
+    },
+    {
+      "formula": "HFO",
+      "nombre": "Ácido hipofluoroso",
+      "alternativos": []
+    },
+    {
+      "formula": "HClO",
+      "nombre": "Ácido hipocloroso",
+      "alternativos": []
+    },
+    {
+      "formula": "HClO2",
+      "nombre": "Ácido cloroso",
+      "alternativos": []
+    },
+    {
+      "formula": "HClO3",
+      "nombre": "Ácido clórico",
+      "alternativos": []
+    },
+    {
+      "formula": "HClO4",
+      "nombre": "Ácido perclórico",
+      "alternativos": []
+    },
+    {
+      "formula": "HBrO",
+      "nombre": "Ácido hipobromoso",
+      "alternativos": []
+    },
+    {
+      "formula": "HBrO2",
+      "nombre": "Ácido bromoso",
+      "alternativos": []
+    },
+    {
+      "formula": "HBrO3",
+      "nombre": "Ácido brómico",
+      "alternativos": []
+    },
+    {
+      "formula": "HBrO4",
+      "nombre": "Ácido perbrómico",
+      "alternativos": []
+    },
+    {
+      "formula": "HIO",
+      "nombre": "Ácido hipoyodoso",
+      "alternativos": []
+    },
+    {
+      "formula": "HIO2",
+      "nombre": "Ácido yodoso",
+      "alternativos": []
+    },
+    {
+      "formula": "HIO3",
+      "nombre": "Ácido yódico",
+      "alternativos": []
+    },
+    {
+      "formula": "HIO4",
+      "nombre": "Ácido peryódico",
+      "alternativos": []
+    },
+    {
+      "formula": "H2CrO4",
+      "nombre": "Ácido crómico",
+      "alternativos": []
+    },
+    {
+      "formula": "H2Cr2O7",
+      "nombre": "Ácido dicrómico",
+      "alternativos": []
+    },
+    {
+      "formula": "H2MnO4",
+      "nombre": "Ácido mangánico",
+      "alternativos": []
+    },
+    {
+      "formula": "HMnO4",
+      "nombre": "Ácido permangánico",
+      "alternativos": []
+    },
+    {
+      "formula": "HCN",
+      "nombre": "Ácido cianhídrico",
+      "alternativos": []
+    }
+  ]
+}

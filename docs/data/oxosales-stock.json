@@ -1,0 +1,2088 @@
+{
+  "id": "oxosales-stock",
+  "tipo": "oxosales",
+  "grupo": "ternarios",
+  "sistema": "stock",
+  "compuestos": [
+    {
+      "formula": "NaCN",
+      "nombre": "Cianuro de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "KCN",
+      "nombre": "Cianuro de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "Li2CO2",
+      "nombre": "Carbonito de litio",
+      "alternativos": []
+    },
+    {
+      "formula": "Li2CO3",
+      "nombre": "Carbonato de litio",
+      "alternativos": []
+    },
+    {
+      "formula": "Na2CO2",
+      "nombre": "Carbonito de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "Na2CO3",
+      "nombre": "Carbonato de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "K2CO2",
+      "nombre": "Carbonito de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "K2CO3",
+      "nombre": "Carbonato de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "Rb2CO2",
+      "nombre": "Carbonito de rubidio",
+      "alternativos": []
+    },
+    {
+      "formula": "Rb2CO3",
+      "nombre": "Carbonato de rubidio",
+      "alternativos": []
+    },
+    {
+      "formula": "BeCO2",
+      "nombre": "Carbonito de berilio",
+      "alternativos": []
+    },
+    {
+      "formula": "BeCO3",
+      "nombre": "Carbonato de berilio",
+      "alternativos": []
+    },
+    {
+      "formula": "MgCO2",
+      "nombre": "Carbonito de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "MgCO3",
+      "nombre": "Carbonato de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "CaCO2",
+      "nombre": "Carbonito de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "CaCO3",
+      "nombre": "Carbonato de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "SrCO2",
+      "nombre": "Carbonito de estroncio",
+      "alternativos": []
+    },
+    {
+      "formula": "SrCO3",
+      "nombre": "Carbonato de estroncio",
+      "alternativos": []
+    },
+    {
+      "formula": "BaCO2",
+      "nombre": "Carbonito de bario",
+      "alternativos": []
+    },
+    {
+      "formula": "BaCO3",
+      "nombre": "Carbonato de bario",
+      "alternativos": []
+    },
+    {
+      "formula": "CrCO2",
+      "nombre": "Carbonito de cromo(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "CrCO3",
+      "nombre": "Carbonato de cromo(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Cr2(CO2)3",
+      "nombre": "Carbonito de cromo(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Cr2(CO3)3",
+      "nombre": "Carbonato de cromo(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "FeCO2",
+      "nombre": "Carbonito de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "FeCO3",
+      "nombre": "Carbonato de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe2(CO2)3",
+      "nombre": "Carbonito de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe2(CO3)3",
+      "nombre": "Carbonato de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "CoCO2",
+      "nombre": "Carbonito de cobalto(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "CoCO3",
+      "nombre": "Carbonato de cobalto(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Co2(CO3)3",
+      "nombre": "Carbonato de cobalto(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "NiCO3",
+      "nombre": "Carbonato de níquel(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ni2(CO2)3",
+      "nombre": "Carbonito de níquel(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ni2(CO3)3",
+      "nombre": "Carbonato de níquel(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Cu2CO2",
+      "nombre": "Carbonito de cobre(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "CuCO2",
+      "nombre": "Carbonito de cobre(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "CuCO3",
+      "nombre": "Carbonato de cobre(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "ZnCO2",
+      "nombre": "Carbonito de zinc",
+      "alternativos": []
+    },
+    {
+      "formula": "ZnCO3",
+      "nombre": "Carbonato de zinc",
+      "alternativos": []
+    },
+    {
+      "formula": "PdCO2",
+      "nombre": "Carbonito de paladio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "PdCO3",
+      "nombre": "Carbonato de paladio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pd(CO3)2",
+      "nombre": "Carbonato de paladio(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "PtCO2",
+      "nombre": "Carbonito de platino(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pt(CO3)2",
+      "nombre": "Carbonato de platino(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ag2CO2",
+      "nombre": "Carbonito de plata",
+      "alternativos": []
+    },
+    {
+      "formula": "Ag2CO3",
+      "nombre": "Carbonato de plata",
+      "alternativos": []
+    },
+    {
+      "formula": "CdCO3",
+      "nombre": "Carbonato de cadmio",
+      "alternativos": []
+    },
+    {
+      "formula": "Hg2CO2",
+      "nombre": "Carbonito de mercurio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Hg2CO3",
+      "nombre": "Carbonato de mercurio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "HgCO2",
+      "nombre": "Carbonito de mercurio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "HgCO3",
+      "nombre": "Carbonato de mercurio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Au2CO3",
+      "nombre": "Carbonato de oro(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Au2(CO2)3",
+      "nombre": "Carbonito de oro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Au2(CO3)3",
+      "nombre": "Carbonato de oro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Al2(CO3)3",
+      "nombre": "Carbonato de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "SnCO3",
+      "nombre": "Carbonato de estaño(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Sn(CO2)2",
+      "nombre": "Carbonito de estaño(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Sn(CO3)2",
+      "nombre": "Carbonato de estaño(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "PbCO2",
+      "nombre": "Carbonito de plomo(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "PbCO3",
+      "nombre": "Carbonato de plomo(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pb(CO3)2",
+      "nombre": "Carbonato de plomo(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "LiNO2",
+      "nombre": "Nitrito de litio",
+      "alternativos": []
+    },
+    {
+      "formula": "LiNO3",
+      "nombre": "Nitrato de litio",
+      "alternativos": []
+    },
+    {
+      "formula": "NaNO2",
+      "nombre": "Nitrito de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "NaNO3",
+      "nombre": "Nitrato de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "KNO2",
+      "nombre": "Nitrito de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "KNO3",
+      "nombre": "Nitrato de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "RbNO3",
+      "nombre": "Nitrato de rubidio",
+      "alternativos": []
+    },
+    {
+      "formula": "Be(NO2)2",
+      "nombre": "Nitrito de berilio",
+      "alternativos": []
+    },
+    {
+      "formula": "Be(NO3)2",
+      "nombre": "Nitrato de berilio",
+      "alternativos": []
+    },
+    {
+      "formula": "Mg(NO2)2",
+      "nombre": "Nitrito de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "Mg(NO3)2",
+      "nombre": "Nitrato de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ca(NO2)2",
+      "nombre": "Nitrito de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ca(NO3)2",
+      "nombre": "Nitrato de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "Sr(NO2)2",
+      "nombre": "Nitrito de estroncio",
+      "alternativos": []
+    },
+    {
+      "formula": "Sr(NO3)2",
+      "nombre": "Nitrato de estroncio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ba(NO2)2",
+      "nombre": "Nitrito de bario",
+      "alternativos": []
+    },
+    {
+      "formula": "Ba(NO3)2",
+      "nombre": "Nitrato de bario",
+      "alternativos": []
+    },
+    {
+      "formula": "Cr(NO2)2",
+      "nombre": "Nitrito de cromo(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Cr(NO3)2",
+      "nombre": "Nitrato de cromo(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Cr(NO2)3",
+      "nombre": "Nitrito de cromo(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Cr(NO3)3",
+      "nombre": "Nitrato de cromo(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(NO2)2",
+      "nombre": "Nitrito de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(NO3)2",
+      "nombre": "Nitrato de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(NO2)3",
+      "nombre": "Nitrito de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(NO3)3",
+      "nombre": "Nitrato de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Co(NO2)2",
+      "nombre": "Nitrito de cobalto(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Co(NO3)2",
+      "nombre": "Nitrato de cobalto(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Co(NO2)3",
+      "nombre": "Nitrito de cobalto(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Co(NO3)3",
+      "nombre": "Nitrato de cobalto(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ni(NO2)2",
+      "nombre": "Nitrito de níquel(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ni(NO3)2",
+      "nombre": "Nitrato de níquel(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ni(NO2)3",
+      "nombre": "Nitrito de níquel(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ni(NO3)3",
+      "nombre": "Nitrato de níquel(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "CuNO2",
+      "nombre": "Nitrito de cobre(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "CuNO3",
+      "nombre": "Nitrato de cobre(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Cu(NO2)2",
+      "nombre": "Nitrito de cobre(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Cu(NO3)2",
+      "nombre": "Nitrato de cobre(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Zn(NO2)2",
+      "nombre": "Nitrito de zinc",
+      "alternativos": []
+    },
+    {
+      "formula": "Zn(NO3)2",
+      "nombre": "Nitrato de zinc",
+      "alternativos": []
+    },
+    {
+      "formula": "Pd(NO3)2",
+      "nombre": "Nitrato de paladio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pd(NO3)4",
+      "nombre": "Nitrato de paladio(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pt(NO2)2",
+      "nombre": "Nitrito de platino(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pt(NO3)2",
+      "nombre": "Nitrato de platino(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pt(NO2)4",
+      "nombre": "Nitrito de platino(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pt(NO3)4",
+      "nombre": "Nitrato de platino(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "AgNO2",
+      "nombre": "Nitrito de plata",
+      "alternativos": []
+    },
+    {
+      "formula": "AgNO3",
+      "nombre": "Nitrato de plata",
+      "alternativos": []
+    },
+    {
+      "formula": "Cd(NO2)2",
+      "nombre": "Nitrito de cadmio",
+      "alternativos": []
+    },
+    {
+      "formula": "Cd(NO3)2",
+      "nombre": "Nitrato de cadmio",
+      "alternativos": []
+    },
+    {
+      "formula": "HgNO2",
+      "nombre": "Nitrito de mercurio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "HgNO3",
+      "nombre": "Nitrato de mercurio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Hg(NO2)2",
+      "nombre": "Nitrito de mercurio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Hg(NO3)2",
+      "nombre": "Nitrato de mercurio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "AuNO2",
+      "nombre": "Nitrito de oro(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "AuNO3",
+      "nombre": "Nitrato de oro(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Au(NO2)3",
+      "nombre": "Nitrito de oro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Au(NO3)3",
+      "nombre": "Nitrato de oro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Al(NO2)3",
+      "nombre": "Nitrito de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "Al(NO3)3",
+      "nombre": "Nitrato de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "Sn(NO2)2",
+      "nombre": "Nitrito de estaño(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Sn(NO3)2",
+      "nombre": "Nitrato de estaño(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Sn(NO2)4",
+      "nombre": "Nitrito de estaño(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Sn(NO3)4",
+      "nombre": "Nitrato de estaño(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pb(NO2)2",
+      "nombre": "Nitrito de plomo(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pb(NO3)2",
+      "nombre": "Nitrato de plomo(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pb(NO2)4",
+      "nombre": "Nitrito de plomo(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pb(NO3)4",
+      "nombre": "Nitrato de plomo(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Li3PO3",
+      "nombre": "Fosfito de litio",
+      "alternativos": []
+    },
+    {
+      "formula": "Na3PO3",
+      "nombre": "Fosfito de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "K3PO3",
+      "nombre": "Fosfito de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "Cu3PO3",
+      "nombre": "Fosfito de cobre(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ag3PO3",
+      "nombre": "Fosfito de plata",
+      "alternativos": []
+    },
+    {
+      "formula": "Au3PO3",
+      "nombre": "Fosfito de oro(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Hg3PO3",
+      "nombre": "Fosfito de mercurio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Be3(PO3)2",
+      "nombre": "Fosfito de berilio",
+      "alternativos": []
+    },
+    {
+      "formula": "Mg3(PO3)2",
+      "nombre": "Fosfito de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ca3(PO3)2",
+      "nombre": "Fosfito de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe3(PO3)2",
+      "nombre": "Fosfito de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Co3(PO3)2",
+      "nombre": "Fosfito de cobalto(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ni3(PO3)2",
+      "nombre": "Fosfito de níquel(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Cu3(PO3)2",
+      "nombre": "Fosfito de cobre(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Zn3(PO3)2",
+      "nombre": "Fosfito de zinc",
+      "alternativos": []
+    },
+    {
+      "formula": "Hg3(PO3)2",
+      "nombre": "Fosfito de mercurio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "AlPO3",
+      "nombre": "Fosfito de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "FePO3",
+      "nombre": "Fosfito de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "CoPO3",
+      "nombre": "Fosfito de cobalto(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "NiPO3",
+      "nombre": "Fosfito de níquel(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "CrPO3",
+      "nombre": "Fosfito de cromo(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "AuPO3",
+      "nombre": "Fosfito de oro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Li3PO4",
+      "nombre": "Fosfato de litio",
+      "alternativos": []
+    },
+    {
+      "formula": "Na3PO4",
+      "nombre": "Fosfato de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "K3PO4",
+      "nombre": "Fosfato de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "Cu3PO4",
+      "nombre": "Fosfato de cobre(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ag3PO4",
+      "nombre": "Fosfato de plata",
+      "alternativos": []
+    },
+    {
+      "formula": "Au3PO4",
+      "nombre": "Fosfato de oro(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Hg3PO4",
+      "nombre": "Fosfato de mercurio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Be3(PO4)2",
+      "nombre": "Fosfato de berilio",
+      "alternativos": []
+    },
+    {
+      "formula": "Mg3(PO4)2",
+      "nombre": "Fosfato de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ca3(PO4)2",
+      "nombre": "Fosfato de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe3(PO4)2",
+      "nombre": "Fosfato de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Co3(PO4)2",
+      "nombre": "Fosfato de cobalto(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ni3(PO4)2",
+      "nombre": "Fosfato de níquel(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Cu3(PO4)2",
+      "nombre": "Fosfato de cobre(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Zn3(PO4)2",
+      "nombre": "Fosfato de zinc",
+      "alternativos": []
+    },
+    {
+      "formula": "Hg3(PO4)2",
+      "nombre": "Fosfato de mercurio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "AlPO4",
+      "nombre": "Fosfato de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "FePO4",
+      "nombre": "Fosfato de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "CoPO4",
+      "nombre": "Fosfato de cobalto(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "NiPO4",
+      "nombre": "Fosfato de níquel(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "AuPO4",
+      "nombre": "Fosfato de oro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "CrPO4",
+      "nombre": "Fosfato de cromo(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Li2SO3",
+      "nombre": "Sulfito de litio",
+      "alternativos": []
+    },
+    {
+      "formula": "Na2SO3",
+      "nombre": "Sulfito de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "K2SO3",
+      "nombre": "Sulfito de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "Rb2SO3",
+      "nombre": "Sulfito de rubidio",
+      "alternativos": []
+    },
+    {
+      "formula": "Cs2SO3",
+      "nombre": "Sulfito de cesio",
+      "alternativos": []
+    },
+    {
+      "formula": "Cu2SO3",
+      "nombre": "Sulfito de cobre(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ag2SO3",
+      "nombre": "Sulfito de plata",
+      "alternativos": []
+    },
+    {
+      "formula": "Hg2SO3",
+      "nombre": "Sulfito de mercurio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Au2SO3",
+      "nombre": "Sulfito de oro(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "BeSO3",
+      "nombre": "Sulfito de berilio",
+      "alternativos": []
+    },
+    {
+      "formula": "MgSO3",
+      "nombre": "Sulfito de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "CaSO3",
+      "nombre": "Sulfito de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "SrSO3",
+      "nombre": "Sulfito de estroncio",
+      "alternativos": []
+    },
+    {
+      "formula": "BaSO3",
+      "nombre": "Sulfito de bario",
+      "alternativos": []
+    },
+    {
+      "formula": "FeSO3",
+      "nombre": "Sulfito de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "CoSO3",
+      "nombre": "Sulfito de cobalto(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "NiSO3",
+      "nombre": "Sulfito de níquel(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "CuSO3",
+      "nombre": "Sulfito de cobre(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "ZnSO3",
+      "nombre": "Sulfito de zinc",
+      "alternativos": []
+    },
+    {
+      "formula": "HgSO3",
+      "nombre": "Sulfito de mercurio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "PtSO3",
+      "nombre": "Sulfito de platino(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "SnSO3",
+      "nombre": "Sulfito de estaño(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Al2(SO3)3",
+      "nombre": "Sulfito de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe2(SO3)3",
+      "nombre": "Sulfito de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Co2(SO3)3",
+      "nombre": "Sulfito de cobalto(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ni2(SO3)3",
+      "nombre": "Sulfito de níquel(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Au2(SO3)3",
+      "nombre": "Sulfito de oro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Sn(SO3)2",
+      "nombre": "Sulfito de estaño(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pt(SO3)2",
+      "nombre": "Sulfito de platino(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pb(SO3)2",
+      "nombre": "Sulfito de plomo(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Li2SO4",
+      "nombre": "Sulfato de litio",
+      "alternativos": []
+    },
+    {
+      "formula": "Na2SO4",
+      "nombre": "Sulfato de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "K2SO4",
+      "nombre": "Sulfato de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "Rb2SO4",
+      "nombre": "Sulfato de rubidio",
+      "alternativos": []
+    },
+    {
+      "formula": "Cs2SO4",
+      "nombre": "Sulfato de cesio",
+      "alternativos": []
+    },
+    {
+      "formula": "Cu2SO4",
+      "nombre": "Sulfato de cobre(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ag2SO4",
+      "nombre": "Sulfato de plata",
+      "alternativos": []
+    },
+    {
+      "formula": "Hg2SO4",
+      "nombre": "Sulfato de mercurio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Au2SO4",
+      "nombre": "Sulfato de oro(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "BeSO4",
+      "nombre": "Sulfato de berilio",
+      "alternativos": []
+    },
+    {
+      "formula": "MgSO4",
+      "nombre": "Sulfato de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "CaSO4",
+      "nombre": "Sulfato de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "SrSO4",
+      "nombre": "Sulfato de estroncio",
+      "alternativos": []
+    },
+    {
+      "formula": "BaSO4",
+      "nombre": "Sulfato de bario",
+      "alternativos": []
+    },
+    {
+      "formula": "FeSO4",
+      "nombre": "Sulfato de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "CoSO4",
+      "nombre": "Sulfato de cobalto(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "NiSO4",
+      "nombre": "Sulfato de níquel(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "CuSO4",
+      "nombre": "Sulfato de cobre(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "ZnSO4",
+      "nombre": "Sulfato de zinc",
+      "alternativos": []
+    },
+    {
+      "formula": "CdSO4",
+      "nombre": "Sulfato de cadmio",
+      "alternativos": []
+    },
+    {
+      "formula": "HgSO4",
+      "nombre": "Sulfato de mercurio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "PtSO4",
+      "nombre": "Sulfato de platino(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "SnSO4",
+      "nombre": "Sulfato de estaño(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Al2(SO4)3",
+      "nombre": "Sulfato de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe2(SO4)3",
+      "nombre": "Sulfato de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Co2(SO4)3",
+      "nombre": "Sulfato de cobalto(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ni2(SO4)3",
+      "nombre": "Sulfato de níquel(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Au2(SO4)3",
+      "nombre": "Sulfato de oro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Sn(SO4)2",
+      "nombre": "Sulfato de estaño(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pt(SO4)2",
+      "nombre": "Sulfato de platino(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pb(SO4)2",
+      "nombre": "Sulfato de plomo(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Li2SeO3",
+      "nombre": "Selenito de litio",
+      "alternativos": []
+    },
+    {
+      "formula": "Na2SeO3",
+      "nombre": "Selenito de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "Cu2SeO3",
+      "nombre": "Selenito de cobre(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Hg2SeO3",
+      "nombre": "Selenito de mercurio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "MgSeO3",
+      "nombre": "Selenito de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "CaSeO3",
+      "nombre": "Selenito de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "CoSeO3",
+      "nombre": "Selenito de cobalto(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "CuSeO3",
+      "nombre": "Selenito de cobre(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "ZnSeO3",
+      "nombre": "Selenito de zinc",
+      "alternativos": []
+    },
+    {
+      "formula": "SnSeO3",
+      "nombre": "Selenito de estaño(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Al2(SeO3)3",
+      "nombre": "Selenito de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe2(SeO3)3",
+      "nombre": "Selenito de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Sn(SeO3)2",
+      "nombre": "Selenito de estaño(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pb(SeO3)2",
+      "nombre": "Selenito de plomo(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Na2SeO4",
+      "nombre": "Seleniato de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "K2SeO4",
+      "nombre": "Seleniato de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ag2SeO4",
+      "nombre": "Seleniato de plata",
+      "alternativos": []
+    },
+    {
+      "formula": "Au2SeO4",
+      "nombre": "Seleniato de oro(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "MgSeO4",
+      "nombre": "Seleniato de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "CaSeO4",
+      "nombre": "Seleniato de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "FeSeO4",
+      "nombre": "Seleniato de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "CuSeO4",
+      "nombre": "Seleniato de cobre",
+      "alternativos": []
+    },
+    {
+      "formula": "ZnSeO4",
+      "nombre": "Seleniato de zinc",
+      "alternativos": []
+    },
+    {
+      "formula": "CdSeO4",
+      "nombre": "Seleniato de cadmio",
+      "alternativos": []
+    },
+    {
+      "formula": "HgSeO4",
+      "nombre": "Seleniato de mercurio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "PtSeO4",
+      "nombre": "Seleniato de platino(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "SnSeO4",
+      "nombre": "Seleniato de estaño(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Al2(SeO4)3",
+      "nombre": "Seleniato de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe2(SeO4)3",
+      "nombre": "Seleniato de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Au2(SeO4)3",
+      "nombre": "Seleniato de oro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Sn(SeO4)2",
+      "nombre": "Seleniato de estaño(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pb(SeO4)2",
+      "nombre": "Seleniato de plomo(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Na2TeO3",
+      "nombre": "Telurito de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "Cu2TeO3",
+      "nombre": "Telurito de cobre(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Au2TeO3",
+      "nombre": "Telurito de oro(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "MgTeO3",
+      "nombre": "Telurito de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "CuTeO3",
+      "nombre": "Telurito de cobre(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "ZnTeO3",
+      "nombre": "Telurito de zinc",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe2(TeO3)3",
+      "nombre": "Telurito de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "NaFO",
+      "nombre": "Hipofluorito de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ca(FO)2",
+      "nombre": "Hipofluorito de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "CuFO",
+      "nombre": "Hipofluorito de cobre(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Cu(FO)2",
+      "nombre": "Hipofluorito de cobre(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "LiClO",
+      "nombre": "Hipoclorito de litio",
+      "alternativos": []
+    },
+    {
+      "formula": "NaClO",
+      "nombre": "Hipoclorito de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "KClO",
+      "nombre": "Hipoclorito de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "RbClO",
+      "nombre": "Hipoclorito de rubidio",
+      "alternativos": []
+    },
+    {
+      "formula": "CuClO",
+      "nombre": "Hipoclorito de cobre(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "AgClO",
+      "nombre": "Hipoclorito de plata",
+      "alternativos": []
+    },
+    {
+      "formula": "HgClO",
+      "nombre": "Hipoclorito de mercurio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "AuClO",
+      "nombre": "Hipoclorito de oro(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Be(ClO)2",
+      "nombre": "Hipoclorito de berilio",
+      "alternativos": []
+    },
+    {
+      "formula": "Mg(ClO)2",
+      "nombre": "Hipoclorito de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ca(ClO)2",
+      "nombre": "Hipoclorito de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "Sr(ClO)2",
+      "nombre": "Hipoclorito de estroncio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ba(ClO)2",
+      "nombre": "Hipoclorito de bario",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(ClO)2",
+      "nombre": "Hipoclorito de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Co(ClO)2",
+      "nombre": "Hipoclorito de cobalto(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ni(ClO)2",
+      "nombre": "Hipoclorito de níquel(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Cu(ClO)2",
+      "nombre": "Hipoclorito de cobre(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Zn(ClO)2",
+      "nombre": "Hipoclorito de zinc",
+      "alternativos": []
+    },
+    {
+      "formula": "Hg(ClO)2",
+      "nombre": "Hipoclorito de mercurio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pt(ClO)2",
+      "nombre": "Hipoclorito de platino(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Sn(ClO)2",
+      "nombre": "Hipoclorito de estaño(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Al(ClO)3",
+      "nombre": "Hipoclorito de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(ClO)3",
+      "nombre": "Hipoclorito de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Co(ClO)3",
+      "nombre": "Hipoclorito de cobalto(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ni(ClO)3",
+      "nombre": "Hipoclorito de níquel(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Au(ClO)3",
+      "nombre": "Hipoclorito de oro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Sn(ClO)4",
+      "nombre": "Hipoclorito de estaño(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pt(ClO)4",
+      "nombre": "Hipoclorito de platino(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pb(ClO)4",
+      "nombre": "Hipoclorito de plomo(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "LiBrO",
+      "nombre": "Hipobromito de litio",
+      "alternativos": []
+    },
+    {
+      "formula": "NaBrO",
+      "nombre": "Hipobromito de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "KBrO",
+      "nombre": "Hipobromito de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "CuBrO",
+      "nombre": "Hipobromito de cobre(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "AgBrO",
+      "nombre": "Hipobromito de plata",
+      "alternativos": []
+    },
+    {
+      "formula": "HgBrO",
+      "nombre": "Hipobromito de mercurio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Mg(BrO)2",
+      "nombre": "Hipobromito de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ca(BrO)2",
+      "nombre": "Hipobromito de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ba(BrO)2",
+      "nombre": "Hipobromito de bario",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(BrO)2",
+      "nombre": "Hipobromito de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Cu(BrO)2",
+      "nombre": "Hipobromito de cobre(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Zn(BrO)2",
+      "nombre": "Hipobromito de zinc",
+      "alternativos": []
+    },
+    {
+      "formula": "Hg(BrO)2",
+      "nombre": "Hipobromito de mercurio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Sn(BrO)2",
+      "nombre": "Hipobromito de estaño(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Al(BrO)3",
+      "nombre": "Hipobromito de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(BrO)3",
+      "nombre": "Hipobromito de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Co(BrO)3",
+      "nombre": "Hipobromito de cobalto(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ni(BrO)3",
+      "nombre": "Hipobromito de níquel(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Au(BrO)3",
+      "nombre": "Hipobromito de oro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Sn(BrO)4",
+      "nombre": "Hipobromito de estaño(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pb(BrO)4",
+      "nombre": "Hipobromito de plomo(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "NaIO",
+      "nombre": "Hipoyodito de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "KIO",
+      "nombre": "Hipoyodito de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "RbIO",
+      "nombre": "Hipoyodito de rubidio",
+      "alternativos": []
+    },
+    {
+      "formula": "AgIO",
+      "nombre": "Hipoyodito de plata",
+      "alternativos": []
+    },
+    {
+      "formula": "HgIO",
+      "nombre": "Hipoyodito de mercurio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Mg(IO)2",
+      "nombre": "Hipoyodito de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ca(IO)2",
+      "nombre": "Hipoyodito de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ba(IO)2",
+      "nombre": "Hipoyodito de bario",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(IO)2",
+      "nombre": "Hipoyodito de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Co(IO)2",
+      "nombre": "Hipoyodito de cobalto(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Zn(IO)2",
+      "nombre": "Hipoyodito de zinc",
+      "alternativos": []
+    },
+    {
+      "formula": "Hg(IO)2",
+      "nombre": "Hipoyodito de mercurio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pt(IO)2",
+      "nombre": "Hipoyodito de platino(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Al(IO)3",
+      "nombre": "Hipoyodito de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(IO)3",
+      "nombre": "Hipoyodito de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ni(IO)3",
+      "nombre": "Hipoyodito de níquel(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Au(IO)3",
+      "nombre": "Hipoyodito de oro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Sn(IO)4",
+      "nombre": "Hipoyodito de estaño(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pt(IO)4",
+      "nombre": "Hipoyodito de platino(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pb(IO)4",
+      "nombre": "Hipoyodito de plomo(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "LiClO2",
+      "nombre": "Clorito de litio",
+      "alternativos": []
+    },
+    {
+      "formula": "NaClO2",
+      "nombre": "Clorito de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "KClO2",
+      "nombre": "Clorito de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "RbClO2",
+      "nombre": "Clorito de rubidio",
+      "alternativos": []
+    },
+    {
+      "formula": "CuClO2",
+      "nombre": "Clorito de cobre(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "AgClO2",
+      "nombre": "Clorito de plata",
+      "alternativos": []
+    },
+    {
+      "formula": "HgClO2",
+      "nombre": "Clorito de mercurio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "AuClO2",
+      "nombre": "Clorito de oro(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Be(ClO2)2",
+      "nombre": "Clorito de berilio",
+      "alternativos": []
+    },
+    {
+      "formula": "Mg(ClO2)2",
+      "nombre": "Clorito de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ca(ClO2)2",
+      "nombre": "Clorito de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "Sr(ClO2)2",
+      "nombre": "Clorito de estroncio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ba(ClO2)2",
+      "nombre": "Clorito de bario",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(ClO2)2",
+      "nombre": "Clorito de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Co(ClO2)2",
+      "nombre": "Clorito de cobalto(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ni(ClO2)2",
+      "nombre": "Clorito de níquel(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Cu(ClO2)2",
+      "nombre": "Clorito de cobre(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Zn(ClO2)2",
+      "nombre": "Clorito de zinc",
+      "alternativos": []
+    },
+    {
+      "formula": "Hg(ClO2)2",
+      "nombre": "Clorito de mercurio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pt(ClO2)2",
+      "nombre": "Clorito de platino(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Sn(ClO2)2",
+      "nombre": "Clorito de estaño(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Al(ClO2)3",
+      "nombre": "Clorito de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(ClO2)3",
+      "nombre": "Clorito de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Co(ClO2)3",
+      "nombre": "Clorito de cobalto(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ni(ClO2)3",
+      "nombre": "Clorito de níquel(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Au(ClO2)3",
+      "nombre": "Clorito de oro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Sn(ClO2)4",
+      "nombre": "Clorito de estaño(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pt(ClO2)4",
+      "nombre": "Clorito de platino(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pb(ClO2)4",
+      "nombre": "Clorito de plomo(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "LiBrO2",
+      "nombre": "Bromito de litio",
+      "alternativos": []
+    },
+    {
+      "formula": "NaBrO2",
+      "nombre": "Bromito de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "KBrO2",
+      "nombre": "Bromito de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "CuBrO2",
+      "nombre": "Bromito de cobre(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "AgBrO2",
+      "nombre": "Bromito de plata",
+      "alternativos": []
+    },
+    {
+      "formula": "HgBrO2",
+      "nombre": "Bromito de mercurio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Mg(BrO2)2",
+      "nombre": "Bromito de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ca(BrO2)2",
+      "nombre": "Bromito de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ba(BrO2)2",
+      "nombre": "Bromito de bario",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(BrO2)2",
+      "nombre": "Bromito de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Cu(BrO2)2",
+      "nombre": "Bromito de cobre(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Zn(BrO2)2",
+      "nombre": "Bromito de zinc",
+      "alternativos": []
+    },
+    {
+      "formula": "Hg(BrO2)2",
+      "nombre": "Bromito de mercurio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Sn(BrO2)2",
+      "nombre": "Bromito de estaño(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Al(BrO2)3",
+      "nombre": "Bromito de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(BrO2)3",
+      "nombre": "Bromito de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Co(BrO2)3",
+      "nombre": "Bromito de cobalto(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ni(BrO2)3",
+      "nombre": "Bromito de níquel(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Au(BrO2)3",
+      "nombre": "Bromito de oro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Sn(BrO2)4",
+      "nombre": "Bromito de estaño(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pb(BrO2)4",
+      "nombre": "Bromito de plomo(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "NaIO2",
+      "nombre": "Yodito de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "KIO2",
+      "nombre": "Yodito de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "RbIO2",
+      "nombre": "Yodito de rubidio",
+      "alternativos": []
+    },
+    {
+      "formula": "AgIO2",
+      "nombre": "Yodito de plata",
+      "alternativos": []
+    },
+    {
+      "formula": "HgIO2",
+      "nombre": "Yodito de mercurio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Mg(IO2)2",
+      "nombre": "Yodito de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ca(IO2)2",
+      "nombre": "Yodito de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ba(IO2)2",
+      "nombre": "Yodito de bario",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(IO2)2",
+      "nombre": "Yodito de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Co(IO2)2",
+      "nombre": "Yodito de cobalto(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Zn(IO2)2",
+      "nombre": "Yodito de zinc",
+      "alternativos": []
+    },
+    {
+      "formula": "Hg(IO2)2",
+      "nombre": "Yodito de mercurio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pt(IO2)2",
+      "nombre": "Yodito de platino(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Al(IO2)3",
+      "nombre": "Yodito de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(IO2)3",
+      "nombre": "Yodito de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ni(IO2)3",
+      "nombre": "Yodito de níquel(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Au(IO2)3",
+      "nombre": "Yodito de oro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Sn(IO2)4",
+      "nombre": "Yodito de estaño(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pt(IO2)4",
+      "nombre": "Yodito de platino(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pb(IO2)4",
+      "nombre": "Yodito de plomo(IV)",
+      "alternativos": []
+    }
+  ]
+}

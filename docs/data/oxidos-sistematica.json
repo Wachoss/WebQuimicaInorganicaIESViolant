@@ -1,0 +1,456 @@
+{
+  "id": "oxidos-sistematica",
+  "tipo": "oxidos",
+  "grupo": "binarios",
+  "sistema": "sistematica",
+  "compuestos": [
+    {
+      "formula": "Li2O",
+      "nombre": "Óxido de litio",
+      "alternativos": []
+    },
+    {
+      "formula": "Na2O",
+      "nombre": "Óxido de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "K2O",
+      "nombre": "Óxido de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "Rb2O",
+      "nombre": "Óxido de rubidio",
+      "alternativos": []
+    },
+    {
+      "formula": "Cs2O",
+      "nombre": "Óxido de cesio",
+      "alternativos": []
+    },
+    {
+      "formula": "BeO",
+      "nombre": "Óxido de berilio",
+      "alternativos": []
+    },
+    {
+      "formula": "MgO",
+      "nombre": "Óxido de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "CaO",
+      "nombre": "Óxido de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "SrO",
+      "nombre": "Óxido de estroncio",
+      "alternativos": []
+    },
+    {
+      "formula": "BaO",
+      "nombre": "Óxido de bario",
+      "alternativos": []
+    },
+    {
+      "formula": "CrO",
+      "nombre": "Óxido de cromo",
+      "alternativos": []
+    },
+    {
+      "formula": "Cr2O3",
+      "nombre": "Trióxido de dicromo",
+      "alternativos": []
+    },
+    {
+      "formula": "CrO3",
+      "nombre": "Trióxido de cromo",
+      "alternativos": []
+    },
+    {
+      "formula": "MnO",
+      "nombre": "Óxido de manganeso",
+      "alternativos": []
+    },
+    {
+      "formula": "Mn2O3",
+      "nombre": "Trióxido de dimanganeso",
+      "alternativos": []
+    },
+    {
+      "formula": "MnO2",
+      "nombre": "Dióxido de manganeso",
+      "alternativos": []
+    },
+    {
+      "formula": "MnO3",
+      "nombre": "Trióxido de manganeso",
+      "alternativos": []
+    },
+    {
+      "formula": "Mn2O7",
+      "nombre": "Heptaóxido de dimanganeso",
+      "alternativos": []
+    },
+    {
+      "formula": "FeO",
+      "nombre": "Óxido de hierro",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe2O3",
+      "nombre": "Trióxido de dihierro",
+      "alternativos": []
+    },
+    {
+      "formula": "CoO",
+      "nombre": "Óxido de cobalto",
+      "alternativos": []
+    },
+    {
+      "formula": "Co2O3",
+      "nombre": "Trióxido de dicobalto",
+      "alternativos": []
+    },
+    {
+      "formula": "NiO",
+      "nombre": "Óxido de níquel",
+      "alternativos": []
+    },
+    {
+      "formula": "Ni2O3",
+      "nombre": "Trióxido de diníquel",
+      "alternativos": []
+    },
+    {
+      "formula": "Cu2O",
+      "nombre": "Óxido de dicobre",
+      "alternativos": []
+    },
+    {
+      "formula": "CuO",
+      "nombre": "Óxido de cobre",
+      "alternativos": []
+    },
+    {
+      "formula": "ZnO",
+      "nombre": "Óxido de zinc",
+      "alternativos": []
+    },
+    {
+      "formula": "PdO",
+      "nombre": "Óxido de paladio",
+      "alternativos": []
+    },
+    {
+      "formula": "PdO2",
+      "nombre": "Dióxido de paladio",
+      "alternativos": []
+    },
+    {
+      "formula": "PtO",
+      "nombre": "Óxido de platino",
+      "alternativos": []
+    },
+    {
+      "formula": "PtO2",
+      "nombre": "Dióxido de platino",
+      "alternativos": []
+    },
+    {
+      "formula": "Ag2O",
+      "nombre": "Óxido de plata",
+      "alternativos": []
+    },
+    {
+      "formula": "CdO",
+      "nombre": "Óxido de cadmio",
+      "alternativos": []
+    },
+    {
+      "formula": "Hg2O",
+      "nombre": "Óxido de dimercurio",
+      "alternativos": []
+    },
+    {
+      "formula": "HgO",
+      "nombre": "Óxido de mercurio",
+      "alternativos": []
+    },
+    {
+      "formula": "Au2O",
+      "nombre": "Óxido de dioro",
+      "alternativos": []
+    },
+    {
+      "formula": "Au2O3",
+      "nombre": "Trióxido de dioro",
+      "alternativos": []
+    },
+    {
+      "formula": "B2O3",
+      "nombre": "Óxido de boro",
+      "alternativos": []
+    },
+    {
+      "formula": "Al2O3",
+      "nombre": "Óxido de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ga2O3",
+      "nombre": "Trióxido de digalio",
+      "alternativos": []
+    },
+    {
+      "formula": "In2O",
+      "nombre": "Óxido de diindio",
+      "alternativos": []
+    },
+    {
+      "formula": "In2O3",
+      "nombre": "Trióxido de diindio",
+      "alternativos": []
+    },
+    {
+      "formula": "Tl2O",
+      "nombre": "Óxido de ditalio",
+      "alternativos": []
+    },
+    {
+      "formula": "Tl2O3",
+      "nombre": "Trióxido de ditalio",
+      "alternativos": []
+    },
+    {
+      "formula": "CO",
+      "nombre": "Monóxido de carbono",
+      "alternativos": []
+    },
+    {
+      "formula": "CO2",
+      "nombre": "Dióxido de carbono",
+      "alternativos": []
+    },
+    {
+      "formula": "SiO2",
+      "nombre": "Dióxido de silicio",
+      "alternativos": []
+    },
+    {
+      "formula": "GeO",
+      "nombre": "Óxido de germanio",
+      "alternativos": []
+    },
+    {
+      "formula": "GeO2",
+      "nombre": "Dióxido de germanio",
+      "alternativos": []
+    },
+    {
+      "formula": "SnO",
+      "nombre": "Óxido de estaño",
+      "alternativos": []
+    },
+    {
+      "formula": "SnO2",
+      "nombre": "Dióxido de estaño",
+      "alternativos": []
+    },
+    {
+      "formula": "PbO",
+      "nombre": "Óxido de plomo",
+      "alternativos": []
+    },
+    {
+      "formula": "PbO2",
+      "nombre": "Dióxido de plomo",
+      "alternativos": []
+    },
+    {
+      "formula": "N2O",
+      "nombre": "Óxido de dinitrógeno",
+      "alternativos": []
+    },
+    {
+      "formula": "NO",
+      "nombre": "Monóxido de nitrógeno",
+      "alternativos": []
+    },
+    {
+      "formula": "N2O3",
+      "nombre": "Trióxido de nitrógeno",
+      "alternativos": []
+    },
+    {
+      "formula": "NO2",
+      "nombre": "Dióxido de nitrógeno",
+      "alternativos": []
+    },
+    {
+      "formula": "N2O5",
+      "nombre": "Pentaóxido de dinitrógeno",
+      "alternativos": []
+    },
+    {
+      "formula": "P2O3",
+      "nombre": "Trióxido de difósforo",
+      "alternativos": []
+    },
+    {
+      "formula": "P2O5",
+      "nombre": "Pentaóxido de difósforo",
+      "alternativos": []
+    },
+    {
+      "formula": "As2O3",
+      "nombre": "Trióxido de diarsénico",
+      "alternativos": []
+    },
+    {
+      "formula": "As2O5",
+      "nombre": "Pentaóxido de diarsénico",
+      "alternativos": []
+    },
+    {
+      "formula": "Sb2O3",
+      "nombre": "Trióxido de diantimonio",
+      "alternativos": []
+    },
+    {
+      "formula": "Sb2O5",
+      "nombre": "Pentaóxido de diantimonio",
+      "alternativos": []
+    },
+    {
+      "formula": "Bi2O3",
+      "nombre": "Trióxido de dibismuto",
+      "alternativos": []
+    },
+    {
+      "formula": "Bi2O5",
+      "nombre": "Pentaóxido de dibismuto",
+      "alternativos": []
+    },
+    {
+      "formula": "SO",
+      "nombre": "Monóxido de azufre",
+      "alternativos": []
+    },
+    {
+      "formula": "SO2",
+      "nombre": "Dióxido de azufre",
+      "alternativos": []
+    },
+    {
+      "formula": "SO3",
+      "nombre": "Trióxido de azufre",
+      "alternativos": []
+    },
+    {
+      "formula": "SeO",
+      "nombre": "Óxido de selenio",
+      "alternativos": []
+    },
+    {
+      "formula": "SeO2",
+      "nombre": "Dióxido de selenio",
+      "alternativos": []
+    },
+    {
+      "formula": "SeO3",
+      "nombre": "Trióxido de selenio",
+      "alternativos": []
+    },
+    {
+      "formula": "TeO",
+      "nombre": "Óxido de teluro",
+      "alternativos": []
+    },
+    {
+      "formula": "TeO2",
+      "nombre": "Dióxido de teluro",
+      "alternativos": []
+    },
+    {
+      "formula": "TeO3",
+      "nombre": "Trióxido de teluro",
+      "alternativos": []
+    },
+    {
+      "formula": "OF2",
+      "nombre": "Difluoruro de oxígeno",
+      "alternativos": []
+    },
+    {
+      "formula": "OCl2",
+      "nombre": "Dicloruro de oxígeno",
+      "alternativos": []
+    },
+    {
+      "formula": "OBr2",
+      "nombre": "Dibromuro de oxígeno",
+      "alternativos": []
+    },
+    {
+      "formula": "OI2",
+      "nombre": "Diyoduro de oxígeno",
+      "alternativos": [
+        "Diioduro de oxígeno"
+      ]
+    },
+    {
+      "formula": "O3Cl2",
+      "nombre": "Dicloruro de trioxígeno",
+      "alternativos": []
+    },
+    {
+      "formula": "O3Br2",
+      "nombre": "Dibromuro de trioxígeno",
+      "alternativos": []
+    },
+    {
+      "formula": "O3I2",
+      "nombre": "Diyoduro de trioxígeno",
+      "alternativos": [
+        "Diioduro de trioxígeno"
+      ]
+    },
+    {
+      "formula": "O5Cl2",
+      "nombre": "Dicloruro de pentaoxígeno",
+      "alternativos": []
+    },
+    {
+      "formula": "O5Br2",
+      "nombre": "Dibromuro de pentaoxígeno",
+      "alternativos": []
+    },
+    {
+      "formula": "O5I2",
+      "nombre": "Diyoduro de pentaoxígeno",
+      "alternativos": [
+        "Diioduro de pentaoxígeno"
+      ]
+    },
+    {
+      "formula": "O7Cl2",
+      "nombre": "Dicloruro de heptaoxígeno",
+      "alternativos": []
+    },
+    {
+      "formula": "O7Br2",
+      "nombre": "Dibromuro de heptaoxígeno",
+      "alternativos": []
+    },
+    {
+      "formula": "O7I2",
+      "nombre": "Diyoduro de heptaoxígeno",
+      "alternativos": [
+        "Diioduro de heptaoxígeno"
+      ]
+    }
+  ]
+}

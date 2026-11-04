@@ -1,0 +1,388 @@
+{
+  "id": "sales-acidas-stock",
+  "tipo": "sales-acidas",
+  "grupo": "ternarios",
+  "sistema": "stock",
+  "compuestos": [
+    {
+      "formula": "NaHCO2",
+      "nombre": "Hidrogenocarbonito de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "NaHCO3",
+      "nombre": "Hidrogenocarbonato de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "KHCO3",
+      "nombre": "Hidrogenocarbonato de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "Mg(HCO3)2",
+      "nombre": "Hidrogenocarbonato de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ca(HCO3)2",
+      "nombre": "Hidrogenocarbonato de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(HCO3)2",
+      "nombre": "Hidrogenocarbonato de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(HCO3)3",
+      "nombre": "Hidrogenocarbonato de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "AuHCO3",
+      "nombre": "Hidrogenocarbonato de oro(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Au(HCO3)3",
+      "nombre": "Hidrogenocarbonato de oro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Sn(HCO3)2",
+      "nombre": "Hidrogenocarbonato de estaño(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Sn(HCO3)4",
+      "nombre": "Hidrogenocarbonito de estaño(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Li2HPO3",
+      "nombre": "Hidrogenofosfito de litio",
+      "alternativos": []
+    },
+    {
+      "formula": "LiH2PO3",
+      "nombre": "Dihidrogenofosfito de litio",
+      "alternativos": []
+    },
+    {
+      "formula": "Na2HPO3",
+      "nombre": "Hidrogenofosfito de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "NaH2PO3",
+      "nombre": "Dihidrogenofosfito de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "K2HPO3",
+      "nombre": "Hidrogenofosfito de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "KH2PO3",
+      "nombre": "Dihidrogenofosfito de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "Cu2HPO3",
+      "nombre": "Hidrogenofosfito de cobre(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "CuH2PO3",
+      "nombre": "Dihidrogenofosfito de cobre(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "MgHPO3",
+      "nombre": "Hidrogenofosfito de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ca(H2PO3)2",
+      "nombre": "Dihidrogenofosfito de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "FeHPO3",
+      "nombre": "Hidrogenofosfito de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(H2PO3)2",
+      "nombre": "Dihidrogenofosfito de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe2(HPO3)3",
+      "nombre": "Hidrogenofosfito de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(H2PO3)3",
+      "nombre": "Dihidrogenofosfito de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "CuHPO3",
+      "nombre": "Hidrogenofosfito de cobre(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Al2(HPO3)3",
+      "nombre": "Hidrogenofosfito de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "Al(H2PO3)3",
+      "nombre": "Dihidrogenofosfito de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "Na2HPO4",
+      "nombre": "Hidrogenofosfato de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "LiH2PO4",
+      "nombre": "Dihidrogenofosfato de litio",
+      "alternativos": []
+    },
+    {
+      "formula": "NaH2PO4",
+      "nombre": "Dihidrogenofosfato de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "Li2HPO4",
+      "nombre": "Hidrogenofosfato de litio",
+      "alternativos": []
+    },
+    {
+      "formula": "K2HPO4",
+      "nombre": "Hidrogenofosfato de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "KH2PO4",
+      "nombre": "Dihidrogenofosfato de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "Cu2HPO4",
+      "nombre": "Hidrogenofosfato de cobre(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "CuH2PO4",
+      "nombre": "Dihidrogenofosfato de cobre(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "CaHPO4",
+      "nombre": "Hidrogenofosfato de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ca(H2PO4)2",
+      "nombre": "Dihidrogenofosfato de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "FeHPO4",
+      "nombre": "Hidrogenofosfato de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(H2PO4)2",
+      "nombre": "Dihidrogenofosfato de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe2(HPO4)3",
+      "nombre": "Hidrogenofosfato de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(H2PO4)3",
+      "nombre": "Dihidrogenofosfato de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "CuHPO4",
+      "nombre": "Hidrogenofosfato de cobre(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Cu(H2PO4)2",
+      "nombre": "Dihidrogenofosfato de cobre(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Al2(HPO4)3",
+      "nombre": "Hidrogenofosfato de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "Al(H2PO4)3",
+      "nombre": "Dihidrogenofosfato de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "KHSO3",
+      "nombre": "Hidrogenosulfito de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "LiHSO3",
+      "nombre": "Hidrogenosulfito de litio",
+      "alternativos": []
+    },
+    {
+      "formula": "NaHSO3",
+      "nombre": "Hidrogenosulfito de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "CuHSO3",
+      "nombre": "Hidrogenosulfito de cobre(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Mg(HSO3)2",
+      "nombre": "Hidrogenosulfito de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ca(HSO3)2",
+      "nombre": "Hidrogenosulfito de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(HSO3)2",
+      "nombre": "Hidrogenosulfito de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ni(HSO3)2",
+      "nombre": "Hidrogenosulfito de níquel(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Cu(HSO3)2",
+      "nombre": "Hidrogenosulfito de cobre(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Zn(HSO3)2",
+      "nombre": "Hidrogenosulfito de zinc",
+      "alternativos": []
+    },
+    {
+      "formula": "Sn(HSO3)2",
+      "nombre": "Hidrogenosulfito de estaño(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Al(HSO3)3",
+      "nombre": "Hidrogenosulfito de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(HSO3)3",
+      "nombre": "Hidrogenosulfito de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pb(HSO3)4",
+      "nombre": "Hidrogenosulfito de plomo(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "LiHSO4",
+      "nombre": "Hidrogenosulfato de litio",
+      "alternativos": []
+    },
+    {
+      "formula": "NaHSO4",
+      "nombre": "Hidrogenosulfato de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "KHSO4",
+      "nombre": "Hidrogenosulfato de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "CuHSO4",
+      "nombre": "Hidrogenosulfato de cobre(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "AgHSO4",
+      "nombre": "Hidrogenosulfato de plata",
+      "alternativos": []
+    },
+    {
+      "formula": "Mg(HSO4)2",
+      "nombre": "Hidrogenosulfato de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ca(HSO4)2",
+      "nombre": "Hidrogenosulfato de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(HSO4)2",
+      "nombre": "Hidrogenosulfato de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Co(HSO4)2",
+      "nombre": "Hidrogenosulfato de cobalto(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Cu(HSO4)2",
+      "nombre": "Hidrogenosulfato de cobre(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Zn(HSO4)2",
+      "nombre": "Hidrogenosulfato de zinc",
+      "alternativos": []
+    },
+    {
+      "formula": "Al(HSO4)3",
+      "nombre": "Hidrogenosulfato de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(HSO4)3",
+      "nombre": "Hidrogenosulfato de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ni(HSO4)3",
+      "nombre": "Hidrogenosulfato de níquel(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Sn(HSO4)2",
+      "nombre": "Hidrogenosulfato de estaño(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Sn(HSO4)4",
+      "nombre": "Hidrogenosulfato de estaño(IV)",
+      "alternativos": []
+    }
+  ]
+}

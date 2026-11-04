@@ -1,0 +1,228 @@
+{
+  "id": "hidroxidos-stock",
+  "tipo": "hidroxidos",
+  "grupo": "ternarios",
+  "sistema": "stock",
+  "compuestos": [
+    {
+      "formula": "LiOH",
+      "nombre": "Hidróxido de litio",
+      "alternativos": []
+    },
+    {
+      "formula": "NaOH",
+      "nombre": "Hidróxido de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "KOH",
+      "nombre": "Hidróxido de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "RbOH",
+      "nombre": "Hidróxido de rubidio",
+      "alternativos": []
+    },
+    {
+      "formula": "CsOH",
+      "nombre": "Hidróxido de cesio",
+      "alternativos": []
+    },
+    {
+      "formula": "Be(OH)2",
+      "nombre": "Hidróxido de berilio",
+      "alternativos": []
+    },
+    {
+      "formula": "Mg(OH)2",
+      "nombre": "Hidróxido de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ca(OH)2",
+      "nombre": "Hidróxido de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "Sr(OH)2",
+      "nombre": "Hidróxido de estroncio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ba(OH)2",
+      "nombre": "Hidróxido de bario",
+      "alternativos": []
+    },
+    {
+      "formula": "Cr(OH)2",
+      "nombre": "Hidróxido de cromo(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Cr(OH)3",
+      "nombre": "Hidróxido de cromo(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Mn(OH)2",
+      "nombre": "Hidróxido de manganeso(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Mn(OH)3",
+      "nombre": "Hidróxido de manganeso(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(OH)2",
+      "nombre": "Hidróxido de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(OH)3",
+      "nombre": "Hidróxido de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Co(OH)2",
+      "nombre": "Hidróxido de cobalto(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Co(OH)3",
+      "nombre": "Hidróxido de cobalto(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ni(OH)2",
+      "nombre": "Hidróxido de níquel(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ni(OH)3",
+      "nombre": "Hidróxido de níquel(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "CuOH",
+      "nombre": "Hidróxido de cobre(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Cu(OH)2",
+      "nombre": "Hidróxido de cobre(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Zn(OH)2",
+      "nombre": "Hidróxido de zinc",
+      "alternativos": []
+    },
+    {
+      "formula": "Pd(OH)2",
+      "nombre": "Hidróxido de paladio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pd(OH)4",
+      "nombre": "Hidróxido de paladio(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pt(OH)2",
+      "nombre": "Hidróxido de platino(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pt(OH)4",
+      "nombre": "Hidróxido de platino(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "AgOH",
+      "nombre": "Hidróxido de plata",
+      "alternativos": []
+    },
+    {
+      "formula": "Cd(OH)2",
+      "nombre": "Hidróxido de cadmio",
+      "alternativos": []
+    },
+    {
+      "formula": "HgOH",
+      "nombre": "Hidróxido de mercurio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Hg(OH)2",
+      "nombre": "Hidróxido de mercurio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "AuOH",
+      "nombre": "Hidróxido de oro(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Au(OH)3",
+      "nombre": "Hidróxido de oro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "B(OH)3",
+      "nombre": "Hidróxido de boro",
+      "alternativos": []
+    },
+    {
+      "formula": "Al(OH)3",
+      "nombre": "Hidróxido de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ga(OH)3",
+      "nombre": "Hidróxido de galio(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "InOH",
+      "nombre": "Hidróxido de indio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "In(OH)3",
+      "nombre": "Hidróxido de indio(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "TlOH",
+      "nombre": "Hidróxido de talio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Tl(OH)3",
+      "nombre": "Hidróxido de talio(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Sn(OH)2",
+      "nombre": "Hidróxido de estaño(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Sn(OH)4",
+      "nombre": "Hidróxido de estaño(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pb(OH)2",
+      "nombre": "Hidróxido de plomo(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pb(OH)4",
+      "nombre": "Hidróxido de plomo(IV)",
+      "alternativos": []
+    }
+  ]
+}
