@@ -2,6 +2,7 @@
 import { t, traducirPagina } from './textos.js';
 import { esCorrecta } from './correccion.js';
 import { crearBateria, Test } from './bateria.js';
+import { pintarFormula } from './pintar.js';
 
 const SISTEMAS = ['sistematica', 'stock', 'tradicional'];
 const MODOS = ['formulacion', 'nomenclatura', 'mezcla'];
@@ -21,21 +22,6 @@ let test = null;
 function mostrarPantalla(selector) {
   for (const p of pantallas) $(p).hidden = p !== selector;
   window.scrollTo({ top: 0 });
-}
-
-/** Pinta una fórmula con subíndices: "Fe2(SO4)3" -> Fe₂(SO₄)₃. Sin innerHTML. */
-function pintarFormula(contenedor, formula) {
-  contenedor.replaceChildren();
-  for (const trozo of formula.split(/(\d+)/)) {
-    if (trozo === '') continue;
-    if (/^\d+$/.test(trozo)) {
-      const sub = document.createElement('sub');
-      sub.textContent = trozo;
-      contenedor.append(sub);
-    } else {
-      contenedor.append(trozo);
-    }
-  }
 }
 
 function crearOpcion({ tipo, nombre, valor, texto, ayuda, marcada }) {
