@@ -49,7 +49,7 @@ function conflictos(compuestos, clave, valor) {
 }
 
 let total = 0;
-for (const archivo of readdirSync(DATOS).filter((f) => f.endsWith('.json') && f !== 'indice.json').sort()) {
+for (const archivo of readdirSync(DATOS).filter((f) => f.endsWith('.json') && !['indice.json', 'elementos.json'].includes(f)).sort()) {
   const { compuestos } = JSON.parse(readFileSync(join(DATOS, archivo), 'utf8'));
   const avisos = [];
 
