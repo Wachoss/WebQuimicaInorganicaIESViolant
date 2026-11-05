@@ -206,8 +206,10 @@
     },
     {
       "formula": "SiC",
-      "nombre": "Carburo de silicio",
-      "alternativos": []
+      "nombre": "Carburo de silicio(IV)",
+      "alternativos": [
+        "Carburo de silicio"
+      ]
     },
     {
       "formula": "CrN",
@@ -215,7 +217,7 @@
       "alternativos": []
     },
     {
-      "formula": "Fe2N3",
+      "formula": "Fe3N2",
       "nombre": "Nitruro de hierro(II)",
       "alternativos": []
     },

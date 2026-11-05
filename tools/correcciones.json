@@ -33,5 +33,25 @@
   { "seccion": "sales-acidas-stock", "formula": "Ca(HPO4)2", "nombre": "Dihidrogenofosfato de calcio", "eliminar": true, "motivo": "Fórmula imposible (carga -4 frente a +2); el compuesto correcto, Ca(H2PO4)2, ya está" },
   { "seccion": "sales-acidas-stock", "formula": "Al2(HSO4)3", "nombre": "Hidrogenosulfato de aluminio", "nuevaFormula": "Al(HSO4)3", "motivo": "HSO4- tiene carga -1: Al(3+) necesita tres" },
   { "seccion": "sales-acidas-stock", "formula": "Fe2(HSO4)3", "nombre": "Hidrogenosulfato de hierro(III)", "nuevaFormula": "Fe(HSO4)3", "motivo": "HSO4- tiene carga -1: Fe(3+) necesita tres" },
-  { "seccion": "sales-acidas-stock", "formula": "Ni2(HSO4)3", "nombre": "Hidrogenosulfato de níquel(III)", "nuevaFormula": "Ni(HSO4)3", "motivo": "HSO4- tiene carga -1: Ni(3+) necesita tres" }
+  { "seccion": "sales-acidas-stock", "formula": "Ni2(HSO4)3", "nombre": "Hidrogenosulfato de níquel(III)", "nuevaFormula": "Ni(HSO4)3", "motivo": "HSO4- tiene carga -1: Ni(3+) necesita tres" },
+  { "seccion": "oxidos-sistematica", "formula": "N2O3", "nombre": "Trióxido de nitrógeno", "nuevoNombre": "Trióxido de dinitrógeno", "motivo": "N2O3 tiene dos átomos de nitrógeno" },
+  { "seccion": "oxidos-stock", "formula": "Ga2O3", "nombre": "Óxido de galio", "nuevoNombre": "Óxido de galio(III)", "motivo": "El galio tiene valencias 1 y 3 en la tabla: en Stock hace falta el número romano" },
+
+  { "seccion": "sales-sistematica", "formula": "CrS", "nombre": "Disulfuro de cromo", "nuevoNombre": "Sulfuro de cromo", "motivo": "CrS tiene un solo azufre: disulfuro sería CrS2" },
+  { "seccion": "sales-sistematica", "formula": "FeS", "nombre": "Disulfuro de hierro", "nuevoNombre": "Sulfuro de hierro", "motivo": "FeS tiene un solo azufre: disulfuro de hierro es FeS2 (la pirita)" },
+  { "seccion": "sales-sistematica", "formula": "CoS", "nombre": "Disulfuro de cobalto", "nuevoNombre": "Sulfuro de cobalto", "motivo": "CoS tiene un solo azufre" },
+  { "seccion": "sales-sistematica", "formula": "NiS", "nombre": "Disulfuro de níquel", "nuevoNombre": "Sulfuro de níquel", "motivo": "NiS tiene un solo azufre" },
+  { "seccion": "sales-sistematica", "formula": "CrS3", "nombre": "Hexasulfuro de cromo", "nuevoNombre": "Trisulfuro de cromo", "motivo": "CrS3 tiene tres azufres (Cr con valencia 6 y S con 2, simplificado)" },
+  { "seccion": "sales-sistematica", "formula": "Fe2N3", "nombre": "Trinitruro de dihierro", "nuevaFormula": "Fe3N2", "nuevoNombre": "Dinitruro de trihierro", "motivo": "Fe2N3 necesitaría Fe con carga 4,5. Es el nitruro de hierro(II), Fe3N2, como dice la sección de Stock" },
+  { "seccion": "sales-stock", "formula": "Fe2N3", "nombre": "Nitruro de hierro(II)", "nuevaFormula": "Fe3N2", "motivo": "Fe(2+) y N(3-) se cruzan: Fe3N2" },
+  { "seccion": "sales-sistematica", "formula": "CF4", "nombre": "Fluoruro de carbono", "nuevoNombre": "Tetrafluoruro de carbono", "motivo": "El carbono tiene valencias 2 y 4: sin prefijo el nombre no dice qué compuesto es" },
+  { "seccion": "sales-sistematica", "formula": "CCl4", "nombre": "Cloruro de carbono", "nuevoNombre": "Tetracloruro de carbono", "motivo": "El carbono tiene valencias 2 y 4: sin prefijo el nombre no dice qué compuesto es" },
+  { "seccion": "sales-sistematica", "formula": "CI4", "nombre": "Yoduro de carbono", "nuevoNombre": "Tetrayoduro de carbono", "motivo": "El carbono tiene valencias 2 y 4: sin prefijo el nombre no dice qué compuesto es" },
+  { "seccion": "sales-sistematica", "formula": "GaI3", "nombre": "Yoduro de galio", "nuevoNombre": "Triyoduro de galio", "motivo": "El galio tiene valencias 1 y 3: sin prefijo el nombre no dice qué compuesto es" },
+  { "seccion": "sales-sistematica", "formula": "AuCl3", "nombre": "Triclorurode oro", "nuevoNombre": "Tricloruro de oro", "motivo": "Falta un espacio" },
+  { "seccion": "sales-stock", "formula": "SiC", "nombre": "Carburo de silicio", "nuevoNombre": "Carburo de silicio(IV)", "alternativos": ["Carburo de silicio"], "motivo": "El silicio tiene valencias 2 y 4: en Stock lleva número romano. El nombre sin número es el habitual y se sigue aceptando" },
+
+  { "seccion": "hidroxidos-sistematica", "formula": "Ga(OH)3", "nombre": "Trihidruro de galio", "nuevoNombre": "Trihidróxido de galio", "motivo": "Es un hidróxido, no un hidruro (trihidruro de galio es GaH3)" },
+  { "seccion": "oxosales-stock", "formula": "CuSeO4", "nombre": "Seleniato de cobre", "nuevoNombre": "Seleniato de cobre(II)", "motivo": "El cobre tiene valencias 1 y 2: en Stock hace falta el número romano" },
+  { "seccion": "sales-acidas-stock", "formula": "Sn(HCO3)4", "nombre": "Hidrogenocarbonito de estaño(IV)", "nuevoNombre": "Hidrogenocarbonato de estaño(IV)", "motivo": "HCO3 es hidrogenocarbonato; hidrogenocarbonito sería HCO2" }
 ]
