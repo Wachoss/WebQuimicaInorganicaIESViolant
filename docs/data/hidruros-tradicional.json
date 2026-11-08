@@ -1,0 +1,120 @@
+{
+  "id": "hidruros-tradicional",
+  "tipo": "hidruros",
+  "grupo": "binarios",
+  "sistema": "tradicional",
+  "compuestos": [
+    {
+      "formula": "BH3",
+      "nombre": "Borano",
+      "alternativos": []
+    },
+    {
+      "formula": "CH4",
+      "nombre": "Metano",
+      "alternativos": []
+    },
+    {
+      "formula": "SiH4",
+      "nombre": "Silano",
+      "alternativos": []
+    },
+    {
+      "formula": "GeH4",
+      "nombre": "Germano",
+      "alternativos": []
+    },
+    {
+      "formula": "NH3",
+      "nombre": "Amoníaco",
+      "alternativos": [
+        "Azano"
+      ]
+    },
+    {
+      "formula": "PH3",
+      "nombre": "Fosfano",
+      "alternativos": []
+    },
+    {
+      "formula": "AsH3",
+      "nombre": "Arsano",
+      "alternativos": []
+    },
+    {
+      "formula": "H2O",
+      "nombre": "Agua",
+      "alternativos": []
+    },
+    {
+      "formula": "H2S",
+      "nombre": "Ácido sulfhídrico",
+      "alternativos": []
+    },
+    {
+      "formula": "H2Se",
+      "nombre": "Ácido selenhídrico",
+      "alternativos": []
+    },
+    {
+      "formula": "H2Te",
+      "nombre": "Ácido telurhídrico",
+      "alternativos": []
+    },
+    {
+      "formula": "HF",
+      "nombre": "Ácido fluorhídrico",
+      "alternativos": []
+    },
+    {
+      "formula": "HCl",
+      "nombre": "Ácido clorhídrico",
+      "alternativos": []
+    },
+    {
+      "formula": "HBr",
+      "nombre": "Ácido bromhídrico",
+      "alternativos": []
+    },
+    {
+      "formula": "HI",
+      "nombre": "Ácido yodhídrico",
+      "alternativos": []
+    },
+    {
+      "formula": "H2S(aq)",
+      "nombre": "Ácido sulfhídrico",
+      "alternativos": []
+    },
+    {
+      "formula": "H2Se(aq)",
+      "nombre": "Ácido selenhídrico",
+      "alternativos": []
+    },
+    {
+      "formula": "H2Te(aq)",
+      "nombre": "Ácido telurhídrico",
+      "alternativos": []
+    },
+    {
+      "formula": "HF(aq)",
+      "nombre": "Ácido fluorhídrico",
+      "alternativos": []
+    },
+    {
+      "formula": "HCl(aq)",
+      "nombre": "Ácido clorhídrico",
+      "alternativos": []
+    },
+    {
+      "formula": "HBr(aq)",
+      "nombre": "Ácido bromhídrico",
+      "alternativos": []
+    },
+    {
+      "formula": "HI(aq)",
+      "nombre": "Ácido yodhídrico",
+      "alternativos": []
+    }
+  ]
+}

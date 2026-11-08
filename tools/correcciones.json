@@ -1,0 +1,37 @@
+[
+  { "seccion": "hidruros-sistematica", "formula": "HgH2", "nombre": "Hidruro de mercurio", "nuevoNombre": "Dihidruro de mercurio", "motivo": "HgH y HgH2 tenían el mismo nombre" },
+  { "seccion": "hidruros-sistematica", "formula": "GaH3", "nombre": "trihidruro de galio", "nuevoNombre": "Trihidruro de galio", "motivo": "Mayúscula inicial" },
+  { "seccion": "hidruros-stock", "formula": "PdH2", "nombre": "Hidruro de paladio(IV)", "nuevaFormula": "PdH4", "motivo": "Pd(IV) da PdH4; el array en mayúsculas del original ya decía PDH4" },
+
+  { "seccion": "oxidos-sistematica", "formula": "O3Cl", "nombre": "Dicloruro de trioxígeno", "nuevaFormula": "O3Cl2", "motivo": "Dicloruro: dos átomos de cloro" },
+  { "seccion": "oxidos-sistematica", "formula": "OI2", "nombre": "Diioduro de de oxígeno", "nuevoNombre": "Diyoduro de oxígeno", "motivo": "\"de\" repetido; se usa yoduro como en el resto de la web (ioduro queda como alternativo)", "alternativos": ["Diioduro de oxígeno"] },
+  { "seccion": "oxidos-sistematica", "formula": "O3I2", "nombre": "Diioduro de de trioxígeno", "nuevoNombre": "Diyoduro de trioxígeno", "motivo": "\"de\" repetido; yoduro como en el resto de la web", "alternativos": ["Diioduro de trioxígeno"] },
+  { "seccion": "oxidos-sistematica", "formula": "O5I2", "nombre": "Diioduro de de pentaoxígeno", "nuevoNombre": "Diyoduro de pentaoxígeno", "motivo": "\"de\" repetido; yoduro como en el resto de la web", "alternativos": ["Diioduro de pentaoxígeno"] },
+  { "seccion": "oxidos-sistematica", "formula": "O7I2", "nombre": "Diioduro de de heptaoxígeno", "nuevoNombre": "Diyoduro de heptaoxígeno", "motivo": "\"de\" repetido; yoduro como en el resto de la web", "alternativos": ["Diioduro de heptaoxígeno"] },
+
+  { "seccion": "sales-sistematica", "formula": "ClgCl", "nombre": "Cloruro de mercurio", "nuevaFormula": "HgCl", "motivo": "Hg sustituido por error (buscar y reemplazar)" },
+  { "seccion": "sales-sistematica", "formula": "ClgCl2", "nombre": "Dicloruro de mercurio", "nuevaFormula": "HgCl2", "motivo": "Hg sustituido por error (buscar y reemplazar)" },
+  { "seccion": "sales-sistematica", "formula": "IgI", "nombre": "Yoduro de mercurio", "nuevaFormula": "HgI", "motivo": "Hg sustituido por error (buscar y reemplazar)" },
+  { "seccion": "sales-sistematica", "formula": "IgI2", "nombre": "Diyoduro de mercurio", "nuevaFormula": "HgI2", "motivo": "Hg sustituido por error (buscar y reemplazar)" },
+  { "seccion": "sales-stock", "formula": "ClgCl", "nombre": "Cloruro de mercurio(I)", "nuevaFormula": "HgCl", "motivo": "Hg sustituido por error (buscar y reemplazar)" },
+  { "seccion": "sales-stock", "formula": "ClgCl2", "nombre": "Cloruro de mercurio(II)", "nuevaFormula": "HgCl2", "motivo": "Hg sustituido por error (buscar y reemplazar)" },
+  { "seccion": "sales-stock", "formula": "IgI", "nombre": "Yoduro de mercurio(I)", "nuevaFormula": "HgI", "motivo": "Hg sustituido por error (buscar y reemplazar)" },
+  { "seccion": "sales-stock", "formula": "IgI2", "nombre": "Yoduro de mercurio(II)", "nuevaFormula": "HgI2", "motivo": "Hg sustituido por error (buscar y reemplazar)" },
+
+  { "seccion": "sales-stock", "formula": "IgI", "nombre": "Yoduro de mercurio(II)", "eliminar": true, "motivo": "Página de nomenclatura desplazada: fórmula y nombre no corresponden" },
+  { "seccion": "sales-stock", "formula": "IgI2", "nombre": "Yoduro de oro(I)", "eliminar": true, "motivo": "Página de nomenclatura desplazada: fórmula y nombre no corresponden" },
+
+  { "seccion": "oxosales-stock", "formula": "Pd(CO3)2", "nombre": "Carbonato de platino(IV)", "nuevaFormula": "Pt(CO3)2", "motivo": "El nombre es de platino (Pt), no de paladio (Pd)" },
+  { "seccion": "oxosales-stock", "formula": "Pd(NO3)4", "nombre": "Nitrato de platino(IV)", "nuevaFormula": "Pt(NO3)4", "motivo": "El nombre es de platino (Pt), no de paladio (Pd)" },
+  { "seccion": "oxosales-stock", "formula": "Pd(NO2)4", "nombre": "Nitrito de platino(IV)", "nuevaFormula": "Pt(NO2)4", "motivo": "El nombre es de platino (Pt), no de paladio (Pd)" },
+  { "seccion": "oxosales-stock", "formula": "Co(NO3)3", "nombre": "Nitrato de cobalto(II)", "nuevaFormula": "Co(NO3)2", "motivo": "Co(II) con NO3- da Co(NO3)2" },
+  { "seccion": "oxosales-stock", "formula": "MgTeO3", "nombre": "Selenito de magnesio", "nuevaFormula": "MgSeO3", "motivo": "Selenito es SeO3(2-); TeO3(2-) es telurito" },
+  { "seccion": "oxosales-stock", "formula": "Pb(SEO3)2", "nombre": "Selenito de plomo(IV)", "nuevaFormula": "Pb(SeO3)2", "motivo": "El símbolo del selenio es Se" },
+
+  { "seccion": "sales-acidas-stock", "formula": "Na2HPO3", "nombre": "Hidrogenofosfato de sodio", "nuevaFormula": "Na2HPO4", "motivo": "Fosfato es PO4; HPO3 es fosfito" },
+  { "seccion": "sales-acidas-stock", "formula": "Li2HPO4", "nombre": "Dihidrogenofosfato de litio", "nuevoNombre": "Hidrogenofosfato de litio", "motivo": "Li2HPO4 tiene un solo H: hidrogeno-, no dihidrogeno-" },
+  { "seccion": "sales-acidas-stock", "formula": "Ca(HPO4)2", "nombre": "Dihidrogenofosfato de calcio", "eliminar": true, "motivo": "Fórmula imposible (carga -4 frente a +2); el compuesto correcto, Ca(H2PO4)2, ya está" },
+  { "seccion": "sales-acidas-stock", "formula": "Al2(HSO4)3", "nombre": "Hidrogenosulfato de aluminio", "nuevaFormula": "Al(HSO4)3", "motivo": "HSO4- tiene carga -1: Al(3+) necesita tres" },
+  { "seccion": "sales-acidas-stock", "formula": "Fe2(HSO4)3", "nombre": "Hidrogenosulfato de hierro(III)", "nuevaFormula": "Fe(HSO4)3", "motivo": "HSO4- tiene carga -1: Fe(3+) necesita tres" },
+  { "seccion": "sales-acidas-stock", "formula": "Ni2(HSO4)3", "nombre": "Hidrogenosulfato de níquel(III)", "nuevaFormula": "Ni(HSO4)3", "motivo": "HSO4- tiene carga -1: Ni(3+) necesita tres" }
+]

@@ -1,0 +1,98 @@
+{
+  "id": "peroxidos-sistematica",
+  "tipo": "peroxidos",
+  "grupo": "binarios",
+  "sistema": "sistematica",
+  "compuestos": [
+    {
+      "formula": "Li2O2",
+      "nombre": "Dióxido de dilitio",
+      "alternativos": []
+    },
+    {
+      "formula": "Na2O2",
+      "nombre": "Dióxido de disodio",
+      "alternativos": []
+    },
+    {
+      "formula": "K2O2",
+      "nombre": "Dióxido de dipotasio",
+      "alternativos": []
+    },
+    {
+      "formula": "Rb2O2",
+      "nombre": "Dióxido de dirubidio",
+      "alternativos": []
+    },
+    {
+      "formula": "Cs2O2",
+      "nombre": "Dióxido de dicesio",
+      "alternativos": []
+    },
+    {
+      "formula": "BeO2",
+      "nombre": "Dióxido de berilio",
+      "alternativos": []
+    },
+    {
+      "formula": "MgO2",
+      "nombre": "Dióxido de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "CaO2",
+      "nombre": "Dióxido de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "SrO2",
+      "nombre": "Dióxido de estroncio",
+      "alternativos": []
+    },
+    {
+      "formula": "BaO2",
+      "nombre": "Dióxido de bario",
+      "alternativos": []
+    },
+    {
+      "formula": "Cu2O2",
+      "nombre": "Dióxido de dicobre",
+      "alternativos": []
+    },
+    {
+      "formula": "CuO2",
+      "nombre": "Dióxido de cobre",
+      "alternativos": []
+    },
+    {
+      "formula": "Ag2O2",
+      "nombre": "Dióxido de diplata",
+      "alternativos": []
+    },
+    {
+      "formula": "ZnO2",
+      "nombre": "Dióxido de zinc",
+      "alternativos": []
+    },
+    {
+      "formula": "CdO2",
+      "nombre": "Dióxido de cadmio",
+      "alternativos": []
+    },
+    {
+      "formula": "Hg2O2",
+      "nombre": "Dióxido de dimercurio",
+      "alternativos": []
+    },
+    {
+      "formula": "HgO2",
+      "nombre": "Dióxido de mercurio",
+      "alternativos": []
+    },
+    {
+      "formula": "H2O2",
+      "nombre": "Dióxido de dihidrógeno",
+      "alternativos": []
+    }
+  ]
+}

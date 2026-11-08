@@ -1,0 +1,107 @@
+[
+  {
+    "id": "hidruros-sistematica",
+    "tipo": "hidruros",
+    "grupo": "binarios",
+    "sistema": "sistematica",
+    "total": 65
+  },
+  {
+    "id": "oxidos-sistematica",
+    "tipo": "oxidos",
+    "grupo": "binarios",
+    "sistema": "sistematica",
+    "total": 88
+  },
+  {
+    "id": "sales-sistematica",
+    "tipo": "sales",
+    "grupo": "binarios",
+    "sistema": "sistematica",
+    "total": 342
+  },
+  {
+    "id": "peroxidos-sistematica",
+    "tipo": "peroxidos",
+    "grupo": "binarios",
+    "sistema": "sistematica",
+    "total": 18
+  },
+  {
+    "id": "hidroxidos-sistematica",
+    "tipo": "hidroxidos",
+    "grupo": "ternarios",
+    "sistema": "sistematica",
+    "total": 44
+  },
+  {
+    "id": "hidruros-stock",
+    "tipo": "hidruros",
+    "grupo": "binarios",
+    "sistema": "stock",
+    "total": 65
+  },
+  {
+    "id": "oxidos-stock",
+    "tipo": "oxidos",
+    "grupo": "binarios",
+    "sistema": "stock",
+    "total": 75
+  },
+  {
+    "id": "sales-stock",
+    "tipo": "sales",
+    "grupo": "binarios",
+    "sistema": "stock",
+    "total": 354
+  },
+  {
+    "id": "peroxidos-stock",
+    "tipo": "peroxidos",
+    "grupo": "binarios",
+    "sistema": "stock",
+    "total": 18
+  },
+  {
+    "id": "hidroxidos-stock",
+    "tipo": "hidroxidos",
+    "grupo": "ternarios",
+    "sistema": "stock",
+    "total": 44
+  },
+  {
+    "id": "oxosales-stock",
+    "tipo": "oxosales",
+    "grupo": "ternarios",
+    "sistema": "stock",
+    "total": 416
+  },
+  {
+    "id": "sales-acidas-stock",
+    "tipo": "sales-acidas",
+    "grupo": "ternarios",
+    "sistema": "stock",
+    "total": 76
+  },
+  {
+    "id": "hidruros-tradicional",
+    "tipo": "hidruros",
+    "grupo": "binarios",
+    "sistema": "tradicional",
+    "total": 22
+  },
+  {
+    "id": "peroxidos-tradicional",
+    "tipo": "peroxidos",
+    "grupo": "binarios",
+    "sistema": "tradicional",
+    "total": 1
+  },
+  {
+    "id": "oxoacidos-tradicional",
+    "tipo": "oxoacidos",
+    "grupo": "ternarios",
+    "sistema": "tradicional",
+    "total": 36
+  }
+]

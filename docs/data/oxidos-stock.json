@@ -1,0 +1,383 @@
+{
+  "id": "oxidos-stock",
+  "tipo": "oxidos",
+  "grupo": "binarios",
+  "sistema": "stock",
+  "compuestos": [
+    {
+      "formula": "Li2O",
+      "nombre": "Óxido de litio",
+      "alternativos": []
+    },
+    {
+      "formula": "Na2O",
+      "nombre": "Óxido de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "K2O",
+      "nombre": "Óxido de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "Rb2O",
+      "nombre": "Óxido de rubidio",
+      "alternativos": []
+    },
+    {
+      "formula": "Cs2O",
+      "nombre": "Óxido de cesio",
+      "alternativos": []
+    },
+    {
+      "formula": "BeO",
+      "nombre": "Óxido de berilio",
+      "alternativos": []
+    },
+    {
+      "formula": "MgO",
+      "nombre": "Óxido de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "CaO",
+      "nombre": "Óxido de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "SrO",
+      "nombre": "Óxido de estroncio",
+      "alternativos": []
+    },
+    {
+      "formula": "BaO",
+      "nombre": "Óxido de bario",
+      "alternativos": []
+    },
+    {
+      "formula": "CrO",
+      "nombre": "Óxido de cromo(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Cr2O3",
+      "nombre": "Óxido de cromo(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "CrO3",
+      "nombre": "Óxido de cromo(VI)",
+      "alternativos": []
+    },
+    {
+      "formula": "MnO",
+      "nombre": "Óxido de manganeso(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Mn2O3",
+      "nombre": "Óxido de manganeso(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "MnO2",
+      "nombre": "Óxido de manganeso(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "MnO3",
+      "nombre": "Óxido de manganeso(VI)",
+      "alternativos": []
+    },
+    {
+      "formula": "Mn2O7",
+      "nombre": "Óxido de manganeso(VII)",
+      "alternativos": []
+    },
+    {
+      "formula": "FeO",
+      "nombre": "Óxido de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe2O3",
+      "nombre": "Óxido de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "CoO",
+      "nombre": "Óxido de cobalto(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Co2O3",
+      "nombre": "Óxido de cobalto(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "NiO",
+      "nombre": "Óxido de níquel(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ni2O3",
+      "nombre": "Óxido de níquel(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Cu2O",
+      "nombre": "Óxido de cobre(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "CuO",
+      "nombre": "Óxido de cobre(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "ZnO",
+      "nombre": "Óxido de zinc",
+      "alternativos": []
+    },
+    {
+      "formula": "PdO",
+      "nombre": "Óxido de paladio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "PdO2",
+      "nombre": "Óxido de paladio(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "PtO",
+      "nombre": "Óxido de platino(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "PtO2",
+      "nombre": "Óxido de platino(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ag2O",
+      "nombre": "Óxido de plata",
+      "alternativos": []
+    },
+    {
+      "formula": "CdO",
+      "nombre": "Óxido de cadmio",
+      "alternativos": []
+    },
+    {
+      "formula": "Hg2O",
+      "nombre": "Óxido de mercurio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "HgO",
+      "nombre": "Óxido de mercurio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Au2O",
+      "nombre": "Óxido de oro(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Au2O3",
+      "nombre": "Óxido de oro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "B2O3",
+      "nombre": "Óxido de boro",
+      "alternativos": []
+    },
+    {
+      "formula": "Al2O3",
+      "nombre": "Óxido de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ga2O3",
+      "nombre": "Óxido de galio",
+      "alternativos": []
+    },
+    {
+      "formula": "In2O",
+      "nombre": "Óxido de indio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "In2O3",
+      "nombre": "Óxido de indio(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Tl2O",
+      "nombre": "Óxido de talio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Tl2O3",
+      "nombre": "Óxido de talio(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "CO",
+      "nombre": "Óxido de carbono(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "CO2",
+      "nombre": "Óxido de carbono(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "SiO2",
+      "nombre": "Óxido de silicio(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "GeO",
+      "nombre": "Óxido de germanio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "GeO2",
+      "nombre": "Óxido de germanio(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "SnO",
+      "nombre": "Óxido de estaño(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "SnO2",
+      "nombre": "Óxido de estaño(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "PbO",
+      "nombre": "Óxido de plomo(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "PbO2",
+      "nombre": "Óxido de plomo(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "N2O",
+      "nombre": "Óxido de nitrógeno(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "NO",
+      "nombre": "Óxido de nitrógeno(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "N2O3",
+      "nombre": "Óxido de nitrógeno(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "NO2",
+      "nombre": "Óxido de nitrógeno(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "N2O5",
+      "nombre": "Óxido de nitrógeno(V)",
+      "alternativos": []
+    },
+    {
+      "formula": "P2O3",
+      "nombre": "Óxido de fósforo(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "P2O5",
+      "nombre": "Óxido de fósforo(V)",
+      "alternativos": []
+    },
+    {
+      "formula": "As2O3",
+      "nombre": "Óxido de arsénico(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "As2O5",
+      "nombre": "Óxido de arsénico(V)",
+      "alternativos": []
+    },
+    {
+      "formula": "Sb2O3",
+      "nombre": "Óxido de antimonio(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Sb2O5",
+      "nombre": "Óxido de antimonio(V)",
+      "alternativos": []
+    },
+    {
+      "formula": "Bi2O3",
+      "nombre": "Óxido de bismuto(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Bi2O5",
+      "nombre": "Óxido de bismuto(V)",
+      "alternativos": []
+    },
+    {
+      "formula": "SO",
+      "nombre": "Óxido de azufre(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "SO2",
+      "nombre": "Óxido de azufre(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "SO3",
+      "nombre": "Óxido de azufre(VI)",
+      "alternativos": []
+    },
+    {
+      "formula": "SeO",
+      "nombre": "Óxido de selenio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "SeO2",
+      "nombre": "Óxido de selenio(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "SeO3",
+      "nombre": "Óxido de selenio(VI)",
+      "alternativos": []
+    },
+    {
+      "formula": "TeO",
+      "nombre": "Óxido de teluro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "TeO2",
+      "nombre": "Óxido de teluro(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "TeO3",
+      "nombre": "Óxido de teluro(VI)",
+      "alternativos": []
+    }
+  ]
+}
