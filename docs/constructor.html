@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Constructor de compuestos · IES Violant de Casalduch</title>
+  <meta name="description" content="Junta iones hasta que las cargas se compensen y descubre la fórmula y el nombre del compuesto.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚗️</text></svg>">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/constructor.css">
+  <script type="module" src="js/constructor.js"></script>
+</head>
+<body>
+  <header class="cabecera">
+    <div class="contenedor cabecera__fila">
+      <div>
+        <h1 data-texto="c.titulo"></h1>
+        <p class="cabecera__subtitulo" data-texto="c.subtitulo"></p>
+      </div>
+      <nav class="cabecera__tablas">
+        <a class="boton boton--suave" href="index.html" data-texto="c.volver"></a>
+        <a class="boton boton--suave" href="img/tabla-valencias.jpg" target="_blank" rel="noopener" data-texto="tablaValencias"></a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <p id="error" class="aviso aviso--error" hidden data-texto="errorDatos"></p>
+
+    <!-- Paso 1: elegir los elementos -->
+    <section class="tarjeta" aria-labelledby="titulo-paso1">
+      <h2 class="paso" id="titulo-paso1" data-texto="c.paso1"></h2>
+      <p class="ayuda" data-texto="c.paso1.ayuda"></p>
+      <div class="tabla-elementos__marco">
+        <div class="tabla-elementos" id="tabla-elementos"></div>
+      </div>
+      <p class="leyenda">
+        <span class="leyenda__muestra leyenda__muestra--metal"></span><span data-texto="c.metal"></span>
+        <span class="leyenda__muestra leyenda__muestra--no-metal"></span><span data-texto="c.noMetal"></span>
+      </p>
+      <p class="estado" id="estado-elementos" aria-live="polite"></p>
+    </section>
+
+    <!-- Paso 2: elegir los iones -->
+    <section class="tarjeta" id="paso-iones" aria-labelledby="titulo-paso2" hidden>
+      <h2 class="paso" id="titulo-paso2" data-texto="c.paso2"></h2>
+      <div class="iones">
+        <div>
+          <h3 class="iones__titulo" data-texto="c.positivo"></h3>
+          <div class="chips" id="cationes"></div>
+        </div>
+        <div>
+          <h3 class="iones__titulo" data-texto="c.negativo"></h3>
+          <div class="chips" id="aniones"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Paso 3: la mesa de fichas -->
+    <section class="tarjeta" id="paso-fichas" aria-labelledby="titulo-paso3" hidden>
+      <h2 class="paso" id="titulo-paso3" data-texto="c.paso3"></h2>
+      <p class="ayuda" data-texto="c.paso3.ayuda"></p>
+
+      <div class="mesa">
+        <div class="fila-fichas">
+          <div class="fila-fichas__control">
+            <button type="button" class="contador" id="quitar-cation">−</button>
+            <strong id="n-cationes">0</strong>
+            <button type="button" class="contador" id="poner-cation">+</button>
+          </div>
+          <div class="fila-fichas__pista" id="fichas-cationes"></div>
+          <small id="carga-positiva"></small>
+        </div>
+        <div class="fila-fichas">
+          <div class="fila-fichas__control">
+            <button type="button" class="contador" id="quitar-anion">−</button>
+            <strong id="n-aniones">0</strong>
+            <button type="button" class="contador" id="poner-anion">+</button>
+          </div>
+          <div class="fila-fichas__pista" id="fichas-aniones"></div>
+          <small id="carga-negativa"></small>
+        </div>
+      </div>
+
+      <p class="estado" id="estado-fichas" aria-live="polite"></p>
+      <div class="pregunta__botones">
+        <button type="button" class="boton boton--suave" id="ajustar" data-texto="c.ajustar"></button>
+        <button type="button" class="boton boton--suave" id="vaciar" data-texto="c.vaciar"></button>
+      </div>
+    </section>
+
+    <!-- Resultado -->
+    <section class="tarjeta resultado-constructor" id="resultado" aria-labelledby="titulo-resultado" aria-live="polite" hidden>
+      <h2 class="paso" id="titulo-resultado" data-texto="c.resultado"></h2>
+      <p class="resultado-constructor__formula">
+        <s id="formula-sin-simplificar" hidden></s>
+        <span id="formula"></span>
+      </p>
+      <p class="ayuda" id="tipo"></p>
+      <dl class="nombres" id="nombres"></dl>
+      <ul class="notas" id="notas"></ul>
+    </section>
+  </main>
+
+  <footer class="pie contenedor">
+    <p data-texto="creditos"></p>
+    <p>
+      <a href="https://github.com/Wachoss/WebQuimicaInorganicaIESViolant/tree/main/FQv1.1.1" data-texto="original"></a>
+      ·
+      <a href="https://github.com/Wachoss/WebQuimicaInorganicaIESViolant" data-texto="codigo"></a>
+    </p>
+  </footer>
+</body>
+</html>

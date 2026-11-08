@@ -1,0 +1,160 @@
+/* Estilos propios del constructor de compuestos. Usa las variables de estilos.css. */
+:root {
+  --positivo: #c2410c;
+  --positivo-fondo: #ffedd5;
+  --negativo: #1d4ed8;
+  --negativo-fondo: #dbeafe;
+  --metal-fondo: #fef3c7;
+  --no-metal-fondo: #e0f2fe;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --positivo: #fdba74;
+    --positivo-fondo: #43200b;
+    --negativo: #93c5fd;
+    --negativo-fondo: #172554;
+    --metal-fondo: #3b2f0b;
+    --no-metal-fondo: #0c2d44;
+  }
+}
+
+.paso { margin: 0 0 0.5rem; font-size: 1.1rem; }
+.ayuda { margin: 0 0 1rem; color: var(--suave); font-size: 0.9rem; }
+.estado { min-height: 1.5rem; margin: 0.75rem 0 0; font-weight: 600; }
+.estado--bien { color: var(--bien); }
+.estado--mal { color: var(--mal); }
+
+/* ---------- Paso 1: tabla de elementos ---------- */
+/* 15 columnas (grupos 1, 2 y 6-18). Si aun así no cabe, se desplaza la tabla, no la página. */
+.tabla-elementos__marco { overflow-x: auto; padding-bottom: 0.25rem; }
+.tabla-elementos {
+  display: grid;
+  grid-template-columns: repeat(15, minmax(1.25rem, 1fr));
+  gap: 3px;
+  max-width: 40rem;
+}
+@media (max-width: 30rem) {
+  .tabla-elementos { gap: 2px; }
+  .elemento { font-size: 0.68rem; border-radius: 4px; }
+}
+.elemento {
+  aspect-ratio: 1;
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--texto);
+  border: 1px solid var(--borde);
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 0;
+}
+.elemento--metal { background: var(--metal-fondo); }
+.elemento--no-metal { background: var(--no-metal-fondo); }
+.elemento:hover { border-color: var(--principal); }
+.elemento:focus-visible { outline: 2px solid var(--principal); outline-offset: 1px; }
+.elemento[aria-pressed="true"] { background: var(--principal); color: var(--tarjeta); border-color: var(--principal); }
+.elemento--apagado { opacity: 0.45; }
+
+.leyenda { display: flex; align-items: center; gap: 0.4rem; margin: 0.75rem 0 0; font-size: 0.85rem; color: var(--suave); }
+.leyenda__muestra { width: 0.9rem; height: 0.9rem; border-radius: 3px; border: 1px solid var(--borde); }
+.leyenda__muestra--metal { background: var(--metal-fondo); }
+.leyenda__muestra--no-metal { background: var(--no-metal-fondo); margin-left: 0.75rem; }
+
+/* ---------- Paso 2: iones ---------- */
+.iones { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 1rem; }
+.iones__titulo { margin: 0 0 0.5rem; font-size: 0.95rem; color: var(--suave); }
+.chips { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.chip {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.35rem;
+  padding: 0.45rem 0.8rem;
+  border: 1px solid var(--borde);
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 1.05rem;
+}
+.chip:hover { border-color: var(--principal); }
+.chip:has(input:checked) { border-color: var(--principal); background: var(--principal-claro); }
+.chip:has(input:focus-visible) { outline: 2px solid var(--principal); outline-offset: 2px; }
+.chip input { position: absolute; opacity: 0; pointer-events: none; }
+.chip small { color: var(--suave); font-size: 0.75rem; }
+
+.ion { font-weight: 700; white-space: nowrap; }
+.ion sup { font-size: 0.65em; }
+.ion sub { font-size: 0.65em; }
+
+/* ---------- Paso 3: mesa de fichas ---------- */
+.mesa { display: grid; gap: 0.75rem; }
+.fila-fichas {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas: "control pista" ". carga";
+  column-gap: 0.75rem;
+  align-items: center;
+}
+.fila-fichas__control { grid-area: control; display: flex; align-items: center; gap: 0.4rem; }
+.fila-fichas__control strong { min-width: 1.5rem; text-align: center; }
+.fila-fichas small { grid-area: carga; color: var(--suave); font-size: 0.8rem; }
+.fila-fichas__pista {
+  grid-area: pista;
+  display: flex;
+  min-height: 3rem;
+  border: 1px dashed var(--borde);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.ficha {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  border: 2px solid;
+  border-radius: 8px;
+  font-size: clamp(0.7rem, 2.5vw, 1rem);
+  overflow: hidden;
+  animation: aparecer 0.15s ease-out;
+  transition: width 0.25s;
+}
+.ficha--positiva { background: var(--positivo-fondo); color: var(--positivo); border-color: var(--positivo); }
+.ficha--negativa { background: var(--negativo-fondo); color: var(--negativo); border-color: var(--negativo); }
+@keyframes aparecer { from { transform: scale(0.6); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .ficha { animation: none; transition: none; } }
+
+.contador {
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  border: 1px solid var(--borde);
+  background: var(--tarjeta);
+  color: var(--texto);
+  font: inherit;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.contador:hover:not(:disabled) { border-color: var(--principal); color: var(--principal); }
+.contador:disabled { opacity: 0.4; cursor: not-allowed; }
+
+.pregunta__botones { margin-top: 1rem; }
+
+/* ---------- Resultado ---------- */
+.resultado-constructor__formula {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 1rem;
+  margin: 0.25rem 0;
+  font-size: clamp(2rem, 8vw, 2.75rem);
+  font-weight: 800;
+}
+.resultado-constructor__formula s { font-size: 0.55em; color: var(--suave); font-weight: 600; }
+.nombres { display: grid; grid-template-columns: max-content 1fr; gap: 0.5rem 1rem; margin: 1rem 0; }
+.nombres dt { color: var(--suave); font-weight: 600; }
+.nombres dd { margin: 0; }
+.nombres dd small { display: block; color: var(--suave); font-size: 0.85rem; }
+.nombres__vacio { color: var(--suave); font-style: italic; }
+@media (max-width: 30rem) {
+  .nombres { grid-template-columns: 1fr; }
+  .nombres dd { margin-bottom: 0.5rem; }
+}
+.notas { margin: 0; padding-left: 1.2rem; color: var(--suave); font-size: 0.9rem; }
