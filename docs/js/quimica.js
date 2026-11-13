@@ -77,7 +77,14 @@ export function ionesPosibles(a, b) {
 
   if (!delante.positivas.length || !detras.negativa) return { error: 'noCombinan' };
 
-  const cationes = delante.positivas.map((v) =>
+  let valencias = delante.positivas;
+  if (detras.simbolo === 'H') {
+    // Con hidrógeno, el grupo 15 solo actúa con valencia 3 (NH3, AsH3, BiH3;
+    // AsH5 no existe) y el mercurio(I) no forma hidruro (Hg2H2 no existe).
+    if (delante.grupo === 15) valencias = valencias.filter((v) => v === 3);
+    if (delante.simbolo === 'Hg') valencias = valencias.filter((v) => v !== 1);
+  }
+  const cationes = valencias.map((v) =>
     // El mercurio(I) no existe como Hg⁺ suelto, sino como Hg₂²⁺: por eso es
     // Hg2Cl2 y no HgCl.
     delante.simbolo === 'Hg' && v === 1 ? ion('Hg', 2, 1, 1) : ion(delante.simbolo, 1, v, 1));
@@ -177,7 +184,8 @@ export function compuesto(cation, anion, elementos, invertir = false) {
 
   let tipo = 'sales';
   if (peroxido) tipo = 'peroxidos';
-  else if (del === 'O' || det === 'O') tipo = 'oxidos';
+  // OF2 no es un óxido sino un fluoruro: el oxígeno es la parte positiva.
+  else if (det === 'O' || invertir) tipo = 'oxidos';
   else if (del === 'H' || det === 'H') tipo = 'hidruros';
 
   const notas = [];
