@@ -2099,6 +2099,791 @@
       "formula": "Pb(IO2)4",
       "nombre": "Yodito de plomo(IV)",
       "alternativos": []
+    },
+    {
+      "formula": "NaClO3",
+      "nombre": "Clorato de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "KClO3",
+      "nombre": "Clorato de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "RbClO3",
+      "nombre": "Clorato de rubidio",
+      "alternativos": []
+    },
+    {
+      "formula": "AgClO3",
+      "nombre": "Clorato de plata",
+      "alternativos": []
+    },
+    {
+      "formula": "Hg2(ClO3)2",
+      "nombre": "Clorato de mercurio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Mg(ClO3)2",
+      "nombre": "Clorato de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ca(ClO3)2",
+      "nombre": "Clorato de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ba(ClO3)2",
+      "nombre": "Clorato de bario",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(ClO3)2",
+      "nombre": "Clorato de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Co(ClO3)2",
+      "nombre": "Clorato de cobalto(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Zn(ClO3)2",
+      "nombre": "Clorato de zinc",
+      "alternativos": []
+    },
+    {
+      "formula": "Hg(ClO3)2",
+      "nombre": "Clorato de mercurio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pt(ClO3)2",
+      "nombre": "Clorato de platino(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Al(ClO3)3",
+      "nombre": "Clorato de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(ClO3)3",
+      "nombre": "Clorato de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ni(ClO3)3",
+      "nombre": "Clorato de níquel(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Au(ClO3)3",
+      "nombre": "Clorato de oro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Sn(ClO3)4",
+      "nombre": "Clorato de estaño(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pt(ClO3)4",
+      "nombre": "Clorato de platino(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pb(ClO3)4",
+      "nombre": "Clorato de plomo(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "NaBrO3",
+      "nombre": "Bromato de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "KBrO3",
+      "nombre": "Bromato de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "RbBrO3",
+      "nombre": "Bromato de rubidio",
+      "alternativos": []
+    },
+    {
+      "formula": "AgBrO3",
+      "nombre": "Bromato de plata",
+      "alternativos": []
+    },
+    {
+      "formula": "Hg2(BrO3)2",
+      "nombre": "Bromato de mercurio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Mg(BrO3)2",
+      "nombre": "Bromato de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ca(BrO3)2",
+      "nombre": "Bromato de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ba(BrO3)2",
+      "nombre": "Bromato de bario",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(BrO3)2",
+      "nombre": "Bromato de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Co(BrO3)2",
+      "nombre": "Bromato de cobalto(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Zn(BrO3)2",
+      "nombre": "Bromato de zinc",
+      "alternativos": []
+    },
+    {
+      "formula": "Hg(BrO3)2",
+      "nombre": "Bromato de mercurio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pt(BrO3)2",
+      "nombre": "Bromato de platino(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Al(BrO3)3",
+      "nombre": "Bromato de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(BrO3)3",
+      "nombre": "Bromato de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ni(BrO3)3",
+      "nombre": "Bromato de níquel(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Au(BrO3)3",
+      "nombre": "Bromato de oro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Sn(BrO3)4",
+      "nombre": "Bromato de estaño(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pt(BrO3)4",
+      "nombre": "Bromato de platino(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pb(BrO3)4",
+      "nombre": "Bromato de plomo(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "NaIO3",
+      "nombre": "Yodato de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "KIO3",
+      "nombre": "Yodato de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "RbIO3",
+      "nombre": "Yodato de rubidio",
+      "alternativos": []
+    },
+    {
+      "formula": "AgIO3",
+      "nombre": "Yodato de plata",
+      "alternativos": []
+    },
+    {
+      "formula": "Hg2(IO3)2",
+      "nombre": "Yodato de mercurio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Mg(IO3)2",
+      "nombre": "Yodato de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ca(IO3)2",
+      "nombre": "Yodato de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ba(IO3)2",
+      "nombre": "Yodato de bario",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(IO3)2",
+      "nombre": "Yodato de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Co(IO3)2",
+      "nombre": "Yodato de cobalto(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Zn(IO3)2",
+      "nombre": "Yodato de zinc",
+      "alternativos": []
+    },
+    {
+      "formula": "Hg(IO3)2",
+      "nombre": "Yodato de mercurio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pt(IO3)2",
+      "nombre": "Yodato de platino(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Al(IO3)3",
+      "nombre": "Yodato de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(IO3)3",
+      "nombre": "Yodato de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ni(IO3)3",
+      "nombre": "Yodato de níquel(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Au(IO3)3",
+      "nombre": "Yodato de oro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Sn(IO3)4",
+      "nombre": "Yodato de estaño(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pt(IO3)4",
+      "nombre": "Yodato de platino(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pb(IO3)4",
+      "nombre": "Yodato de plomo(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "NaClO4",
+      "nombre": "Perclorato de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "KClO4",
+      "nombre": "Perclorato de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "RbClO4",
+      "nombre": "Perclorato de rubidio",
+      "alternativos": []
+    },
+    {
+      "formula": "AgClO4",
+      "nombre": "Perclorato de plata",
+      "alternativos": []
+    },
+    {
+      "formula": "Hg2(ClO4)2",
+      "nombre": "Perclorato de mercurio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Mg(ClO4)2",
+      "nombre": "Perclorato de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ca(ClO4)2",
+      "nombre": "Perclorato de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ba(ClO4)2",
+      "nombre": "Perclorato de bario",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(ClO4)2",
+      "nombre": "Perclorato de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Co(ClO4)2",
+      "nombre": "Perclorato de cobalto(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Zn(ClO4)2",
+      "nombre": "Perclorato de zinc",
+      "alternativos": []
+    },
+    {
+      "formula": "Hg(ClO4)2",
+      "nombre": "Perclorato de mercurio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pt(ClO4)2",
+      "nombre": "Perclorato de platino(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Al(ClO4)3",
+      "nombre": "Perclorato de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(ClO4)3",
+      "nombre": "Perclorato de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ni(ClO4)3",
+      "nombre": "Perclorato de níquel(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Au(ClO4)3",
+      "nombre": "Perclorato de oro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Sn(ClO4)4",
+      "nombre": "Perclorato de estaño(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pt(ClO4)4",
+      "nombre": "Perclorato de platino(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pb(ClO4)4",
+      "nombre": "Perclorato de plomo(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "NaBrO4",
+      "nombre": "Perbromato de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "KBrO4",
+      "nombre": "Perbromato de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "RbBrO4",
+      "nombre": "Perbromato de rubidio",
+      "alternativos": []
+    },
+    {
+      "formula": "AgBrO4",
+      "nombre": "Perbromato de plata",
+      "alternativos": []
+    },
+    {
+      "formula": "Hg2(BrO4)2",
+      "nombre": "Perbromato de mercurio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Mg(BrO4)2",
+      "nombre": "Perbromato de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ca(BrO4)2",
+      "nombre": "Perbromato de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ba(BrO4)2",
+      "nombre": "Perbromato de bario",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(BrO4)2",
+      "nombre": "Perbromato de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Co(BrO4)2",
+      "nombre": "Perbromato de cobalto(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Zn(BrO4)2",
+      "nombre": "Perbromato de zinc",
+      "alternativos": []
+    },
+    {
+      "formula": "Hg(BrO4)2",
+      "nombre": "Perbromato de mercurio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pt(BrO4)2",
+      "nombre": "Perbromato de platino(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Al(BrO4)3",
+      "nombre": "Perbromato de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(BrO4)3",
+      "nombre": "Perbromato de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ni(BrO4)3",
+      "nombre": "Perbromato de níquel(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Au(BrO4)3",
+      "nombre": "Perbromato de oro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Sn(BrO4)4",
+      "nombre": "Perbromato de estaño(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pt(BrO4)4",
+      "nombre": "Perbromato de platino(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pb(BrO4)4",
+      "nombre": "Perbromato de plomo(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "NaIO4",
+      "nombre": "Peryodato de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "KIO4",
+      "nombre": "Peryodato de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "RbIO4",
+      "nombre": "Peryodato de rubidio",
+      "alternativos": []
+    },
+    {
+      "formula": "AgIO4",
+      "nombre": "Peryodato de plata",
+      "alternativos": []
+    },
+    {
+      "formula": "Hg2(IO4)2",
+      "nombre": "Peryodato de mercurio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Mg(IO4)2",
+      "nombre": "Peryodato de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ca(IO4)2",
+      "nombre": "Peryodato de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "Ba(IO4)2",
+      "nombre": "Peryodato de bario",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(IO4)2",
+      "nombre": "Peryodato de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Co(IO4)2",
+      "nombre": "Peryodato de cobalto(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Zn(IO4)2",
+      "nombre": "Peryodato de zinc",
+      "alternativos": []
+    },
+    {
+      "formula": "Hg(IO4)2",
+      "nombre": "Peryodato de mercurio(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pt(IO4)2",
+      "nombre": "Peryodato de platino(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Al(IO4)3",
+      "nombre": "Peryodato de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(IO4)3",
+      "nombre": "Peryodato de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ni(IO4)3",
+      "nombre": "Peryodato de níquel(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Au(IO4)3",
+      "nombre": "Peryodato de oro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Sn(IO4)4",
+      "nombre": "Peryodato de estaño(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pt(IO4)4",
+      "nombre": "Peryodato de platino(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pb(IO4)4",
+      "nombre": "Peryodato de plomo(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Li2MnO4",
+      "nombre": "Manganato de litio",
+      "alternativos": []
+    },
+    {
+      "formula": "K2MnO4",
+      "nombre": "Manganato de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "Cu2MnO4",
+      "nombre": "Manganato de cobre(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "MgMnO4",
+      "nombre": "Manganato de magnesio",
+      "alternativos": []
+    },
+    {
+      "formula": "NiMnO4",
+      "nombre": "Manganato de níquel(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe2(MnO4)3",
+      "nombre": "Manganato de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Au2(MnO4)3",
+      "nombre": "Manganato de oro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Pb(MnO4)2",
+      "nombre": "Manganato de plomo(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "NaMnO4",
+      "nombre": "Permanganato de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "KMnO4",
+      "nombre": "Permanganato de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "Hg2(MnO4)2",
+      "nombre": "Permanganato de mercurio(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ca(MnO4)2",
+      "nombre": "Permanganato de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "Be(MnO4)2",
+      "nombre": "Permanganato de berilio",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(MnO4)2",
+      "nombre": "Permanganato de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Zn(MnO4)2",
+      "nombre": "Permanganato de zinc",
+      "alternativos": []
+    },
+    {
+      "formula": "Al(MnO4)3",
+      "nombre": "Permanganato de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "Fe(MnO4)3",
+      "nombre": "Permanganato de hierro(III)",
+      "alternativos": []
+    },
+    {
+      "formula": "Sn(MnO4)4",
+      "nombre": "Permanganato de estaño(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Na2CrO4",
+      "nombre": "Cromato de sodio",
+      "alternativos": []
+    },
+    {
+      "formula": "Li2CrO4",
+      "nombre": "Cromato de litio",
+      "alternativos": []
+    },
+    {
+      "formula": "K2CrO4",
+      "nombre": "Cromato de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "CaCrO4",
+      "nombre": "Cromato de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "FeCrO4",
+      "nombre": "Cromato de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Cu2CrO4",
+      "nombre": "Cromato de cobre(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "CuCrO4",
+      "nombre": "Cromato de cobre(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ag2CrO4",
+      "nombre": "Cromato de plata",
+      "alternativos": []
+    },
+    {
+      "formula": "Al2(CrO4)3",
+      "nombre": "Cromato de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "Pb(CrO4)2",
+      "nombre": "Cromato de plomo(IV)",
+      "alternativos": []
+    },
+    {
+      "formula": "Li2Cr2O7",
+      "nombre": "Dicromato de litio",
+      "alternativos": []
+    },
+    {
+      "formula": "K2Cr2O7",
+      "nombre": "Dicromato de potasio",
+      "alternativos": []
+    },
+    {
+      "formula": "CaCr2O7",
+      "nombre": "Dicromato de calcio",
+      "alternativos": []
+    },
+    {
+      "formula": "FeCr2O7",
+      "nombre": "Dicromato de hierro(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Cu2Cr2O7",
+      "nombre": "Dicromato de cobre(I)",
+      "alternativos": []
+    },
+    {
+      "formula": "CuCr2O7",
+      "nombre": "Dicromato de cobre(II)",
+      "alternativos": []
+    },
+    {
+      "formula": "Ag2Cr2O7",
+      "nombre": "Dicromato de plata",
+      "alternativos": []
+    },
+    {
+      "formula": "Al2(Cr2O7)3",
+      "nombre": "Dicromato de aluminio",
+      "alternativos": []
+    },
+    {
+      "formula": "Pb(Cr2O7)2",
+      "nombre": "Dicromato de plomo(IV)",
+      "alternativos": []
     }
   ]
 }
