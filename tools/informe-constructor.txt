@@ -1,5 +1,5 @@
 Comparación entre los compuestos binarios del test y el constructor.
-Revisados: 1028 · coinciden: 1028 · para revisar: 0
+Revisados: 1011 · coinciden: 1011 · para revisar: 0
 Cada aviso puede ser un error en los datos o un nombre válido que el constructor no conoce: hay que mirarlo a mano.
 
 == hidruros-sistematica (0 para revisar)

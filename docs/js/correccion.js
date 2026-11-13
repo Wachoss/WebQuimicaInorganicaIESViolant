@@ -40,7 +40,7 @@ export function nombresValidos(compuesto) {
  *
  * pregunta.modo === 'formulacion': se muestra un nombre y se pide la fórmula.
  *   Se acepta la fórmula de cualquier compuesto de la misma sección que tenga
- *   ese nombre (p. ej. "Ácido clorhídrico" puede ser HCl o HCl(aq)).
+ *   ese nombre (por si dos fórmulas de la sección comparten nombre).
  * pregunta.modo === 'nomenclatura': se muestra una fórmula y se pide el nombre.
  *   Se acepta el nombre principal o cualquiera de los alternativos.
  */

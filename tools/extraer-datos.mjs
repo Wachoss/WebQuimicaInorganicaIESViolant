@@ -171,6 +171,26 @@ for (const carpeta of ['formulacion', 'nomenclatura']) {
   }
 }
 
+// Compuestos que no estaban en la web original y se añaden aparte, cada uno
+// con su origen (por ejemplo, la lista de la profesora de FQ). Van después de
+// los de las páginas, así que no cambian el orden de los que ya había.
+const NUEVOS = JSON.parse(readFileSync('tools/compuestos-nuevos.json', 'utf8'));
+for (const n of NUEVOS.compuestos) {
+  const seccion = secciones.get(n.seccion);
+  if (!seccion) {
+    avisar('tools/compuestos-nuevos.json', `sección desconocida: ${n.seccion}`);
+    continue;
+  }
+  if (seccion.porFormula.has(n.formula)) {
+    avisar('tools/compuestos-nuevos.json', `${n.formula} ya está en ${n.seccion}: no se añade`);
+    continue;
+  }
+  const nuevo = { formula: n.formula, nombre: n.nombre, alternativos: n.alternativos ?? [] };
+  if (nuevo.nombre.startsWith('Seleniato ')) nuevo.alternativos.push(nuevo.nombre.replace('Seleniato', 'Selenato'));
+  seccion.porFormula.set(n.formula, nuevo);
+  seccion.compuestos.push(nuevo);
+}
+
 for (const k of CORRECCIONES.filter((k) => !usadas.has(k))) {
   avisar('tools/correcciones.json', `corrección sin aplicar (no se encontró ${k.formula} "${k.nombre}" en ${k.seccion})`);
 }

@@ -186,8 +186,10 @@
     },
     {
       "formula": "GaH3",
-      "nombre": "Hidruro de galio(III)",
-      "alternativos": []
+      "nombre": "Hidruro de galio",
+      "alternativos": [
+        "Hidruro de galio(III)"
+      ]
     },
     {
       "formula": "InH",
@@ -216,8 +218,10 @@
     },
     {
       "formula": "SiH4",
-      "nombre": "Hidruro de silicio(IV)",
-      "alternativos": []
+      "nombre": "Hidruro de silicio",
+      "alternativos": [
+        "Hidruro de silicio(IV)"
+      ]
     },
     {
       "formula": "GeH2",

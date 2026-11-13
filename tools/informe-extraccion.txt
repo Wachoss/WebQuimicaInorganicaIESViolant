@@ -117,15 +117,12 @@ nomenclatura/stockbinhidnom.html: espacios sobrantes en "GeH2 " / "Hidruro de ge
 nomenclatura/stockbinhidnom.html: espacios sobrantes en "SnH4 " / "Hidruro de estaño(IV)"
 nomenclatura/stockbinhidnom.html: espacios sobrantes en "AsH5 " / "Hidruro de arsénico(V)"
 nomenclatura/stockbinhidnom.html: espacios sobrantes en "SbH3 " / "Hidruro de antimonio(III)"
-nomenclatura/stockbinhidnom.html: SiH4 se llama "Tetrahidruro de silicio" aquí y "Hidruro de silicio(IV)" en formulación: no se añade
+nomenclatura/stockbinhidnom.html: SiH4 se llama "Tetrahidruro de silicio" aquí y "Hidruro de silicio" en formulación: no se añade
 nomenclatura/stockbinoxinom.html: espacios sobrantes en "CrO " / "Óxido de cromo(II)"
+nomenclatura/stockbinoxinom.html: Ga2O3 se llama "Óxido de galio(III)" aquí y "Óxido de galio" en formulación: no se añade
 nomenclatura/stockbinsalesnom.html: elegía con Math.random()*280 pero hay 341 compuestos (índices 0-340)
 nomenclatura/stockbinsalesnom.html: espacios sobrantes en "Ni2S3" / " Sulfuro de níquel(III)"
 nomenclatura/stockbinsalesnom.html: espacios sobrantes en "Cu2S" / "Sulfuro de cobre(I) "
-nomenclatura/stockbinsalesnom.html: GaCl3 se llama "Cloruro de galio" aquí y "Cloruro de galio(III)" en formulación: no se añade
-nomenclatura/stockbinsalesnom.html: SiCl4 se llama "Cloruro de silicio" aquí y "Cloruro de silicio(IV)" en formulación: no se añade
-nomenclatura/stockbinsalesnom.html: GaBr3 se llama "Bromuro de galio" aquí y "Bromuro de galio(III)" en formulación: no se añade
-nomenclatura/stockbinsalesnom.html: SiBr4 se llama "Bromuro de silicio" aquí y "Bromuro de silicio(IV)" en formulación: no se añade
 nomenclatura/stockbinsalesnom.html: SnBr4 se llama "Bromuro de plomo(II)" aquí y "Bromuro de estaño(IV)" en formulación: no se añade
 nomenclatura/stockbinsalesnom.html: PbBr2 se llama "Bromuro de plomo(IV)" aquí y "Bromuro de plomo(II)" en formulación: no se añade
 nomenclatura/stockbinsalesnom.html: PbBr4 se llama "Bromuro de nitrógeno(III)" aquí y "Bromuro de plomo(IV)" en formulación: no se añade
@@ -185,13 +182,13 @@ nomenclatura/stockbinsalesnom.html: AuI se llama "Yoduro de oro(III)" aquí y "Y
 nomenclatura/stockbinsalesnom.html: AuI3 se llama "Yoduro de boro" aquí y "Yoduro de oro(III)" en formulación: no se añade
 nomenclatura/stockbinsalesnom.html: BI3 se llama "Yoduro de aluminio" aquí y "Yoduro de boro" en formulación: no se añade
 nomenclatura/stockbinsalesnom.html: AlI3 se llama "Yoduro de galio" aquí y "Yoduro de aluminio" en formulación: no se añade
-nomenclatura/stockbinsalesnom.html: GaI3 se llama "Yoduro de indio(I)" aquí y "Yoduro de galio(III)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: GaI3 se llama "Yoduro de indio(I)" aquí y "Yoduro de galio" en formulación: no se añade
 nomenclatura/stockbinsalesnom.html: InI se llama "Yoduro de indio(III)" aquí y "Yoduro de indio(I)" en formulación: no se añade
 nomenclatura/stockbinsalesnom.html: InI3 se llama "Yoduro de talio(I)" aquí y "Yoduro de indio(III)" en formulación: no se añade
 nomenclatura/stockbinsalesnom.html: TlI se llama "Yoduro de talio(III)" aquí y "Yoduro de talio(I)" en formulación: no se añade
 nomenclatura/stockbinsalesnom.html: TlI3 se llama "Yoduro de carbono(IV)" aquí y "Yoduro de talio(III)" en formulación: no se añade
 nomenclatura/stockbinsalesnom.html: CI4 se llama "Yoduro de silicio" aquí y "Yoduro de carbono(IV)" en formulación: no se añade
-nomenclatura/stockbinsalesnom.html: SiI4 se llama "Yoduro de germanio(II)" aquí y "Yoduro de silicio(IV)" en formulación: no se añade
+nomenclatura/stockbinsalesnom.html: SiI4 se llama "Yoduro de germanio(II)" aquí y "Yoduro de silicio" en formulación: no se añade
 nomenclatura/stockbinsalesnom.html: GeI2 se llama "Yoduro de germanio(IV)" aquí y "Yoduro de germanio(II)" en formulación: no se añade
 nomenclatura/stockbinsalesnom.html: GeI4 se llama "Yoduro de estaño(II)" aquí y "Yoduro de germanio(IV)" en formulación: no se añade
 nomenclatura/stockbinsalesnom.html: SnI2 se llama "Yoduro de estaño(IV)" aquí y "Yoduro de estaño(II)" en formulación: no se añade

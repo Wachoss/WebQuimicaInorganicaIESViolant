@@ -1,5 +1,5 @@
 Verificación de ternarios y cuaternarios: del nombre guardado a la fórmula.
-Revisados: 607 · correctos: 607 · avisos: 0
+Revisados: 764 · correctos: 764 · avisos: 0
 Cada aviso puede ser un error en los datos o un nombre válido que las reglas del script no conocen: hay que mirarlo a mano.
 
 == hidroxidos-sistematica (0 para revisar)

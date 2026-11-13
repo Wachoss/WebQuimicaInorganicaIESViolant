@@ -171,8 +171,10 @@
     },
     {
       "formula": "Ga(OH)3",
-      "nombre": "Hidróxido de galio(III)",
-      "alternativos": []
+      "nombre": "Hidróxido de galio",
+      "alternativos": [
+        "Hidróxido de galio(III)"
+      ]
     },
     {
       "formula": "InOH",
