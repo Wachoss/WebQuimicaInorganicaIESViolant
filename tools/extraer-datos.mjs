@@ -141,6 +141,9 @@ for (const carpeta of ['formulacion', 'nomenclatura']) {
         const [nombre, ...otros] = c.nombre.split(' o ');
         const alternativos = otros.map((t) => t.charAt(0).toUpperCase() + t.slice(1));
         alternativos.push(...(correccion?.alternativos ?? []));
+        // "Seleniato" es el nombre de la web y "selenato" el que recomienda la
+        // IUPAC: se aceptan los dos. Una regla en vez de 18 correcciones sueltas.
+        if (nombre.startsWith('Seleniato ')) alternativos.push(nombre.replace('Seleniato', 'Selenato'));
 
         // La página de formulación manda. En alguna página de nomenclatura los
         // nombres están desplazados una posición respecto a las fórmulas (por

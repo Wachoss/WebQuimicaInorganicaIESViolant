@@ -1,46 +1,20 @@
 Comparación entre los compuestos binarios del test y el constructor.
-Revisados: 1041 · coinciden: 1015 · para revisar: 26
+Revisados: 1028 · coinciden: 1028 · para revisar: 0
 Cada aviso puede ser un error en los datos o un nombre válido que el constructor no conoce: hay que mirarlo a mano.
 
-== hidruros-sistematica (1 para revisar)
-  HgH  "Hidruro de mercurio": no sale con las valencias de la tabla
+== hidruros-sistematica (0 para revisar)
 
-== oxidos-sistematica (1 para revisar)
-  N2O3  "Trióxido de nitrógeno"  ->  el constructor dice "Trióxido de dinitrógeno"
+== oxidos-sistematica (0 para revisar)
 
-== sales-sistematica (15 para revisar)
-  CrS  "Disulfuro de cromo"  ->  el constructor dice "Sulfuro de cromo"
-  CrS3  "Hexasulfuro de cromo"  ->  el constructor dice "Trisulfuro de cromo"
-  FeS  "Disulfuro de hierro"  ->  el constructor dice "Sulfuro de hierro"
-  CoS  "Disulfuro de cobalto"  ->  el constructor dice "Sulfuro de cobalto"
-  NiS  "Disulfuro de níquel"  ->  el constructor dice "Sulfuro de níquel"
-  Fe2N3  "Trinitruro de dihierro": no sale con las valencias de la tabla
-  HgF  "Fluoruro de mercurio": no sale con las valencias de la tabla
-  CF4  "Fluoruro de carbono"  ->  el constructor dice "Tetrafluoruro de carbono"
-  HgCl  "Cloruro de mercurio": no sale con las valencias de la tabla
-  AuCl3  "Triclorurode oro"  ->  el constructor dice "Tricloruro de oro"
-  CCl4  "Cloruro de carbono"  ->  el constructor dice "Tetracloruro de carbono"
-  HgBr  "Bromuro de mercurio": no sale con las valencias de la tabla
-  HgI  "Yoduro de mercurio": no sale con las valencias de la tabla
-  GaI3  "Yoduro de galio"  ->  el constructor dice "Triyoduro de galio"
-  CI4  "Yoduro de carbono"  ->  el constructor dice "Tetrayoduro de carbono"
+== sales-sistematica (0 para revisar)
 
 == peroxidos-sistematica (0 para revisar)
 
-== hidruros-stock (1 para revisar)
-  HgH  "Hidruro de mercurio(I)": no sale con las valencias de la tabla
+== hidruros-stock (0 para revisar)
 
-== oxidos-stock (1 para revisar)
-  Ga2O3  "Óxido de galio"  ->  el constructor dice "Óxido de galio(III)"
+== oxidos-stock (0 para revisar)
 
-== sales-stock (7 para revisar)
-  SiC  "Carburo de silicio"  ->  el constructor dice "Carburo de silicio(IV)"
-  Fe2N3  "Nitruro de hierro(II)": no sale con las valencias de la tabla
-  HgF  "Fluoruro de mercurio(I)": no sale con las valencias de la tabla
-  OF2  "Fluoruro de oxígeno(II)": el constructor no da nombre stock para este compuesto
-  HgCl  "Cloruro de mercurio(I)": no sale con las valencias de la tabla
-  HgBr  "Bromuro de mercurio(I)": no sale con las valencias de la tabla
-  HgI  "Yoduro de mercurio(I)": no sale con las valencias de la tabla
+== sales-stock (0 para revisar)
 
 == peroxidos-stock (0 para revisar)
 

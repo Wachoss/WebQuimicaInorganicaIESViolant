@@ -103,3 +103,22 @@ test('deducir: de la fórmula a los iones', () => {
   assert.equal(deducir('HgH', elementos), null); // el mercurio(I) daría Hg2H2
   assert.equal(analizarFormula('H2SO4'), null);
 });
+
+test('hidruros: solo los que existen', () => {
+  // El grupo 15 solo actúa con valencia 3 frente al hidrógeno.
+  for (const s of ['N', 'P', 'As', 'Sb', 'Bi']) {
+    const p = ionesPosibles(elementos[s], elementos.H);
+    assert.deepEqual(p.cationes.map((c) => c.valencia), [3], s);
+  }
+  assert.equal(deducir('AsH5', elementos), null);
+  assert.equal(deducir('AsH3', elementos).formula, 'AsH3');
+  // El mercurio(I) no forma hidruro: solo queda HgH2.
+  const hg = ionesPosibles(elementos.Hg, elementos.H);
+  assert.deepEqual(hg.cationes.map((c) => c.valencia), [2]);
+  assert.equal(deducir('Hg2H2', elementos), null);
+});
+
+test('OF2 es un fluoruro, no un óxido', () => {
+  assert.equal(deducir('OF2', elementos).tipo, 'sales');
+  assert.equal(deducir('OCl2', elementos).tipo, 'oxidos'); // aquí el oxígeno sí es el anión
+});

@@ -1,0 +1,13 @@
+Verificación de ternarios y cuaternarios: del nombre guardado a la fórmula.
+Revisados: 607 · correctos: 607 · avisos: 0
+Cada aviso puede ser un error en los datos o un nombre válido que las reglas del script no conocen: hay que mirarlo a mano.
+
+== hidroxidos-sistematica (0 para revisar)
+
+== hidroxidos-stock (0 para revisar)
+
+== oxosales-stock (0 para revisar)
+
+== sales-acidas-stock (0 para revisar)
+
+== oxoacidos-tradicional (0 para revisar)

@@ -160,11 +160,6 @@
       "alternativos": []
     },
     {
-      "formula": "HgH",
-      "nombre": "Hidruro de mercurio",
-      "alternativos": []
-    },
-    {
       "formula": "HgH2",
       "nombre": "Dihidruro de mercurio",
       "alternativos": []
@@ -270,28 +265,13 @@
       "alternativos": []
     },
     {
-      "formula": "AsH5",
-      "nombre": "Pentahidruro de arsénico",
-      "alternativos": []
-    },
-    {
       "formula": "SbH3",
       "nombre": "Trihidruro de antimonio",
       "alternativos": []
     },
     {
-      "formula": "SbH5",
-      "nombre": "Pentahidruro de antimonio",
-      "alternativos": []
-    },
-    {
       "formula": "BiH3",
       "nombre": "Trihidruro de bismuto",
-      "alternativos": []
-    },
-    {
-      "formula": "BiH5",
-      "nombre": "Pentahidruro de bismuto",
       "alternativos": []
     },
     {

@@ -4,14 +4,14 @@
     "tipo": "hidruros",
     "grupo": "binarios",
     "sistema": "sistematica",
-    "total": 65
+    "total": 61
   },
   {
     "id": "oxidos-sistematica",
     "tipo": "oxidos",
     "grupo": "binarios",
     "sistema": "sistematica",
-    "total": 88
+    "total": 87
   },
   {
     "id": "sales-sistematica",
@@ -32,14 +32,14 @@
     "tipo": "hidroxidos",
     "grupo": "ternarios",
     "sistema": "sistematica",
-    "total": 44
+    "total": 42
   },
   {
     "id": "hidruros-stock",
     "tipo": "hidruros",
     "grupo": "binarios",
     "sistema": "stock",
-    "total": 65
+    "total": 61
   },
   {
     "id": "oxidos-stock",
@@ -53,7 +53,7 @@
     "tipo": "sales",
     "grupo": "binarios",
     "sistema": "stock",
-    "total": 354
+    "total": 350
   },
   {
     "id": "peroxidos-stock",
@@ -67,14 +67,14 @@
     "tipo": "hidroxidos",
     "grupo": "ternarios",
     "sistema": "stock",
-    "total": 44
+    "total": 42
   },
   {
     "id": "oxosales-stock",
     "tipo": "oxosales",
     "grupo": "ternarios",
     "sistema": "stock",
-    "total": 416
+    "total": 412
   },
   {
     "id": "sales-acidas-stock",
@@ -102,6 +102,6 @@
     "tipo": "oxoacidos",
     "grupo": "ternarios",
     "sistema": "tradicional",
-    "total": 36
+    "total": 35
   }
 ]

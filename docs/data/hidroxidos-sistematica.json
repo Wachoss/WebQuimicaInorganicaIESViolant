@@ -150,11 +150,6 @@
       "alternativos": []
     },
     {
-      "formula": "HgOH",
-      "nombre": "Hidróxido de mercurio",
-      "alternativos": []
-    },
-    {
       "formula": "Hg(OH)2",
       "nombre": "Dihidróxido de mercurio",
       "alternativos": []
@@ -170,18 +165,13 @@
       "alternativos": []
     },
     {
-      "formula": "B(OH)3",
-      "nombre": "Hidróxido de boro",
-      "alternativos": []
-    },
-    {
       "formula": "Al(OH)3",
       "nombre": "Hidróxido de aluminio",
       "alternativos": []
     },
     {
       "formula": "Ga(OH)3",
-      "nombre": "Trihidruro de galio",
+      "nombre": "Trihidróxido de galio",
       "alternativos": []
     },
     {
