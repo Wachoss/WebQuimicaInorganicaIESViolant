@@ -555,12 +555,12 @@
       "alternativos": []
     },
     {
-      "formula": "HgNO2",
+      "formula": "Hg2(NO2)2",
       "nombre": "Nitrito de mercurio(I)",
       "alternativos": []
     },
     {
-      "formula": "HgNO3",
+      "formula": "Hg2(NO3)2",
       "nombre": "Nitrato de mercurio(I)",
       "alternativos": []
     },
@@ -675,7 +675,7 @@
       "alternativos": []
     },
     {
-      "formula": "Hg3PO3",
+      "formula": "(Hg2)3(PO3)2",
       "nombre": "Fosfito de mercurio(I)",
       "alternativos": []
     },
@@ -785,7 +785,7 @@
       "alternativos": []
     },
     {
-      "formula": "Hg3PO4",
+      "formula": "(Hg2)3(PO4)2",
       "nombre": "Fosfato de mercurio(I)",
       "alternativos": []
     },
@@ -1242,92 +1242,128 @@
     {
       "formula": "Na2SeO4",
       "nombre": "Seleniato de sodio",
-      "alternativos": []
+      "alternativos": [
+        "Selenato de sodio"
+      ]
     },
     {
       "formula": "K2SeO4",
       "nombre": "Seleniato de potasio",
-      "alternativos": []
+      "alternativos": [
+        "Selenato de potasio"
+      ]
     },
     {
       "formula": "Ag2SeO4",
       "nombre": "Seleniato de plata",
-      "alternativos": []
+      "alternativos": [
+        "Selenato de plata"
+      ]
     },
     {
       "formula": "Au2SeO4",
       "nombre": "Seleniato de oro(I)",
-      "alternativos": []
+      "alternativos": [
+        "Selenato de oro(I)"
+      ]
     },
     {
       "formula": "MgSeO4",
       "nombre": "Seleniato de magnesio",
-      "alternativos": []
+      "alternativos": [
+        "Selenato de magnesio"
+      ]
     },
     {
       "formula": "CaSeO4",
       "nombre": "Seleniato de calcio",
-      "alternativos": []
+      "alternativos": [
+        "Selenato de calcio"
+      ]
     },
     {
       "formula": "FeSeO4",
       "nombre": "Seleniato de hierro(II)",
-      "alternativos": []
+      "alternativos": [
+        "Selenato de hierro(II)"
+      ]
     },
     {
       "formula": "CuSeO4",
       "nombre": "Seleniato de cobre(II)",
-      "alternativos": []
+      "alternativos": [
+        "Selenato de cobre(II)"
+      ]
     },
     {
       "formula": "ZnSeO4",
       "nombre": "Seleniato de zinc",
-      "alternativos": []
+      "alternativos": [
+        "Selenato de zinc"
+      ]
     },
     {
       "formula": "CdSeO4",
       "nombre": "Seleniato de cadmio",
-      "alternativos": []
+      "alternativos": [
+        "Selenato de cadmio"
+      ]
     },
     {
       "formula": "HgSeO4",
       "nombre": "Seleniato de mercurio(II)",
-      "alternativos": []
+      "alternativos": [
+        "Selenato de mercurio(II)"
+      ]
     },
     {
       "formula": "PtSeO4",
       "nombre": "Seleniato de platino(II)",
-      "alternativos": []
+      "alternativos": [
+        "Selenato de platino(II)"
+      ]
     },
     {
       "formula": "SnSeO4",
       "nombre": "Seleniato de estaño(II)",
-      "alternativos": []
+      "alternativos": [
+        "Selenato de estaño(II)"
+      ]
     },
     {
       "formula": "Al2(SeO4)3",
       "nombre": "Seleniato de aluminio",
-      "alternativos": []
+      "alternativos": [
+        "Selenato de aluminio"
+      ]
     },
     {
       "formula": "Fe2(SeO4)3",
       "nombre": "Seleniato de hierro(III)",
-      "alternativos": []
+      "alternativos": [
+        "Selenato de hierro(III)"
+      ]
     },
     {
       "formula": "Au2(SeO4)3",
       "nombre": "Seleniato de oro(III)",
-      "alternativos": []
+      "alternativos": [
+        "Selenato de oro(III)"
+      ]
     },
     {
       "formula": "Sn(SeO4)2",
       "nombre": "Seleniato de estaño(IV)",
-      "alternativos": []
+      "alternativos": [
+        "Selenato de estaño(IV)"
+      ]
     },
     {
       "formula": "Pb(SeO4)2",
       "nombre": "Seleniato de plomo(IV)",
-      "alternativos": []
+      "alternativos": [
+        "Selenato de plomo(IV)"
+      ]
     },
     {
       "formula": "Na2TeO3",
@@ -1365,26 +1401,6 @@
       "alternativos": []
     },
     {
-      "formula": "NaFO",
-      "nombre": "Hipofluorito de sodio",
-      "alternativos": []
-    },
-    {
-      "formula": "Ca(FO)2",
-      "nombre": "Hipofluorito de calcio",
-      "alternativos": []
-    },
-    {
-      "formula": "CuFO",
-      "nombre": "Hipofluorito de cobre(I)",
-      "alternativos": []
-    },
-    {
-      "formula": "Cu(FO)2",
-      "nombre": "Hipofluorito de cobre(II)",
-      "alternativos": []
-    },
-    {
       "formula": "LiClO",
       "nombre": "Hipoclorito de litio",
       "alternativos": []
@@ -1415,7 +1431,7 @@
       "alternativos": []
     },
     {
-      "formula": "HgClO",
+      "formula": "Hg2(ClO)2",
       "nombre": "Hipoclorito de mercurio(I)",
       "alternativos": []
     },
@@ -1555,7 +1571,7 @@
       "alternativos": []
     },
     {
-      "formula": "HgBrO",
+      "formula": "Hg2(BrO)2",
       "nombre": "Hipobromito de mercurio(I)",
       "alternativos": []
     },
@@ -1655,7 +1671,7 @@
       "alternativos": []
     },
     {
-      "formula": "HgIO",
+      "formula": "Hg2(IO)2",
       "nombre": "Hipoyodito de mercurio(I)",
       "alternativos": []
     },
@@ -1765,7 +1781,7 @@
       "alternativos": []
     },
     {
-      "formula": "HgClO2",
+      "formula": "Hg2(ClO2)2",
       "nombre": "Clorito de mercurio(I)",
       "alternativos": []
     },
@@ -1905,7 +1921,7 @@
       "alternativos": []
     },
     {
-      "formula": "HgBrO2",
+      "formula": "Hg2(BrO2)2",
       "nombre": "Bromito de mercurio(I)",
       "alternativos": []
     },
@@ -2005,7 +2021,7 @@
       "alternativos": []
     },
     {
-      "formula": "HgIO2",
+      "formula": "Hg2(IO2)2",
       "nombre": "Yodito de mercurio(I)",
       "alternativos": []
     },

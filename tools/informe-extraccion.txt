@@ -75,7 +75,6 @@ nomenclatura/sistbinoxinom.html: espacios sobrantes en "O7Cl2" / "Dicloruro  de 
 nomenclatura/sistbinoxinom.html: espacios sobrantes en "O7Br2" / "Dibromuro  de heptaoxígeno"
 nomenclatura/sistbinoxinom.html: espacios sobrantes en "O7I2" / "Diioduro de  de heptaoxígeno"
 nomenclatura/sistbinoxinom.html: Ga2O3 se llama "trióxido de digalio" aquí y "Trióxido de digalio" en formulación: no se añade
-nomenclatura/sistbinoxinom.html: OF2 ("Difluoruro de oxígeno") solo está en la página de nomenclatura: revisar que el nombre corresponde
 nomenclatura/sistbinoxinom.html: OCl2 ("Dicloruro de oxígeno") solo está en la página de nomenclatura: revisar que el nombre corresponde
 nomenclatura/sistbinoxinom.html: OBr2 ("Dibromuro de oxígeno") solo está en la página de nomenclatura: revisar que el nombre corresponde
 nomenclatura/sistbinoxinom.html: OI2 ("Diyoduro de oxígeno") solo está en la página de nomenclatura: revisar que el nombre corresponde

@@ -400,8 +400,8 @@
       "alternativos": []
     },
     {
-      "formula": "HgF",
-      "nombre": "Fluoruro de mercurio",
+      "formula": "Hg2F2",
+      "nombre": "Difluoruro de dimercurio",
       "alternativos": []
     },
     {
@@ -800,8 +800,8 @@
       "alternativos": []
     },
     {
-      "formula": "HgCl",
-      "nombre": "Cloruro de mercurio",
+      "formula": "Hg2Cl2",
+      "nombre": "Dicloruro de dimercurio",
       "alternativos": []
     },
     {
@@ -1175,8 +1175,8 @@
       "alternativos": []
     },
     {
-      "formula": "HgBr",
-      "nombre": "Bromuro de mercurio",
+      "formula": "Hg2Br2",
+      "nombre": "Dibromuro de dimercurio",
       "alternativos": []
     },
     {
@@ -1530,8 +1530,8 @@
       "alternativos": []
     },
     {
-      "formula": "HgI",
-      "nombre": "Yoduro de mercurio",
+      "formula": "Hg2I2",
+      "nombre": "Diyoduro de dimercurio",
       "alternativos": []
     },
     {

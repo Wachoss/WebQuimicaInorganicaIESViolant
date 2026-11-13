@@ -1,20 +1,13 @@
 Verificación de ternarios y cuaternarios: del nombre guardado a la fórmula.
-Revisados: 616 · correctos: 609 · avisos: 7
+Revisados: 607 · correctos: 607 · avisos: 0
 Cada aviso puede ser un error en los datos o un nombre válido que las reglas del script no conocen: hay que mirarlo a mano.
 
-== hidroxidos-sistematica (1 para revisar)
-  B(OH)3  "Hidróxido de boro": boro no es un metal: este compuesto no es un hidróxido ni una sal
+== hidroxidos-sistematica (0 para revisar)
 
-== hidroxidos-stock (1 para revisar)
-  B(OH)3  "Hidróxido de boro": boro no es un metal: este compuesto no es un hidróxido ni una sal
+== hidroxidos-stock (0 para revisar)
 
-== oxosales-stock (4 para revisar)
-  NaFO  "Hipofluorito de sodio": anión "Hipofluorito" desconocido (no sale de un oxoácido de la tabla)
-  Ca(FO)2  "Hipofluorito de calcio": anión "Hipofluorito" desconocido (no sale de un oxoácido de la tabla)
-  CuFO  "Hipofluorito de cobre(I)": anión "Hipofluorito" desconocido (no sale de un oxoácido de la tabla)
-  Cu(FO)2  "Hipofluorito de cobre(II)": anión "Hipofluorito" desconocido (no sale de un oxoácido de la tabla)
+== oxosales-stock (0 para revisar)
 
 == sales-acidas-stock (0 para revisar)
 
-== oxoacidos-tradicional (1 para revisar)
-  HFO  "Ácido hipofluoroso": no sale de las reglas con las valencias de la tabla
+== oxoacidos-tradicional (0 para revisar)

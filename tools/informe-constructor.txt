@@ -1,31 +1,20 @@
 Comparación entre los compuestos binarios del test y el constructor.
-Revisados: 1041 · coinciden: 1030 · para revisar: 11
+Revisados: 1028 · coinciden: 1028 · para revisar: 0
 Cada aviso puede ser un error en los datos o un nombre válido que el constructor no conoce: hay que mirarlo a mano.
 
-== hidruros-sistematica (1 para revisar)
-  HgH  "Hidruro de mercurio": no sale con las valencias de la tabla
+== hidruros-sistematica (0 para revisar)
 
 == oxidos-sistematica (0 para revisar)
 
-== sales-sistematica (4 para revisar)
-  HgF  "Fluoruro de mercurio": no sale con las valencias de la tabla
-  HgCl  "Cloruro de mercurio": no sale con las valencias de la tabla
-  HgBr  "Bromuro de mercurio": no sale con las valencias de la tabla
-  HgI  "Yoduro de mercurio": no sale con las valencias de la tabla
+== sales-sistematica (0 para revisar)
 
 == peroxidos-sistematica (0 para revisar)
 
-== hidruros-stock (1 para revisar)
-  HgH  "Hidruro de mercurio(I)": no sale con las valencias de la tabla
+== hidruros-stock (0 para revisar)
 
 == oxidos-stock (0 para revisar)
 
-== sales-stock (5 para revisar)
-  HgF  "Fluoruro de mercurio(I)": no sale con las valencias de la tabla
-  OF2  "Fluoruro de oxígeno(II)": el constructor no da nombre stock para este compuesto
-  HgCl  "Cloruro de mercurio(I)": no sale con las valencias de la tabla
-  HgBr  "Bromuro de mercurio(I)": no sale con las valencias de la tabla
-  HgI  "Yoduro de mercurio(I)": no sale con las valencias de la tabla
+== sales-stock (0 para revisar)
 
 == peroxidos-stock (0 para revisar)
 
