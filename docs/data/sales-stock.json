@@ -206,9 +206,9 @@
     },
     {
       "formula": "SiC",
-      "nombre": "Carburo de silicio(IV)",
+      "nombre": "Carburo de silicio",
       "alternativos": [
-        "Carburo de silicio"
+        "Carburo de silicio(IV)"
       ]
     },
     {
@@ -433,8 +433,10 @@
     },
     {
       "formula": "GaF3",
-      "nombre": "Fluoruro de galio(III)",
-      "alternativos": []
+      "nombre": "Fluoruro de galio",
+      "alternativos": [
+        "Fluoruro de galio(III)"
+      ]
     },
     {
       "formula": "InF",
@@ -463,8 +465,10 @@
     },
     {
       "formula": "SiF4",
-      "nombre": "Fluoruro de silicio(IV)",
-      "alternativos": []
+      "nombre": "Fluoruro de silicio",
+      "alternativos": [
+        "Fluoruro de silicio(IV)"
+      ]
     },
     {
       "formula": "GeF2",
@@ -828,8 +832,10 @@
     },
     {
       "formula": "GaCl3",
-      "nombre": "Cloruro de galio(III)",
-      "alternativos": []
+      "nombre": "Cloruro de galio",
+      "alternativos": [
+        "Cloruro de galio(III)"
+      ]
     },
     {
       "formula": "InCl",
@@ -858,8 +864,10 @@
     },
     {
       "formula": "SiCl4",
-      "nombre": "Cloruro de silicio(IV)",
-      "alternativos": []
+      "nombre": "Cloruro de silicio",
+      "alternativos": [
+        "Cloruro de silicio(IV)"
+      ]
     },
     {
       "formula": "GeCl2",
@@ -1203,8 +1211,10 @@
     },
     {
       "formula": "GaBr3",
-      "nombre": "Bromuro de galio(III)",
-      "alternativos": []
+      "nombre": "Bromuro de galio",
+      "alternativos": [
+        "Bromuro de galio(III)"
+      ]
     },
     {
       "formula": "InBr",
@@ -1233,8 +1243,10 @@
     },
     {
       "formula": "SiBr4",
-      "nombre": "Bromuro de silicio(IV)",
-      "alternativos": []
+      "nombre": "Bromuro de silicio",
+      "alternativos": [
+        "Bromuro de silicio(IV)"
+      ]
     },
     {
       "formula": "GeBr2",
@@ -1558,8 +1570,10 @@
     },
     {
       "formula": "GaI3",
-      "nombre": "Yoduro de galio(III)",
-      "alternativos": []
+      "nombre": "Yoduro de galio",
+      "alternativos": [
+        "Yoduro de galio(III)"
+      ]
     },
     {
       "formula": "InI",
@@ -1588,8 +1602,10 @@
     },
     {
       "formula": "SiI4",
-      "nombre": "Yoduro de silicio(IV)",
-      "alternativos": []
+      "nombre": "Yoduro de silicio",
+      "alternativos": [
+        "Yoduro de silicio(IV)"
+      ]
     },
     {
       "formula": "GeI2",
@@ -1704,56 +1720,6 @@
     {
       "formula": "TeI6",
       "nombre": "Yoduro de teluro(VI)",
-      "alternativos": []
-    },
-    {
-      "formula": "AsH3",
-      "nombre": "Hidruro de arsénico(III)",
-      "alternativos": []
-    },
-    {
-      "formula": "SbH3",
-      "nombre": "Hidruro de antimonio(III)",
-      "alternativos": []
-    },
-    {
-      "formula": "BiH3",
-      "nombre": "Hidruro de bismuto(III)",
-      "alternativos": []
-    },
-    {
-      "formula": "H2S",
-      "nombre": "Sulfuro de hidrógeno",
-      "alternativos": []
-    },
-    {
-      "formula": "H2Se",
-      "nombre": "Selenuro de hidrógeno",
-      "alternativos": []
-    },
-    {
-      "formula": "H2Te",
-      "nombre": "Telururo de hidrógeno",
-      "alternativos": []
-    },
-    {
-      "formula": "HF",
-      "nombre": "Fluoruro de hidrógeno",
-      "alternativos": []
-    },
-    {
-      "formula": "HCl",
-      "nombre": "Cloruro de hidrógeno",
-      "alternativos": []
-    },
-    {
-      "formula": "HBr",
-      "nombre": "Bromuro de hidrógeno",
-      "alternativos": []
-    },
-    {
-      "formula": "HI",
-      "nombre": "Yoduro de hidrógeno",
       "alternativos": []
     }
   ]

@@ -201,8 +201,10 @@
     },
     {
       "formula": "Ga2O3",
-      "nombre": "Óxido de galio(III)",
-      "alternativos": []
+      "nombre": "Óxido de galio",
+      "alternativos": [
+        "Óxido de galio(III)"
+      ]
     },
     {
       "formula": "In2O",
@@ -236,8 +238,10 @@
     },
     {
       "formula": "SiO2",
-      "nombre": "Óxido de silicio(IV)",
-      "alternativos": []
+      "nombre": "Óxido de silicio",
+      "alternativos": [
+        "Óxido de silicio(IV)"
+      ]
     },
     {
       "formula": "GeO",

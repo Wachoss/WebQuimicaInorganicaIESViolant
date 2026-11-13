@@ -122,3 +122,10 @@ test('OF2 es un fluoruro, no un óxido', () => {
   assert.equal(deducir('OF2', elementos).tipo, 'sales');
   assert.equal(deducir('OCl2', elementos).tipo, 'oxidos'); // aquí el oxígeno sí es el anión
 });
+
+test('galio y silicio tienen una sola valencia: en Stock, sin número romano', () => {
+  assert.equal(deducir('Ga2O3', elementos).nombres.stock.nombre, 'Óxido de galio');
+  assert.equal(deducir('SiCl4', elementos).nombres.stock.nombre, 'Cloruro de silicio');
+  assert.equal(deducir('GaO', elementos), null); // no hay galio(II)… ni galio(I)
+  assert.equal(deducir('Ga2O', elementos), null);
+});

@@ -124,7 +124,7 @@ function leerCation(texto, { stock }) {
   if (valencia && !el.positivas.includes(valencia)) return { error: `${el.nombre} no tiene valencia ${valencia} en la tabla` };
   if (stock) {
     if (!valencia && el.positivas.length > 1) return { error: `falta el número romano: ${el.nombre} tiene valencias ${el.positivas.join(', ')}` };
-    if (valencia && el.positivas.length === 1) avisos.push(`sobra el número romano: ${el.nombre} solo tiene valencia ${valencia}`);
+    // Con una sola valencia el número romano sobra, pero no es un error: se acepta.
   }
   if (!valencia && el.positivas.length === 1) valencia = el.positivas[0];
   return { el, valencia, avisos };

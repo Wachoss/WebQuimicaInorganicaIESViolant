@@ -53,7 +53,7 @@
     "tipo": "sales",
     "grupo": "binarios",
     "sistema": "stock",
-    "total": 350
+    "total": 340
   },
   {
     "id": "peroxidos-stock",
@@ -88,7 +88,7 @@
     "tipo": "hidruros",
     "grupo": "binarios",
     "sistema": "tradicional",
-    "total": 22
+    "total": 15
   },
   {
     "id": "peroxidos-tradicional",

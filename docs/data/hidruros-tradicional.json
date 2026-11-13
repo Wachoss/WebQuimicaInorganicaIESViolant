@@ -47,41 +47,6 @@
       "alternativos": []
     },
     {
-      "formula": "H2S",
-      "nombre": "Ácido sulfhídrico",
-      "alternativos": []
-    },
-    {
-      "formula": "H2Se",
-      "nombre": "Ácido selenhídrico",
-      "alternativos": []
-    },
-    {
-      "formula": "H2Te",
-      "nombre": "Ácido telurhídrico",
-      "alternativos": []
-    },
-    {
-      "formula": "HF",
-      "nombre": "Ácido fluorhídrico",
-      "alternativos": []
-    },
-    {
-      "formula": "HCl",
-      "nombre": "Ácido clorhídrico",
-      "alternativos": []
-    },
-    {
-      "formula": "HBr",
-      "nombre": "Ácido bromhídrico",
-      "alternativos": []
-    },
-    {
-      "formula": "HI",
-      "nombre": "Ácido yodhídrico",
-      "alternativos": []
-    },
-    {
       "formula": "H2S(aq)",
       "nombre": "Ácido sulfhídrico",
       "alternativos": []

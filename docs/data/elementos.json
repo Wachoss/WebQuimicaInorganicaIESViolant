@@ -1,5 +1,5 @@
 {
-  "_nota": "Valencias de la tabla de valencias de la web (docs/img/tabla-valencias.jpg), sin Ti ni V porque no salen en los ejercicios. 'positivas': cargas con las que el elemento actúa delante en la fórmula; 'negativa': la carga con la que actúa detrás (como -uro). 'raiz': para formar el nombre en -uro.",
+  "_nota": "Valencias de la tabla de valencias de la web (docs/img/tabla-valencias.jpg), sin Ti ni V porque no salen en los ejercicios. 'positivas': cargas con las que el elemento actúa delante en la fórmula; 'negativa': la carga con la que actúa detrás (como -uro). 'raiz': para formar el nombre en -uro. Excepción: galio (solo 3) y silicio (solo 4) siguen el criterio de la profesora de FQ, no la tabla, así que en Stock van sin número romano.",
   "elementos": [
     {"simbolo": "H", "nombre": "hidrógeno", "periodo": 1, "grupo": 1, "metal": false, "positivas": [1], "negativa": 1, "raiz": "hidr"},
     {"simbolo": "Li", "nombre": "litio", "periodo": 2, "grupo": 1, "metal": true, "positivas": [1]},
@@ -27,11 +27,11 @@
     {"simbolo": "Hg", "nombre": "mercurio", "periodo": 6, "grupo": 12, "metal": true, "positivas": [1, 2]},
     {"simbolo": "B", "nombre": "boro", "periodo": 2, "grupo": 13, "metal": false, "positivas": [3], "negativa": 3, "raiz": "bor"},
     {"simbolo": "Al", "nombre": "aluminio", "periodo": 3, "grupo": 13, "metal": true, "positivas": [3]},
-    {"simbolo": "Ga", "nombre": "galio", "periodo": 4, "grupo": 13, "metal": true, "positivas": [1, 3]},
+    {"simbolo": "Ga", "nombre": "galio", "periodo": 4, "grupo": 13, "metal": true, "positivas": [3]},
     {"simbolo": "In", "nombre": "indio", "periodo": 5, "grupo": 13, "metal": true, "positivas": [1, 3]},
     {"simbolo": "Tl", "nombre": "talio", "periodo": 6, "grupo": 13, "metal": true, "positivas": [1, 3]},
     {"simbolo": "C", "nombre": "carbono", "periodo": 2, "grupo": 14, "metal": false, "positivas": [2, 4], "negativa": 4, "raiz": "carb"},
-    {"simbolo": "Si", "nombre": "silicio", "periodo": 3, "grupo": 14, "metal": false, "positivas": [2, 4], "negativa": 4, "raiz": "silici"},
+    {"simbolo": "Si", "nombre": "silicio", "periodo": 3, "grupo": 14, "metal": false, "positivas": [4], "negativa": 4, "raiz": "silici"},
     {"simbolo": "Ge", "nombre": "germanio", "periodo": 4, "grupo": 14, "metal": true, "positivas": [2, 4]},
     {"simbolo": "Sn", "nombre": "estaño", "periodo": 5, "grupo": 14, "metal": true, "positivas": [2, 4]},
     {"simbolo": "Pb", "nombre": "plomo", "periodo": 6, "grupo": 14, "metal": true, "positivas": [2, 4]},
