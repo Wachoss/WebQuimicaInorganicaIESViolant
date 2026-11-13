@@ -130,12 +130,19 @@ function leerCation(texto, { stock }) {
   return { el, valencia, avisos };
 }
 
-/** Fórmula de una sal: catión con valencia v y anión de carga c. */
+/**
+ * Fórmula de una sal: catión con valencia v y anión de carga c.
+ * El mercurio(I) es el ion Hg₂²⁺ (como en el constructor): Hg2(NO3)2,
+ * Hg2SO4 y, si hacen falta varios, (Hg2)3(PO4)2.
+ */
 function sal(simbolo, v, grupo, c) {
-  const g = mcd(v, c);
-  const [nCat, nAn] = [c / g, v / g];
+  let [cation, carga] = [simbolo, v];
+  if (simbolo === 'Hg' && v === 1) [cation, carga] = ['Hg2', 2];
+  const g = mcd(carga, c);
+  const [nCat, nAn] = [c / g, carga / g];
   const anion = nAn > 1 ? `(${grupo})${nAn}` : grupo;
-  return `${simbolo}${sub(nCat)}${anion}`;
+  const parteCation = nCat > 1 && cation === 'Hg2' ? `(Hg2)${nCat}` : `${cation}${sub(nCat)}`;
+  return `${parteCation}${anion}`;
 }
 
 // ---------------------------------------------------------------------------
@@ -157,6 +164,7 @@ function formularHidroxido(nombre, sistema) {
   else n = 1; // "hidróxido de cobre" = monohidróxido
   if (!stock && /\(/.test(m[2])) return { error: 'en sistemática no se usa número romano' };
   if (!cat.el.positivas.includes(n)) return { error: `${cat.el.nombre} no tiene valencia ${n} en la tabla` };
+  if (cat.el.simbolo === 'Hg' && n === 1) return { error: 'el hidróxido de mercurio(I) no existe' };
   const formula = n > 1 ? `${cat.el.simbolo}(OH)${n}` : `${cat.el.simbolo}OH`;
   return { formula, avisos: cat.avisos };
 }
@@ -196,14 +204,6 @@ const FORMULADORES = {
   'sales-acidas': formularSalAcida,
 };
 
-// El mercurio(I) es Hg₂²⁺. La web escribe HgOH, HgNO3... (simplificación
-// escolar); el constructor de binarios usa Hg2Cl2. Se acepta la forma Hg2 como
-// equivalente y se avisa aparte, porque es una decisión de criterio.
-function variantesMercurioI(formula) {
-  if (!/^Hg(?![a-z])/.test(formula)) return [];
-  return [formula.replace(/^Hg(\d*)/, (_, n) => `Hg${(Number(n || 1)) * 2}`)];
-}
-
 // ---------------------------------------------------------------------------
 
 const secciones = leer('indice.json').filter((s) => s.grupo !== 'binarios');
@@ -229,8 +229,7 @@ for (const { id, tipo, sistema } of secciones) {
       }
       for (const a of r.avisos) avisos.push(`  ${c.formula}  "${nombre}"${etiqueta}: ${a}`);
       if (r.formula !== c.formula) {
-        const hg = c.formula.startsWith('Hg') && variantesMercurioI(c.formula).length && /mercurio\(I\)$/.test(nombre);
-        avisos.push(`  ${c.formula}  "${nombre}"${etiqueta}  ->  el nombre corresponde a ${r.formula}${hg ? ' (mercurio(I) escrito sin Hg2)' : ''}`);
+        avisos.push(`  ${c.formula}  "${nombre}"${etiqueta}  ->  el nombre corresponde a ${r.formula}`);
         bien = false;
       }
       if (r.avisos.length) bien = false;
